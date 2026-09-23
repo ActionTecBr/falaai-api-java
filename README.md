@@ -1,83 +1,106 @@
-# FalaAI API — Java SDK
+# FalaAI API - Java SDK
 
-Official Java SDK for the **FalaAI API** — AI-powered call transcription, diagnosis and compliance auditing.
+[![version](https://img.shields.io/badge/version-1.21.47-blue)](https://central.sonatype.com/artifact/io.github.actiontecbr/falaai-api)
+[![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/ActionTecBr/falaai-api-java/blob/main/LICENSE)
+[![build](https://github.com/ActionTecBr/falaai-api-java/actions/workflows/ci.yml/badge.svg)](https://github.com/ActionTecBr/falaai-api-java/actions/workflows/ci.yml)
+
+Official Java SDK for the **FalaAI API**.
+
+## What is FalaAI API?
+
+FalaAI API turns conversations into auditable business intelligence, in three steps:
+
+1. **Transcribe** - audio (calls, voice notes, meetings) to text, with speaker separation.
+2. **Diagnose** - summary, reason, recommended action, topic and sentiment per conversation.
+3. **Audit compliance** - risk score and violations against **COPC CX** and **ISO 18295-1**.
+
+It works with phone calls, WhatsApp, Telegram, chat, email, PDF and images.
+Three REST endpoints, one API key, no setup.
+
+## Who it's for
+
+| Role | What they get |
+| --- | --- |
+| **Contact Center / Quality** | Audit 100% of conversations instead of a sample |
+| **Compliance / Legal** | Forensic, auditable evidence for audits and disputes |
+| **CX / Operations** | Risk score, sentiment and reason for every conversation |
+| **Developers** | One typed SDK, three REST endpoints, one API key |
+| **Data / BI** | Clean, typed JSON ready for your database or BI tool |
 
 ## Install
 
-### Maven
-
 ```xml
 <dependency>
-    <groupId>com.falaai</groupId>
-    <artifactId>falaai-api</artifactId>
-    <version>1.21.47</version>
+  <groupId>io.github.actiontecbr</groupId>
+  <artifactId>falaai-api</artifactId>
+  <version>1.21.47</version>
 </dependency>
-```
-
-### Gradle
-
-```groovy
-implementation 'com.falaai:falaai-api:1.21.47'
 ```
 
 ## Quick start
 
 ```java
 import com.falaai.ApiClient;
-import com.falaai.ApiResponse;
-import com.falaai.api.HealthApi;
-import com.falaai.model.HealthResponse;
+import com.falaai.api.SpeechApi;
+import com.falaai.model.TranscriptionResponse;
+
+import java.io.File;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         ApiClient client = new ApiClient();
         client.setBasePath("https://api01-falaai.action.tec.br");
-        client.setBearerToken("fai_xxx");
+        client.setBearerToken("fai_xxxxxx");
 
-        ApiResponse<HealthResponse> res = new HealthApi(client).healthCheckWithHttpInfo();
-        System.out.println(res.getData().getStatus() + " " + res.getStatusCode());
+        SpeechApi speech = new SpeechApi(client);
+
+        TranscriptionResponse res = speech
+            .createTranscriptionV1AudioTranscriptionsPostWithHttpInfo(
+                new File("call.mp3"), "falaai-transcribe-1", "pt", null)
+            .getData();
+
+        System.out.println(res.getText());
     }
 }
 ```
 
+## Use cases
+
+- Call and voice-note **transcription** with speaker separation
+- **Contact center quality assurance (QA)** automation
+- **Compliance auditing** against **COPC CX** and **ISO 18295-1**
+- **Risk detection** - churn risk, legal threats, escalation
+- **WhatsApp, Telegram and chat** conversation analysis
+- **CRM and help desk** enrichment
+- **LGPD**-aware handling of customer conversations
+
+## Where it fits
+
+Common Java stacks in contact center, CRM and help desk - if you build on any of these, the SDK drops in:
+
+ServiceNow - SAP Service Cloud - Oracle CX - WhatsApp Business Platform
+
+> Product names are trademarks of their respective owners, listed as common stacks in this ecosystem. No partnership is implied.
+
 ## Endpoints
 
 | Method | Path | Description |
-|---|---|---|
-| POST | `/v1/audio/transcriptions` | Audio to text (diarization, audio events) |
-| POST | `/v1/analyze/diagnostic` | Conversation analysis |
-| POST | `/v1/analyze/auditoriaRisco` | Compliance audit (risk) |
-| GET | `/v1/usage/log` | Usage log |
-| GET | `/v1/usage/by-key` | Usage grouped by API key |
-| GET/POST | `/v1/webhooks` | List / create webhooks |
-| PUT/DELETE | `/v1/webhooks/{webhook_id}` | Update / delete webhook |
-| GET/POST | `/v1/email-alerts` | List / create email alerts |
-| PUT/DELETE | `/v1/email-alerts/{alert_id}` | Update / delete email alert |
-| GET | `/api/version` | API version |
-| GET/HEAD | `/v1/health` | Health check |
+| --- | --- | --- |
+| `POST` | `/v1/audio/transcriptions` | Audio to text, with speaker separation |
+| `POST` | `/v1/analyze/diagnostic` | Conversation analysis - summary, reason, action, topic, sentiment |
+| `POST` | `/v1/analyze/auditoriaRisco` | Compliance audit - risk score and violations |
 
-## Authentication
+All endpoints require `Authorization: Bearer fai_xxxxxx`.
+Full reference: <https://api01-falaai.action.tec.br/docs>
 
-Authenticated endpoints require an API key in the `Authorization` header:
+## Links
 
-```
-Authorization: Bearer fai_xxx
-```
-
-Get your API key at [falaai.action.tec.br/api](https://falaai.action.tec.br/api).
-
-## Build & test
-
-```bash
-mvn clean test
-```
-
-An end-to-end suite (19 tests) lives in `src/test/java/e2e/` and runs against the live API:
-
-```bash
-FALAAI_E2E_BASE=https://api01-falaai.action.tec.br FALAAI_TEST_KEY=fai_xxx mvn test
-```
+- **Product:** <https://falaai.action.tec.br/api>
+- **API reference:** <https://api01-falaai.action.tec.br/docs>
+- **Get an API key:** <https://falaai.action.tec.br/api/auth>
+- **Package (Maven Central):** <https://central.sonatype.com/artifact/io.github.actiontecbr/falaai-api>
+- **Source:** <https://github.com/ActionTecBr/falaai-api-java>
 
 ## License
 
-[MIT](LICENSE) © Action Tec Br
+MIT (c) 2026 Action Tec Br - see [LICENSE](LICENSE).
