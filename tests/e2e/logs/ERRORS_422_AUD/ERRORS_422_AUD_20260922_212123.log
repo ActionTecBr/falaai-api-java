@@ -1,0 +1,14 @@
+======================================================================
+TESTE: POST /v1/analyze/auditoriaRisco
+DATA: 2026-09-22T21:21:23.204832964Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"{\"language\":\"pt-BR\",\"dialog\":\"Speaker 1: ola\"}"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 422
+"{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"duration_seconds\"],\"msg\":\"Field required\",\"input\":{\"language\":\"pt-BR\",\"dialog\":\"Speaker 1: ola\"}},{\"type\":\"missing\",\"loc\":[\"body\",\"response_language\"],\"msg\":\"Field required\",\"input\":{\"language\":\"pt-BR\",\"dialog\":\"Speaker 1: ola\"}}]}"
+
+--- RESULTADO ---
+HTTP 422

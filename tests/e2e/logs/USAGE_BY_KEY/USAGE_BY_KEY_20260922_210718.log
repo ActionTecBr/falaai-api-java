@@ -1,0 +1,29 @@
+======================================================================
+TESTE: GET /v1/usage/by-key
+DATA: 2026-09-22T21:07:18.362507308Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+(sem dados)
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+[
+  {
+    "key_id": "53cf1dc5-8700-49f7-8bd8-0a6d917dd228",
+    "key_name": "M17_Teste",
+    "total_credits": 6865,
+    "request_count": 8,
+    "last_used": "2026-09-17T23:41:38.253972+00:00"
+  },
+  {
+    "key_id": "3cfcd371-3120-4acc-ad84-97e2b76415f8",
+    "key_name": "new",
+    "total_credits": 4380,
+    "request_count": 100,
+    "last_used": "2026-09-22T21:07:15.747734+00:00"
+  }
+]
+
+--- RESULTADO ---
+HTTP 200

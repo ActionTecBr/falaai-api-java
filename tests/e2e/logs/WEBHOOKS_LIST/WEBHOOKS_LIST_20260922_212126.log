@@ -1,0 +1,60 @@
+======================================================================
+TESTE: GET /v1/webhooks
+DATA: 2026-09-22T21:21:26.183450924Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"page\u003d1 limit\u003d5"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "data": [
+    {
+      "id": "7dbcd419-c2b9-4cc2-89ab-92a2d2f114bc",
+      "user_id": "130f944d-b59b-4e76-9e2e-19301cc361bc",
+      "name": "E2E Test Webhook (updated)",
+      "url": "https://e2e-falaai.invalid/hook",
+      "secret": "f1d9b3ec979cb375461d1bca0df87104369b65ade41dfcbd3bbe4cb8ea7b86ce",
+      "events": [],
+      "active": false,
+      "retry_enabled": false,
+      "last_delivery_at": null,
+      "last_status": null,
+      "failure_count": 0,
+      "created_at": "2026-09-22T21:07:21.148507+00:00",
+      "updated_at": "2026-09-22T21:07:21.374493+00:00"
+    },
+    {
+      "id": "e6549980-8fed-4ff3-976f-6c331a5eaa71",
+      "user_id": "130f944d-b59b-4e76-9e2e-19301cc361bc",
+      "name": "_httplocalhost8788hook",
+      "url": "https://webhock-FalaAI.Action.tec.br/webhook/364cd77f-4f11-4202-8fc0-ad19adad310b",
+      "secret": "3e66c23948931ea7771f8dd30889c02d8b08e9ca96188273880b0523d6e10f8f",
+      "events": [
+        "subscription.created",
+        "avulso.completed",
+        "subscription.upgraded",
+        "subscription.downgraded",
+        "subscription.canceled",
+        "credits.low",
+        "credits.exhausted",
+        "subscription.renewed",
+        "subscription.expired",
+        "payment.failed"
+      ],
+      "active": true,
+      "retry_enabled": false,
+      "last_delivery_at": "2026-09-17T23:40:36.310734+00:00",
+      "last_status": 200,
+      "failure_count": 0,
+      "created_at": "2026-09-17T18:00:18.279545+00:00",
+      "updated_at": "2026-09-17T23:40:36.774592+00:00"
+    }
+  ],
+  "page": 1,
+  "limit": 5
+}
+
+--- RESULTADO ---
+HTTP 200

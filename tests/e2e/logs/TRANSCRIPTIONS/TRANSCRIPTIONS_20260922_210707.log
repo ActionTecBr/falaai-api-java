@@ -1,0 +1,51 @@
+======================================================================
+TESTE: POST /v1/audio/transcriptions
+DATA: 2026-09-22T21:07:07.028418028Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"file\u003danalise_25s.mp3 model\u003dfalaai-transcribe-1 language\u003dpt client_reference_id\u003de2e-call-2026-09-22-001"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "id": "tr-586e6fcc-cfb2-4efc-9e9e-4e2288e41dc3",
+  "object": "transcription",
+  "model": "falaai-transcribe-1",
+  "filename": "analise_25s.mp3",
+  "processed_at": "2026-09-22T21:07:07.101025+00:00",
+  "usage": {
+    "audio_seconds": 25.0,
+    "credits_consumed": 25,
+    "processing_ms": 1682
+  },
+  "language": "por",
+  "language_confidence": 1.0,
+  "duration_seconds": 25.0,
+  "text": "Novatech Labs, tudo bom dia. Bom dia, Mateus. Tudo bem? Bem e você? Tudo bem. Não tem nada no sistema. Eu queria ver se de repente você tem alguma informação. É, o produto, posso te falar o código? Pode sim. Quatro meia sete cinco zero zero cinco saiu de linha. Ééé, eu procurei no Google [tosse] ver se o que entrou no lugar. Aí ele fala",
+  "dialog": "Speaker 1: [00:00:01.639 - 00:00:02.560] Novatech Labs, tudo bom dia.\nSpeaker 2: [00:00:02.980 - 00:00:03.980] Bom dia, Mateus. Tudo bem?\nSpeaker 1: [00:00:04.700 - 00:00:05.179] Bem e você?\nSpeaker 2: [00:00:05.459 - 00:00:13.339] Tudo bem. Não tem nada no sistema. Eu queria ver se de repente você tem alguma informação. É, o produto, posso te falar o código?\nSpeaker 1: [00:00:14.119 - 00:00:14.580] Pode sim.\nSpeaker 2: [00:00:14.720 - 00:00:22.019] Quatro meia sete cinco zero zero cinco saiu de linha. Ééé, eu procurei no Google\nSpeaker 2: [00:00:22.059 - 00:00:22.440] [tosse]\nSpeaker 2: [00:00:22.480 - 00:00:24.920] ver se o que entrou no lugar. Aí ele fala",
+  "audio_events": [
+    {
+      "event": "[tosse]",
+      "start_s": 22.06,
+      "end_s": 22.44,
+      "duration_s": 0.38,
+      "formatted_timestamp": "00:00:22.059"
+    }
+  ],
+  "event_types": [
+    "[tosse]"
+  ],
+  "word_count": 131,
+  "input": {
+    "duration_s": 25.2,
+    "original_format": "mp3",
+    "codec": "mp3",
+    "sample_rate": 8000,
+    "channels": 1
+  },
+  "client_reference_id": "e2e-call-2026-09-22-001"
+}
+
+--- RESULTADO ---
+HTTP 200

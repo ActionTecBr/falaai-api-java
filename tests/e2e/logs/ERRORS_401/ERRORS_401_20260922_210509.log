@@ -1,0 +1,14 @@
+======================================================================
+TESTE: GET /v1/usage/log
+DATA: 2026-09-22T21:05:09.400396314Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+(sem dados)
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 401
+"{\"error\":{\"type\":\"authentication_error\",\"message\":\"API Key not found\",\"code\":\"invalid_api_key\"}}"
+
+--- RESULTADO ---
+HTTP 401

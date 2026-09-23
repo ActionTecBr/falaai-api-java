@@ -1,0 +1,59 @@
+======================================================================
+TESTE: GET /v1/usage/log
+DATA: 2026-09-22T21:21:28.049754853Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"page\u003d1 limit\u003d5"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "data": [
+    {
+      "id": "bf438a3f-d203-41af-bd6e-2bbf2f17716c",
+      "endpoint": "/v1/analyze/auditoriaRisco",
+      "credits_cost": 90,
+      "status": "success",
+      "errors_count": 0,
+      "created_at": "2026-09-22T21:21:20.812232+00:00"
+    },
+    {
+      "id": "e772f7f9-89b3-4c97-a8f0-ed84715a9852",
+      "endpoint": "/v1/analyze/diagnostic",
+      "credits_cost": 15,
+      "status": "success",
+      "errors_count": 0,
+      "created_at": "2026-09-22T21:21:12.792567+00:00"
+    },
+    {
+      "id": "b794ed16-078e-48a0-b71f-d845a9061e12",
+      "endpoint": "/v1/audio/transcriptions",
+      "credits_cost": 25,
+      "status": "success",
+      "errors_count": 0,
+      "created_at": "2026-09-22T21:21:07.485677+00:00"
+    },
+    {
+      "id": "9f62f6dd-0cae-4034-8d7e-8391319dc917",
+      "endpoint": "/v1/analyze/auditoriaRisco",
+      "credits_cost": 90,
+      "status": "success",
+      "errors_count": 0,
+      "created_at": "2026-09-22T21:07:15.747734+00:00"
+    },
+    {
+      "id": "52b546d4-7882-4e5c-877a-5dbfedb3e92a",
+      "endpoint": "/v1/analyze/diagnostic",
+      "credits_cost": 15,
+      "status": "success",
+      "errors_count": 0,
+      "created_at": "2026-09-22T21:07:09.834262+00:00"
+    }
+  ],
+  "page": 1,
+  "limit": 5
+}
+
+--- RESULTADO ---
+HTTP 200

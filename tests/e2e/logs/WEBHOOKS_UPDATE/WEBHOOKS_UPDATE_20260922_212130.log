@@ -1,0 +1,22 @@
+======================================================================
+TESTE: PUT /v1/webhooks/ff61386b-41e7-4e04-94f1-71f0e8ee3254
+DATA: 2026-09-22T21:21:30.926172991Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+{
+  "name": "E2E Test Webhook (updated)",
+  "url": null,
+  "events": null,
+  "retry_enabled": null,
+  "active": false
+}
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "message": "updated"
+}
+
+--- RESULTADO ---
+HTTP 200

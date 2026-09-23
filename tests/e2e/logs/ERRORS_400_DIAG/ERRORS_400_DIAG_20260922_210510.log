@@ -1,0 +1,14 @@
+======================================================================
+TESTE: POST /v1/analyze/diagnostic
+DATA: 2026-09-22T21:05:10.565420413Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"{\"dialog\":\"Speaker 1: ola\",\"language\":\"xx\",\"duration_seconds\":10}"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 400
+"{\"detail\":{\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Invalid or missing language: \u0027xx\u0027. Valid: en-US, es-ES, es-MX, pt-BR, fr-FR, de-DE, it-IT, pt-PT, zh-CN, ja-JP, ko-KR, ar-SA, hi-IN, ru-RU, id-ID, tr-TR, nl-NL, pl-PL, vi-VN, th-TH, en-GB\",\"code\":\"invalid_language\"}}}"
+
+--- RESULTADO ---
+HTTP 400

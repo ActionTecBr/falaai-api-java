@@ -1,0 +1,14 @@
+======================================================================
+TESTE: POST /v1/analyze/auditoriaRisco
+DATA: 2026-09-22T21:07:17.607286931Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"{\"dialog\":\"Speaker 1: ola\",\"language\":\"xx\",\"response_language\":\"pt-BR\",\"duration_seconds\":10}"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 400
+"{\"detail\":{\"error\":{\"type\":\"invalid_request_error\",\"message\":\"Invalid language: \u0027xx\u0027. Accepted: en-US, es-ES, pt-BR\",\"code\":\"invalid_language\"}}}"
+
+--- RESULTADO ---
+HTTP 400

@@ -1,0 +1,21 @@
+======================================================================
+TESTE: PUT /v1/email-alerts/b0d6e2c2-4414-45fa-a029-6d3f403ddd4e
+DATA: 2026-09-22T21:07:22.154080657Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+{
+  "name": "E2E Test Alert (updated)",
+  "email": null,
+  "events": [],
+  "active": false
+}
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "message": "updated"
+}
+
+--- RESULTADO ---
+HTTP 200

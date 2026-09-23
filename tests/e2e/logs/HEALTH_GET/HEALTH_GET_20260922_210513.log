@@ -1,0 +1,21 @@
+======================================================================
+TESTE: GET /v1/health
+DATA: 2026-09-22T21:05:13.930858773Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+(sem dados)
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "status": "ok",
+  "version": "api_v1.21.47",
+  "uptime_seconds": 18599,
+  "database": true,
+  "phase": "production",
+  "launch_date": "2026-08-01"
+}
+
+--- RESULTADO ---
+HTTP 200

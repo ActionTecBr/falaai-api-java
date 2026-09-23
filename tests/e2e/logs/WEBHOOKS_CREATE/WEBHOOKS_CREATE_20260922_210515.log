@@ -1,0 +1,39 @@
+======================================================================
+TESTE: POST /v1/webhooks
+DATA: 2026-09-22T21:05:15.735600258Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+{
+  "name": "E2E Test Webhook",
+  "url": "https://e2e-falaai.invalid/hook",
+  "events": [
+    "credits.low",
+    "payment.failed"
+  ],
+  "retry_enabled": false
+}
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 200
+{
+  "id": "81a6dd2b-9ba0-4f9f-9fcf-c4c4bbdd4ceb",
+  "user_id": "130f944d-b59b-4e76-9e2e-19301cc361bc",
+  "name": "E2E Test Webhook",
+  "url": "https://e2e-falaai.invalid/hook",
+  "secret": "26354a7433696495a53e179bdaab743a65ca138a117f5109c21e732f2798fc7c",
+  "events": [
+    "credits.low",
+    "payment.failed"
+  ],
+  "active": true,
+  "retry_enabled": false,
+  "last_delivery_at": null,
+  "last_status": null,
+  "failure_count": 0,
+  "created_at": "2026-09-22T21:05:16.035101+00:00",
+  "updated_at": "2026-09-22T21:05:16.035101+00:00"
+}
+
+--- RESULTADO ---
+HTTP 200

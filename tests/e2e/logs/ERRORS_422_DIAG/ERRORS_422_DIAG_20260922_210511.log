@@ -1,0 +1,14 @@
+======================================================================
+TESTE: POST /v1/analyze/diagnostic
+DATA: 2026-09-22T21:05:11.349474328Z
+======================================================================
+
+--- PAYLOAD (enviado) ---
+"{\"language\":\"pt-BR\",\"dialog\":\"Speaker 1: ola\"}"
+
+--- RESPOSTA (saida do SDK) ---
+HTTP: 422
+"{\"detail\":[{\"type\":\"missing\",\"loc\":[\"body\",\"duration_seconds\"],\"msg\":\"Field required\",\"input\":{\"language\":\"pt-BR\",\"dialog\":\"Speaker 1: ola\"}}]}"
+
+--- RESULTADO ---
+HTTP 422
