@@ -49,37 +49,37 @@ import com.falaai.JSON;
 /**
  * ParticipantDiagnostic
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class ParticipantDiagnostic {
   public static final String SERIALIZED_NAME_INTERLOCUTOR = "interlocutor";
   @SerializedName(SERIALIZED_NAME_INTERLOCUTOR)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String interlocutor;
 
   public static final String SERIALIZED_NAME_ROLE = "role";
   @SerializedName(SERIALIZED_NAME_ROLE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String role;
 
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String name;
 
   public static final String SERIALIZED_NAME_CONFIDENCE = "confidence";
   @SerializedName(SERIALIZED_NAME_CONFIDENCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String confidence;
 
   public static final String SERIALIZED_NAME_EVIDENCE = "evidence";
   @SerializedName(SERIALIZED_NAME_EVIDENCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String evidence;
 
   public ParticipantDiagnostic() {
   }
 
-  public ParticipantDiagnostic interlocutor(@javax.annotation.Nonnull String interlocutor) {
+  public ParticipantDiagnostic interlocutor(@jakarta.annotation.Nonnull String interlocutor) {
     this.interlocutor = interlocutor;
     return this;
   }
@@ -88,17 +88,17 @@ public class ParticipantDiagnostic {
    * Exact speaker label from the dialog (e.g. &#39;Speaker 1&#39;)
    * @return interlocutor
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getInterlocutor() {
     return interlocutor;
   }
 
-  public void setInterlocutor(@javax.annotation.Nonnull String interlocutor) {
+  public void setInterlocutor(@jakarta.annotation.Nonnull String interlocutor) {
     this.interlocutor = interlocutor;
   }
 
 
-  public ParticipantDiagnostic role(@javax.annotation.Nonnull String role) {
+  public ParticipantDiagnostic role(@jakarta.annotation.Nonnull String role) {
     this.role = role;
     return this;
   }
@@ -107,17 +107,17 @@ public class ParticipantDiagnostic {
    * Role: agent | client | bot | agent_requester | agent_custodian
    * @return role
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getRole() {
     return role;
   }
 
-  public void setRole(@javax.annotation.Nonnull String role) {
+  public void setRole(@jakarta.annotation.Nonnull String role) {
     this.role = role;
   }
 
 
-  public ParticipantDiagnostic name(@javax.annotation.Nullable String name) {
+  public ParticipantDiagnostic name(@jakarta.annotation.Nullable String name) {
     this.name = name;
     return this;
   }
@@ -126,17 +126,17 @@ public class ParticipantDiagnostic {
    * Participant name if mentioned in the dialogue
    * @return name
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nullable String name) {
+  public void setName(@jakarta.annotation.Nullable String name) {
     this.name = name;
   }
 
 
-  public ParticipantDiagnostic confidence(@javax.annotation.Nullable String confidence) {
+  public ParticipantDiagnostic confidence(@jakarta.annotation.Nullable String confidence) {
     this.confidence = confidence;
     return this;
   }
@@ -145,17 +145,17 @@ public class ParticipantDiagnostic {
    * high | medium | low
    * @return confidence
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getConfidence() {
     return confidence;
   }
 
-  public void setConfidence(@javax.annotation.Nullable String confidence) {
+  public void setConfidence(@jakarta.annotation.Nullable String confidence) {
     this.confidence = confidence;
   }
 
 
-  public ParticipantDiagnostic evidence(@javax.annotation.Nullable String evidence) {
+  public ParticipantDiagnostic evidence(@jakarta.annotation.Nullable String evidence) {
     this.evidence = evidence;
     return this;
   }
@@ -164,12 +164,12 @@ public class ParticipantDiagnostic {
    * Exact verbatim quote supporting the role (no timestamps)
    * @return evidence
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getEvidence() {
     return evidence;
   }
 
-  public void setEvidence(@javax.annotation.Nullable String evidence) {
+  public void setEvidence(@jakarta.annotation.Nullable String evidence) {
     this.evidence = evidence;
   }
 

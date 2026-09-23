@@ -53,37 +53,37 @@ import com.falaai.JSON;
 /**
  * ValidationError
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class ValidationError {
   public static final String SERIALIZED_NAME_LOC = "loc";
   @SerializedName(SERIALIZED_NAME_LOC)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<LocationInner> loc = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_MSG = "msg";
   @SerializedName(SERIALIZED_NAME_MSG)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String msg;
 
   public static final String SERIALIZED_NAME_TYPE = "type";
   @SerializedName(SERIALIZED_NAME_TYPE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String type;
 
   public static final String SERIALIZED_NAME_INPUT = "input";
   @SerializedName(SERIALIZED_NAME_INPUT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object input = null;
 
   public static final String SERIALIZED_NAME_CTX = "ctx";
   @SerializedName(SERIALIZED_NAME_CTX)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object ctx;
 
   public ValidationError() {
   }
 
-  public ValidationError loc(@javax.annotation.Nonnull List<LocationInner> loc) {
+  public ValidationError loc(@jakarta.annotation.Nonnull List<LocationInner> loc) {
     this.loc = loc;
     return this;
   }
@@ -100,17 +100,17 @@ public class ValidationError {
    * Get loc
    * @return loc
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<LocationInner> getLoc() {
     return loc;
   }
 
-  public void setLoc(@javax.annotation.Nonnull List<LocationInner> loc) {
+  public void setLoc(@jakarta.annotation.Nonnull List<LocationInner> loc) {
     this.loc = loc;
   }
 
 
-  public ValidationError msg(@javax.annotation.Nonnull String msg) {
+  public ValidationError msg(@jakarta.annotation.Nonnull String msg) {
     this.msg = msg;
     return this;
   }
@@ -119,17 +119,17 @@ public class ValidationError {
    * Get msg
    * @return msg
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getMsg() {
     return msg;
   }
 
-  public void setMsg(@javax.annotation.Nonnull String msg) {
+  public void setMsg(@jakarta.annotation.Nonnull String msg) {
     this.msg = msg;
   }
 
 
-  public ValidationError type(@javax.annotation.Nonnull String type) {
+  public ValidationError type(@jakarta.annotation.Nonnull String type) {
     this.type = type;
     return this;
   }
@@ -138,17 +138,17 @@ public class ValidationError {
    * Get type
    * @return type
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getType() {
     return type;
   }
 
-  public void setType(@javax.annotation.Nonnull String type) {
+  public void setType(@jakarta.annotation.Nonnull String type) {
     this.type = type;
   }
 
 
-  public ValidationError input(@javax.annotation.Nullable Object input) {
+  public ValidationError input(@jakarta.annotation.Nullable Object input) {
     this.input = input;
     return this;
   }
@@ -157,17 +157,17 @@ public class ValidationError {
    * Get input
    * @return input
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getInput() {
     return input;
   }
 
-  public void setInput(@javax.annotation.Nullable Object input) {
+  public void setInput(@jakarta.annotation.Nullable Object input) {
     this.input = input;
   }
 
 
-  public ValidationError ctx(@javax.annotation.Nullable Object ctx) {
+  public ValidationError ctx(@jakarta.annotation.Nullable Object ctx) {
     this.ctx = ctx;
     return this;
   }
@@ -176,12 +176,12 @@ public class ValidationError {
    * Get ctx
    * @return ctx
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getCtx() {
     return ctx;
   }
 
-  public void setCtx(@javax.annotation.Nullable Object ctx) {
+  public void setCtx(@jakarta.annotation.Nullable Object ctx) {
     this.ctx = ctx;
   }
 

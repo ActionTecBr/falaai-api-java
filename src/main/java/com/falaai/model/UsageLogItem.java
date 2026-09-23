@@ -49,42 +49,42 @@ import com.falaai.JSON;
 /**
  * UsageLogItem
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class UsageLogItem {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String id;
 
   public static final String SERIALIZED_NAME_ENDPOINT = "endpoint";
   @SerializedName(SERIALIZED_NAME_ENDPOINT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String endpoint;
 
   public static final String SERIALIZED_NAME_CREDITS_COST = "credits_cost";
   @SerializedName(SERIALIZED_NAME_CREDITS_COST)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer creditsCost;
 
   public static final String SERIALIZED_NAME_STATUS = "status";
   @SerializedName(SERIALIZED_NAME_STATUS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String status;
 
   public static final String SERIALIZED_NAME_ERRORS_COUNT = "errors_count";
   @SerializedName(SERIALIZED_NAME_ERRORS_COUNT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer errorsCount;
 
   public static final String SERIALIZED_NAME_CREATED_AT = "created_at";
   @SerializedName(SERIALIZED_NAME_CREATED_AT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String createdAt;
 
   public UsageLogItem() {
   }
 
-  public UsageLogItem id(@javax.annotation.Nonnull String id) {
+  public UsageLogItem id(@jakarta.annotation.Nonnull String id) {
     this.id = id;
     return this;
   }
@@ -93,17 +93,17 @@ public class UsageLogItem {
    * Usage log entry id
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
 
-  public void setId(@javax.annotation.Nonnull String id) {
+  public void setId(@jakarta.annotation.Nonnull String id) {
     this.id = id;
   }
 
 
-  public UsageLogItem endpoint(@javax.annotation.Nonnull String endpoint) {
+  public UsageLogItem endpoint(@jakarta.annotation.Nonnull String endpoint) {
     this.endpoint = endpoint;
     return this;
   }
@@ -112,17 +112,17 @@ public class UsageLogItem {
    * Endpoint called
    * @return endpoint
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getEndpoint() {
     return endpoint;
   }
 
-  public void setEndpoint(@javax.annotation.Nonnull String endpoint) {
+  public void setEndpoint(@jakarta.annotation.Nonnull String endpoint) {
     this.endpoint = endpoint;
   }
 
 
-  public UsageLogItem creditsCost(@javax.annotation.Nonnull Integer creditsCost) {
+  public UsageLogItem creditsCost(@jakarta.annotation.Nonnull Integer creditsCost) {
     this.creditsCost = creditsCost;
     return this;
   }
@@ -131,17 +131,17 @@ public class UsageLogItem {
    * Credits consumed
    * @return creditsCost
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getCreditsCost() {
     return creditsCost;
   }
 
-  public void setCreditsCost(@javax.annotation.Nonnull Integer creditsCost) {
+  public void setCreditsCost(@jakarta.annotation.Nonnull Integer creditsCost) {
     this.creditsCost = creditsCost;
   }
 
 
-  public UsageLogItem status(@javax.annotation.Nonnull String status) {
+  public UsageLogItem status(@jakarta.annotation.Nonnull String status) {
     this.status = status;
     return this;
   }
@@ -150,17 +150,17 @@ public class UsageLogItem {
    * Result status
    * @return status
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getStatus() {
     return status;
   }
 
-  public void setStatus(@javax.annotation.Nonnull String status) {
+  public void setStatus(@jakarta.annotation.Nonnull String status) {
     this.status = status;
   }
 
 
-  public UsageLogItem errorsCount(@javax.annotation.Nonnull Integer errorsCount) {
+  public UsageLogItem errorsCount(@jakarta.annotation.Nonnull Integer errorsCount) {
     this.errorsCount = errorsCount;
     return this;
   }
@@ -169,17 +169,17 @@ public class UsageLogItem {
    * Errors count
    * @return errorsCount
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getErrorsCount() {
     return errorsCount;
   }
 
-  public void setErrorsCount(@javax.annotation.Nonnull Integer errorsCount) {
+  public void setErrorsCount(@jakarta.annotation.Nonnull Integer errorsCount) {
     this.errorsCount = errorsCount;
   }
 
 
-  public UsageLogItem createdAt(@javax.annotation.Nonnull String createdAt) {
+  public UsageLogItem createdAt(@jakarta.annotation.Nonnull String createdAt) {
     this.createdAt = createdAt;
     return this;
   }
@@ -188,12 +188,12 @@ public class UsageLogItem {
    * ISO 8601 timestamp
    * @return createdAt
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCreatedAt() {
     return createdAt;
   }
 
-  public void setCreatedAt(@javax.annotation.Nonnull String createdAt) {
+  public void setCreatedAt(@jakarta.annotation.Nonnull String createdAt) {
     this.createdAt = createdAt;
   }
 

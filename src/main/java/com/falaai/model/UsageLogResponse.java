@@ -52,27 +52,27 @@ import com.falaai.JSON;
 /**
  * UsageLogResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class UsageLogResponse {
   public static final String SERIALIZED_NAME_DATA = "data";
   @SerializedName(SERIALIZED_NAME_DATA)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<UsageLogItem> data = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_PAGE = "page";
   @SerializedName(SERIALIZED_NAME_PAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer page;
 
   public static final String SERIALIZED_NAME_LIMIT = "limit";
   @SerializedName(SERIALIZED_NAME_LIMIT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer limit;
 
   public UsageLogResponse() {
   }
 
-  public UsageLogResponse data(@javax.annotation.Nonnull List<UsageLogItem> data) {
+  public UsageLogResponse data(@jakarta.annotation.Nonnull List<UsageLogItem> data) {
     this.data = data;
     return this;
   }
@@ -89,17 +89,17 @@ public class UsageLogResponse {
    * Get data
    * @return data
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<UsageLogItem> getData() {
     return data;
   }
 
-  public void setData(@javax.annotation.Nonnull List<UsageLogItem> data) {
+  public void setData(@jakarta.annotation.Nonnull List<UsageLogItem> data) {
     this.data = data;
   }
 
 
-  public UsageLogResponse page(@javax.annotation.Nonnull Integer page) {
+  public UsageLogResponse page(@jakarta.annotation.Nonnull Integer page) {
     this.page = page;
     return this;
   }
@@ -108,17 +108,17 @@ public class UsageLogResponse {
    * Get page
    * @return page
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getPage() {
     return page;
   }
 
-  public void setPage(@javax.annotation.Nonnull Integer page) {
+  public void setPage(@jakarta.annotation.Nonnull Integer page) {
     this.page = page;
   }
 
 
-  public UsageLogResponse limit(@javax.annotation.Nonnull Integer limit) {
+  public UsageLogResponse limit(@jakarta.annotation.Nonnull Integer limit) {
     this.limit = limit;
     return this;
   }
@@ -127,12 +127,12 @@ public class UsageLogResponse {
    * Get limit
    * @return limit
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getLimit() {
     return limit;
   }
 
-  public void setLimit(@javax.annotation.Nonnull Integer limit) {
+  public void setLimit(@jakarta.annotation.Nonnull Integer limit) {
     this.limit = limit;
   }
 

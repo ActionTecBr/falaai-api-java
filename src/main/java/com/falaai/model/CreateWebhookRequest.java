@@ -52,32 +52,32 @@ import com.falaai.JSON;
 /**
  * CreateWebhookRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class CreateWebhookRequest {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String name;
 
   public static final String SERIALIZED_NAME_URL = "url";
   @SerializedName(SERIALIZED_NAME_URL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String url;
 
   public static final String SERIALIZED_NAME_EVENTS = "events";
   @SerializedName(SERIALIZED_NAME_EVENTS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<WebhookEvent> events = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_RETRY_ENABLED = "retry_enabled";
   @SerializedName(SERIALIZED_NAME_RETRY_ENABLED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean retryEnabled = false;
 
   public CreateWebhookRequest() {
   }
 
-  public CreateWebhookRequest name(@javax.annotation.Nonnull String name) {
+  public CreateWebhookRequest name(@jakarta.annotation.Nonnull String name) {
     this.name = name;
     return this;
   }
@@ -86,17 +86,17 @@ public class CreateWebhookRequest {
    * Nome identificador do webhook
    * @return name
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nonnull String name) {
+  public void setName(@jakarta.annotation.Nonnull String name) {
     this.name = name;
   }
 
 
-  public CreateWebhookRequest url(@javax.annotation.Nonnull String url) {
+  public CreateWebhookRequest url(@jakarta.annotation.Nonnull String url) {
     this.url = url;
     return this;
   }
@@ -105,17 +105,17 @@ public class CreateWebhookRequest {
    * URL HTTPS que recebera POST com HMAC FalaAI-Signature
    * @return url
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getUrl() {
     return url;
   }
 
-  public void setUrl(@javax.annotation.Nonnull String url) {
+  public void setUrl(@jakarta.annotation.Nonnull String url) {
     this.url = url;
   }
 
 
-  public CreateWebhookRequest events(@javax.annotation.Nonnull List<WebhookEvent> events) {
+  public CreateWebhookRequest events(@jakarta.annotation.Nonnull List<WebhookEvent> events) {
     this.events = events;
     return this;
   }
@@ -132,17 +132,17 @@ public class CreateWebhookRequest {
    * Eventos subscritos (10 alertas)
    * @return events
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<WebhookEvent> getEvents() {
     return events;
   }
 
-  public void setEvents(@javax.annotation.Nonnull List<WebhookEvent> events) {
+  public void setEvents(@jakarta.annotation.Nonnull List<WebhookEvent> events) {
     this.events = events;
   }
 
 
-  public CreateWebhookRequest retryEnabled(@javax.annotation.Nullable Boolean retryEnabled) {
+  public CreateWebhookRequest retryEnabled(@jakarta.annotation.Nullable Boolean retryEnabled) {
     this.retryEnabled = retryEnabled;
     return this;
   }
@@ -151,12 +151,12 @@ public class CreateWebhookRequest {
    * Retry exponencial 5 tentativas quando true (false&#x3D;1 tentativa)
    * @return retryEnabled
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getRetryEnabled() {
     return retryEnabled;
   }
 
-  public void setRetryEnabled(@javax.annotation.Nullable Boolean retryEnabled) {
+  public void setRetryEnabled(@jakarta.annotation.Nullable Boolean retryEnabled) {
     this.retryEnabled = retryEnabled;
   }
 

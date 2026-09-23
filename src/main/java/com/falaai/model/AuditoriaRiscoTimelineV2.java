@@ -52,27 +52,27 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoTimelineV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoTimelineV2 {
   public static final String SERIALIZED_NAME_TURNS_SENTIMENT = "turns_sentiment";
   @SerializedName(SERIALIZED_NAME_TURNS_SENTIMENT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> turnsSentiment = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_AUDIO_EVENTS = "audio_events";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> audioEvents = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_AUDIO_GROUPS_FOUND = "audio_groups_found";
   @SerializedName(SERIALIZED_NAME_AUDIO_GROUPS_FOUND)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> audioGroupsFound = new ArrayList<>();
 
   public AuditoriaRiscoTimelineV2() {
   }
 
-  public AuditoriaRiscoTimelineV2 turnsSentiment(@javax.annotation.Nullable List<Map<String, Object>> turnsSentiment) {
+  public AuditoriaRiscoTimelineV2 turnsSentiment(@jakarta.annotation.Nullable List<Map<String, Object>> turnsSentiment) {
     this.turnsSentiment = turnsSentiment;
     return this;
   }
@@ -89,17 +89,17 @@ public class AuditoriaRiscoTimelineV2 {
    * Per-turn sentiment
    * @return turnsSentiment
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getTurnsSentiment() {
     return turnsSentiment;
   }
 
-  public void setTurnsSentiment(@javax.annotation.Nullable List<Map<String, Object>> turnsSentiment) {
+  public void setTurnsSentiment(@jakarta.annotation.Nullable List<Map<String, Object>> turnsSentiment) {
     this.turnsSentiment = turnsSentiment;
   }
 
 
-  public AuditoriaRiscoTimelineV2 audioEvents(@javax.annotation.Nullable List<Map<String, Object>> audioEvents) {
+  public AuditoriaRiscoTimelineV2 audioEvents(@jakarta.annotation.Nullable List<Map<String, Object>> audioEvents) {
     this.audioEvents = audioEvents;
     return this;
   }
@@ -116,17 +116,17 @@ public class AuditoriaRiscoTimelineV2 {
    * Audio events (i18n)
    * @return audioEvents
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getAudioEvents() {
     return audioEvents;
   }
 
-  public void setAudioEvents(@javax.annotation.Nullable List<Map<String, Object>> audioEvents) {
+  public void setAudioEvents(@jakarta.annotation.Nullable List<Map<String, Object>> audioEvents) {
     this.audioEvents = audioEvents;
   }
 
 
-  public AuditoriaRiscoTimelineV2 audioGroupsFound(@javax.annotation.Nullable List<Map<String, Object>> audioGroupsFound) {
+  public AuditoriaRiscoTimelineV2 audioGroupsFound(@jakarta.annotation.Nullable List<Map<String, Object>> audioGroupsFound) {
     this.audioGroupsFound = audioGroupsFound;
     return this;
   }
@@ -143,12 +143,12 @@ public class AuditoriaRiscoTimelineV2 {
    * Audio groups found
    * @return audioGroupsFound
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getAudioGroupsFound() {
     return audioGroupsFound;
   }
 
-  public void setAudioGroupsFound(@javax.annotation.Nullable List<Map<String, Object>> audioGroupsFound) {
+  public void setAudioGroupsFound(@jakarta.annotation.Nullable List<Map<String, Object>> audioGroupsFound) {
     this.audioGroupsFound = audioGroupsFound;
   }
 

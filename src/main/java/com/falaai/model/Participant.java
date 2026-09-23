@@ -49,16 +49,16 @@ import com.falaai.JSON;
 /**
  * Participant
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class Participant {
   public static final String SERIALIZED_NAME_INTERLOCUTOR = "interlocutor";
   @SerializedName(SERIALIZED_NAME_INTERLOCUTOR)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String interlocutor;
 
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String name;
 
   /**
@@ -117,13 +117,13 @@ public class Participant {
 
   public static final String SERIALIZED_NAME_ROLE = "role";
   @SerializedName(SERIALIZED_NAME_ROLE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private RoleEnum role;
 
   public Participant() {
   }
 
-  public Participant interlocutor(@javax.annotation.Nonnull String interlocutor) {
+  public Participant interlocutor(@jakarta.annotation.Nonnull String interlocutor) {
     this.interlocutor = interlocutor;
     return this;
   }
@@ -132,17 +132,17 @@ public class Participant {
    * Exact identifier as used in dialog (e.g. &#39;Interlocutor 1&#39;, &#39;Antonio&#39;)
    * @return interlocutor
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getInterlocutor() {
     return interlocutor;
   }
 
-  public void setInterlocutor(@javax.annotation.Nonnull String interlocutor) {
+  public void setInterlocutor(@jakarta.annotation.Nonnull String interlocutor) {
     this.interlocutor = interlocutor;
   }
 
 
-  public Participant name(@javax.annotation.Nullable String name) {
+  public Participant name(@jakarta.annotation.Nullable String name) {
     this.name = name;
     return this;
   }
@@ -151,17 +151,17 @@ public class Participant {
    * Participant name (humanizes report, does not affect logic)
    * @return name
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nullable String name) {
+  public void setName(@jakarta.annotation.Nullable String name) {
     this.name = name;
   }
 
 
-  public Participant role(@javax.annotation.Nonnull RoleEnum role) {
+  public Participant role(@jakarta.annotation.Nonnull RoleEnum role) {
     this.role = role;
     return this;
   }
@@ -170,12 +170,12 @@ public class Participant {
    * Role: agent (human operator), client (customer), bot (IVR/AI)
    * @return role
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public RoleEnum getRole() {
     return role;
   }
 
-  public void setRole(@javax.annotation.Nonnull RoleEnum role) {
+  public void setRole(@jakarta.annotation.Nonnull RoleEnum role) {
     this.role = role;
   }
 

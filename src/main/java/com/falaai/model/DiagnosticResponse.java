@@ -51,42 +51,42 @@ import com.falaai.JSON;
 /**
  * DiagnosticResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticResponse {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String id;
 
   public static final String SERIALIZED_NAME_RESPONSE_LANGUAGE = "response_language";
   @SerializedName(SERIALIZED_NAME_RESPONSE_LANGUAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String responseLanguage;
 
   public static final String SERIALIZED_NAME_OBJECT = "object";
   @SerializedName(SERIALIZED_NAME_OBJECT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String _object;
 
   public static final String SERIALIZED_NAME_ANALYSIS = "analysis";
   @SerializedName(SERIALIZED_NAME_ANALYSIS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticAnalysisMap analysis;
 
   public static final String SERIALIZED_NAME_USAGE = "usage";
   @SerializedName(SERIALIZED_NAME_USAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticUsage usage;
 
   public static final String SERIALIZED_NAME_CLIENT_REFERENCE_ID = "client_reference_id";
   @SerializedName(SERIALIZED_NAME_CLIENT_REFERENCE_ID)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String clientReferenceId;
 
   public DiagnosticResponse() {
   }
 
-  public DiagnosticResponse id(@javax.annotation.Nonnull String id) {
+  public DiagnosticResponse id(@jakarta.annotation.Nonnull String id) {
     this.id = id;
     return this;
   }
@@ -95,17 +95,17 @@ public class DiagnosticResponse {
    * Unique analysis identifier. Prefix &#39;di-&#39; + UUID
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
 
-  public void setId(@javax.annotation.Nonnull String id) {
+  public void setId(@jakarta.annotation.Nonnull String id) {
     this.id = id;
   }
 
 
-  public DiagnosticResponse responseLanguage(@javax.annotation.Nonnull String responseLanguage) {
+  public DiagnosticResponse responseLanguage(@jakarta.annotation.Nonnull String responseLanguage) {
     this.responseLanguage = responseLanguage;
     return this;
   }
@@ -114,17 +114,17 @@ public class DiagnosticResponse {
    * Language used in the response. E.g.: &#39;pt-BR&#39;, &#39;en-US&#39;, &#39;es-ES&#39;
    * @return responseLanguage
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getResponseLanguage() {
     return responseLanguage;
   }
 
-  public void setResponseLanguage(@javax.annotation.Nonnull String responseLanguage) {
+  public void setResponseLanguage(@jakarta.annotation.Nonnull String responseLanguage) {
     this.responseLanguage = responseLanguage;
   }
 
 
-  public DiagnosticResponse _object(@javax.annotation.Nonnull String _object) {
+  public DiagnosticResponse _object(@jakarta.annotation.Nonnull String _object) {
     this._object = _object;
     return this;
   }
@@ -133,17 +133,17 @@ public class DiagnosticResponse {
    * Object type. Always &#39;analysis&#39;
    * @return _object
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getObject() {
     return _object;
   }
 
-  public void setObject(@javax.annotation.Nonnull String _object) {
+  public void setObject(@jakarta.annotation.Nonnull String _object) {
     this._object = _object;
   }
 
 
-  public DiagnosticResponse analysis(@javax.annotation.Nonnull DiagnosticAnalysisMap analysis) {
+  public DiagnosticResponse analysis(@jakarta.annotation.Nonnull DiagnosticAnalysisMap analysis) {
     this.analysis = analysis;
     return this;
   }
@@ -152,17 +152,17 @@ public class DiagnosticResponse {
    * The 6 conversation analyses (5 + participants)
    * @return analysis
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticAnalysisMap getAnalysis() {
     return analysis;
   }
 
-  public void setAnalysis(@javax.annotation.Nonnull DiagnosticAnalysisMap analysis) {
+  public void setAnalysis(@jakarta.annotation.Nonnull DiagnosticAnalysisMap analysis) {
     this.analysis = analysis;
   }
 
 
-  public DiagnosticResponse usage(@javax.annotation.Nonnull DiagnosticUsage usage) {
+  public DiagnosticResponse usage(@jakarta.annotation.Nonnull DiagnosticUsage usage) {
     this.usage = usage;
     return this;
   }
@@ -171,17 +171,17 @@ public class DiagnosticResponse {
    * Usage and processing information
    * @return usage
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticUsage getUsage() {
     return usage;
   }
 
-  public void setUsage(@javax.annotation.Nonnull DiagnosticUsage usage) {
+  public void setUsage(@jakarta.annotation.Nonnull DiagnosticUsage usage) {
     this.usage = usage;
   }
 
 
-  public DiagnosticResponse clientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public DiagnosticResponse clientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
     return this;
   }
@@ -190,12 +190,12 @@ public class DiagnosticResponse {
    * Client-supplied ID echoed verbatim (if provided in request)
    * @return clientReferenceId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getClientReferenceId() {
     return clientReferenceId;
   }
 
-  public void setClientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public void setClientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
   }
 

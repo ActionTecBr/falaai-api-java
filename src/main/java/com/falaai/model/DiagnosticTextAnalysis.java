@@ -49,17 +49,17 @@ import com.falaai.JSON;
 /**
  * DiagnosticTextAnalysis
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticTextAnalysis {
   public static final String SERIALIZED_NAME_EXPLANATION = "explanation";
   @SerializedName(SERIALIZED_NAME_EXPLANATION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String explanation;
 
   public DiagnosticTextAnalysis() {
   }
 
-  public DiagnosticTextAnalysis explanation(@javax.annotation.Nullable String explanation) {
+  public DiagnosticTextAnalysis explanation(@jakarta.annotation.Nullable String explanation) {
     this.explanation = explanation;
     return this;
   }
@@ -68,12 +68,12 @@ public class DiagnosticTextAnalysis {
    * Explanatory text (used in summary and reason)
    * @return explanation
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getExplanation() {
     return explanation;
   }
 
-  public void setExplanation(@javax.annotation.Nullable String explanation) {
+  public void setExplanation(@jakarta.annotation.Nullable String explanation) {
     this.explanation = explanation;
   }
 

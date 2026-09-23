@@ -50,17 +50,17 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoV2Response
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoV2Response {
   public static final String SERIALIZED_NAME_RESPONSE = "response";
   @SerializedName(SERIALIZED_NAME_RESPONSE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoV2 response;
 
   public AuditoriaRiscoV2Response() {
   }
 
-  public AuditoriaRiscoV2Response response(@javax.annotation.Nonnull AuditoriaRiscoV2 response) {
+  public AuditoriaRiscoV2Response response(@jakarta.annotation.Nonnull AuditoriaRiscoV2 response) {
     this.response = response;
     return this;
   }
@@ -69,12 +69,12 @@ public class AuditoriaRiscoV2Response {
    * Public response V2 â€” always returned
    * @return response
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoV2 getResponse() {
     return response;
   }
 
-  public void setResponse(@javax.annotation.Nonnull AuditoriaRiscoV2 response) {
+  public void setResponse(@jakarta.annotation.Nonnull AuditoriaRiscoV2 response) {
     this.response = response;
   }
 

@@ -51,77 +51,77 @@ import com.falaai.JSON;
 /**
  * WebhookItem
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class WebhookItem {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String id;
 
   public static final String SERIALIZED_NAME_USER_ID = "user_id";
   @SerializedName(SERIALIZED_NAME_USER_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String userId;
 
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String name;
 
   public static final String SERIALIZED_NAME_URL = "url";
   @SerializedName(SERIALIZED_NAME_URL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String url;
 
   public static final String SERIALIZED_NAME_SECRET = "secret";
   @SerializedName(SERIALIZED_NAME_SECRET)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String secret;
 
   public static final String SERIALIZED_NAME_EVENTS = "events";
   @SerializedName(SERIALIZED_NAME_EVENTS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<String> events = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_ACTIVE = "active";
   @SerializedName(SERIALIZED_NAME_ACTIVE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Boolean active;
 
   public static final String SERIALIZED_NAME_RETRY_ENABLED = "retry_enabled";
   @SerializedName(SERIALIZED_NAME_RETRY_ENABLED)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Boolean retryEnabled;
 
   public static final String SERIALIZED_NAME_LAST_DELIVERY_AT = "last_delivery_at";
   @SerializedName(SERIALIZED_NAME_LAST_DELIVERY_AT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String lastDeliveryAt;
 
   public static final String SERIALIZED_NAME_LAST_STATUS = "last_status";
   @SerializedName(SERIALIZED_NAME_LAST_STATUS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer lastStatus;
 
   public static final String SERIALIZED_NAME_FAILURE_COUNT = "failure_count";
   @SerializedName(SERIALIZED_NAME_FAILURE_COUNT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer failureCount = 0;
 
   public static final String SERIALIZED_NAME_CREATED_AT = "created_at";
   @SerializedName(SERIALIZED_NAME_CREATED_AT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String createdAt;
 
   public static final String SERIALIZED_NAME_UPDATED_AT = "updated_at";
   @SerializedName(SERIALIZED_NAME_UPDATED_AT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String updatedAt;
 
   public WebhookItem() {
   }
 
-  public WebhookItem id(@javax.annotation.Nonnull String id) {
+  public WebhookItem id(@jakarta.annotation.Nonnull String id) {
     this.id = id;
     return this;
   }
@@ -130,17 +130,17 @@ public class WebhookItem {
    * Webhook id
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
 
-  public void setId(@javax.annotation.Nonnull String id) {
+  public void setId(@jakarta.annotation.Nonnull String id) {
     this.id = id;
   }
 
 
-  public WebhookItem userId(@javax.annotation.Nonnull String userId) {
+  public WebhookItem userId(@jakarta.annotation.Nonnull String userId) {
     this.userId = userId;
     return this;
   }
@@ -149,17 +149,17 @@ public class WebhookItem {
    * Owner user id
    * @return userId
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getUserId() {
     return userId;
   }
 
-  public void setUserId(@javax.annotation.Nonnull String userId) {
+  public void setUserId(@jakarta.annotation.Nonnull String userId) {
     this.userId = userId;
   }
 
 
-  public WebhookItem name(@javax.annotation.Nonnull String name) {
+  public WebhookItem name(@jakarta.annotation.Nonnull String name) {
     this.name = name;
     return this;
   }
@@ -168,17 +168,17 @@ public class WebhookItem {
    * Webhook name
    * @return name
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nonnull String name) {
+  public void setName(@jakarta.annotation.Nonnull String name) {
     this.name = name;
   }
 
 
-  public WebhookItem url(@javax.annotation.Nonnull String url) {
+  public WebhookItem url(@jakarta.annotation.Nonnull String url) {
     this.url = url;
     return this;
   }
@@ -187,17 +187,17 @@ public class WebhookItem {
    * Destination URL
    * @return url
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getUrl() {
     return url;
   }
 
-  public void setUrl(@javax.annotation.Nonnull String url) {
+  public void setUrl(@jakarta.annotation.Nonnull String url) {
     this.url = url;
   }
 
 
-  public WebhookItem secret(@javax.annotation.Nonnull String secret) {
+  public WebhookItem secret(@jakarta.annotation.Nonnull String secret) {
     this.secret = secret;
     return this;
   }
@@ -206,17 +206,17 @@ public class WebhookItem {
    * HMAC signing secret
    * @return secret
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getSecret() {
     return secret;
   }
 
-  public void setSecret(@javax.annotation.Nonnull String secret) {
+  public void setSecret(@jakarta.annotation.Nonnull String secret) {
     this.secret = secret;
   }
 
 
-  public WebhookItem events(@javax.annotation.Nonnull List<String> events) {
+  public WebhookItem events(@jakarta.annotation.Nonnull List<String> events) {
     this.events = events;
     return this;
   }
@@ -233,17 +233,17 @@ public class WebhookItem {
    * Subscribed events
    * @return events
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<String> getEvents() {
     return events;
   }
 
-  public void setEvents(@javax.annotation.Nonnull List<String> events) {
+  public void setEvents(@jakarta.annotation.Nonnull List<String> events) {
     this.events = events;
   }
 
 
-  public WebhookItem active(@javax.annotation.Nonnull Boolean active) {
+  public WebhookItem active(@jakarta.annotation.Nonnull Boolean active) {
     this.active = active;
     return this;
   }
@@ -252,17 +252,17 @@ public class WebhookItem {
    * Is active
    * @return active
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Boolean getActive() {
     return active;
   }
 
-  public void setActive(@javax.annotation.Nonnull Boolean active) {
+  public void setActive(@jakarta.annotation.Nonnull Boolean active) {
     this.active = active;
   }
 
 
-  public WebhookItem retryEnabled(@javax.annotation.Nonnull Boolean retryEnabled) {
+  public WebhookItem retryEnabled(@jakarta.annotation.Nonnull Boolean retryEnabled) {
     this.retryEnabled = retryEnabled;
     return this;
   }
@@ -271,17 +271,17 @@ public class WebhookItem {
    * Retry enabled
    * @return retryEnabled
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Boolean getRetryEnabled() {
     return retryEnabled;
   }
 
-  public void setRetryEnabled(@javax.annotation.Nonnull Boolean retryEnabled) {
+  public void setRetryEnabled(@jakarta.annotation.Nonnull Boolean retryEnabled) {
     this.retryEnabled = retryEnabled;
   }
 
 
-  public WebhookItem lastDeliveryAt(@javax.annotation.Nullable String lastDeliveryAt) {
+  public WebhookItem lastDeliveryAt(@jakarta.annotation.Nullable String lastDeliveryAt) {
     this.lastDeliveryAt = lastDeliveryAt;
     return this;
   }
@@ -290,17 +290,17 @@ public class WebhookItem {
    * ISO 8601 of last delivery
    * @return lastDeliveryAt
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getLastDeliveryAt() {
     return lastDeliveryAt;
   }
 
-  public void setLastDeliveryAt(@javax.annotation.Nullable String lastDeliveryAt) {
+  public void setLastDeliveryAt(@jakarta.annotation.Nullable String lastDeliveryAt) {
     this.lastDeliveryAt = lastDeliveryAt;
   }
 
 
-  public WebhookItem lastStatus(@javax.annotation.Nullable Integer lastStatus) {
+  public WebhookItem lastStatus(@jakarta.annotation.Nullable Integer lastStatus) {
     this.lastStatus = lastStatus;
     return this;
   }
@@ -309,17 +309,17 @@ public class WebhookItem {
    * Last HTTP status delivered
    * @return lastStatus
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getLastStatus() {
     return lastStatus;
   }
 
-  public void setLastStatus(@javax.annotation.Nullable Integer lastStatus) {
+  public void setLastStatus(@jakarta.annotation.Nullable Integer lastStatus) {
     this.lastStatus = lastStatus;
   }
 
 
-  public WebhookItem failureCount(@javax.annotation.Nullable Integer failureCount) {
+  public WebhookItem failureCount(@jakarta.annotation.Nullable Integer failureCount) {
     this.failureCount = failureCount;
     return this;
   }
@@ -328,17 +328,17 @@ public class WebhookItem {
    * Consecutive failures
    * @return failureCount
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getFailureCount() {
     return failureCount;
   }
 
-  public void setFailureCount(@javax.annotation.Nullable Integer failureCount) {
+  public void setFailureCount(@jakarta.annotation.Nullable Integer failureCount) {
     this.failureCount = failureCount;
   }
 
 
-  public WebhookItem createdAt(@javax.annotation.Nonnull String createdAt) {
+  public WebhookItem createdAt(@jakarta.annotation.Nonnull String createdAt) {
     this.createdAt = createdAt;
     return this;
   }
@@ -347,17 +347,17 @@ public class WebhookItem {
    * ISO 8601 created
    * @return createdAt
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCreatedAt() {
     return createdAt;
   }
 
-  public void setCreatedAt(@javax.annotation.Nonnull String createdAt) {
+  public void setCreatedAt(@jakarta.annotation.Nonnull String createdAt) {
     this.createdAt = createdAt;
   }
 
 
-  public WebhookItem updatedAt(@javax.annotation.Nonnull String updatedAt) {
+  public WebhookItem updatedAt(@jakarta.annotation.Nonnull String updatedAt) {
     this.updatedAt = updatedAt;
     return this;
   }
@@ -366,12 +366,12 @@ public class WebhookItem {
    * ISO 8601 updated
    * @return updatedAt
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getUpdatedAt() {
     return updatedAt;
   }
 
-  public void setUpdatedAt(@javax.annotation.Nonnull String updatedAt) {
+  public void setUpdatedAt(@jakarta.annotation.Nonnull String updatedAt) {
     this.updatedAt = updatedAt;
   }
 

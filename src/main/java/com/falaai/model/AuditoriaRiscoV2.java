@@ -63,87 +63,87 @@ import com.falaai.JSON;
 /**
  * Response V2 (build_public_response_v2) â€” blocos logicos EN-US. Fonte: response_builder.py.
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoV2 {
   public static final String SERIALIZED_NAME_META = "meta";
   @SerializedName(SERIALIZED_NAME_META)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoMetaV2 meta;
 
   public static final String SERIALIZED_NAME_PARTICIPANTS = "participants";
   @SerializedName(SERIALIZED_NAME_PARTICIPANTS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoParticipantsV2 participants;
 
   public static final String SERIALIZED_NAME_VERDICT = "verdict";
   @SerializedName(SERIALIZED_NAME_VERDICT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoVerdictV2 verdict;
 
   public static final String SERIALIZED_NAME_SCORES = "scores";
   @SerializedName(SERIALIZED_NAME_SCORES)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoScoresV2 scores;
 
   public static final String SERIALIZED_NAME_DETECTIONS = "detections";
   @SerializedName(SERIALIZED_NAME_DETECTIONS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoDetectionsV2 detections;
 
   public static final String SERIALIZED_NAME_ANALYSIS = "analysis";
   @SerializedName(SERIALIZED_NAME_ANALYSIS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoAnalysisV2 analysis;
 
   public static final String SERIALIZED_NAME_TIMELINE = "timeline";
   @SerializedName(SERIALIZED_NAME_TIMELINE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoTimelineV2 timeline;
 
   public static final String SERIALIZED_NAME_AUDIO_EVENT_MODEL = "audio_event_model";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENT_MODEL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoAudioEventModelV2 audioEventModel;
 
   public static final String SERIALIZED_NAME_CATEGORIES_SUMMARY = "categories_summary";
   @SerializedName(SERIALIZED_NAME_CATEGORIES_SUMMARY)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Map<String, Object> categoriesSummary = new HashMap<>();
 
   public static final String SERIALIZED_NAME_INDEXER = "indexer";
   @SerializedName(SERIALIZED_NAME_INDEXER)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoIndexerV2 indexer;
 
   public static final String SERIALIZED_NAME_SUMMARY = "summary";
   @SerializedName(SERIALIZED_NAME_SUMMARY)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoSummaryV2 summary;
 
   public static final String SERIALIZED_NAME_ACOES_I18N = "acoes_i18n";
   @SerializedName(SERIALIZED_NAME_ACOES_I18N)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Map<String, Object> acoesI18n = new HashMap<>();
 
   public static final String SERIALIZED_NAME_AUDIT_DECISIONS = "audit_decisions";
   @SerializedName(SERIALIZED_NAME_AUDIT_DECISIONS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoAuditDecisionsV2 auditDecisions;
 
   public static final String SERIALIZED_NAME_SCORING_EXPLANATION = "scoring_explanation";
   @SerializedName(SERIALIZED_NAME_SCORING_EXPLANATION)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoScoringExplanationV2 scoringExplanation;
 
   public static final String SERIALIZED_NAME_HTML_REPORT = "html_report";
   @SerializedName(SERIALIZED_NAME_HTML_REPORT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String htmlReport;
 
   public AuditoriaRiscoV2() {
   }
 
-  public AuditoriaRiscoV2 meta(@javax.annotation.Nonnull AuditoriaRiscoMetaV2 meta) {
+  public AuditoriaRiscoV2 meta(@jakarta.annotation.Nonnull AuditoriaRiscoMetaV2 meta) {
     this.meta = meta;
     return this;
   }
@@ -152,17 +152,17 @@ public class AuditoriaRiscoV2 {
    * Identification + usage
    * @return meta
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoMetaV2 getMeta() {
     return meta;
   }
 
-  public void setMeta(@javax.annotation.Nonnull AuditoriaRiscoMetaV2 meta) {
+  public void setMeta(@jakarta.annotation.Nonnull AuditoriaRiscoMetaV2 meta) {
     this.meta = meta;
   }
 
 
-  public AuditoriaRiscoV2 participants(@javax.annotation.Nonnull AuditoriaRiscoParticipantsV2 participants) {
+  public AuditoriaRiscoV2 participants(@jakarta.annotation.Nonnull AuditoriaRiscoParticipantsV2 participants) {
     this.participants = participants;
     return this;
   }
@@ -171,17 +171,17 @@ public class AuditoriaRiscoV2 {
    * Participants/roles/direction
    * @return participants
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoParticipantsV2 getParticipants() {
     return participants;
   }
 
-  public void setParticipants(@javax.annotation.Nonnull AuditoriaRiscoParticipantsV2 participants) {
+  public void setParticipants(@jakarta.annotation.Nonnull AuditoriaRiscoParticipantsV2 participants) {
     this.participants = participants;
   }
 
 
-  public AuditoriaRiscoV2 verdict(@javax.annotation.Nonnull AuditoriaRiscoVerdictV2 verdict) {
+  public AuditoriaRiscoV2 verdict(@jakarta.annotation.Nonnull AuditoriaRiscoVerdictV2 verdict) {
     this.verdict = verdict;
     return this;
   }
@@ -190,17 +190,17 @@ public class AuditoriaRiscoV2 {
    * Verdict + level + applied actions
    * @return verdict
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoVerdictV2 getVerdict() {
     return verdict;
   }
 
-  public void setVerdict(@javax.annotation.Nonnull AuditoriaRiscoVerdictV2 verdict) {
+  public void setVerdict(@jakarta.annotation.Nonnull AuditoriaRiscoVerdictV2 verdict) {
     this.verdict = verdict;
   }
 
 
-  public AuditoriaRiscoV2 scores(@javax.annotation.Nonnull AuditoriaRiscoScoresV2 scores) {
+  public AuditoriaRiscoV2 scores(@jakarta.annotation.Nonnull AuditoriaRiscoScoresV2 scores) {
     this.scores = scores;
     return this;
   }
@@ -209,17 +209,17 @@ public class AuditoriaRiscoV2 {
    * Consolidated + per-participant scores
    * @return scores
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoScoresV2 getScores() {
     return scores;
   }
 
-  public void setScores(@javax.annotation.Nonnull AuditoriaRiscoScoresV2 scores) {
+  public void setScores(@jakarta.annotation.Nonnull AuditoriaRiscoScoresV2 scores) {
     this.scores = scores;
   }
 
 
-  public AuditoriaRiscoV2 detections(@javax.annotation.Nonnull AuditoriaRiscoDetectionsV2 detections) {
+  public AuditoriaRiscoV2 detections(@jakarta.annotation.Nonnull AuditoriaRiscoDetectionsV2 detections) {
     this.detections = detections;
     return this;
   }
@@ -228,17 +228,17 @@ public class AuditoriaRiscoV2 {
    * violations/positives/client alerts
    * @return detections
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoDetectionsV2 getDetections() {
     return detections;
   }
 
-  public void setDetections(@javax.annotation.Nonnull AuditoriaRiscoDetectionsV2 detections) {
+  public void setDetections(@jakarta.annotation.Nonnull AuditoriaRiscoDetectionsV2 detections) {
     this.detections = detections;
   }
 
 
-  public AuditoriaRiscoV2 analysis(@javax.annotation.Nonnull AuditoriaRiscoAnalysisV2 analysis) {
+  public AuditoriaRiscoV2 analysis(@jakarta.annotation.Nonnull AuditoriaRiscoAnalysisV2 analysis) {
     this.analysis = analysis;
     return this;
   }
@@ -247,17 +247,17 @@ public class AuditoriaRiscoV2 {
    * global_metrics + final_analysis + frameworks
    * @return analysis
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoAnalysisV2 getAnalysis() {
     return analysis;
   }
 
-  public void setAnalysis(@javax.annotation.Nonnull AuditoriaRiscoAnalysisV2 analysis) {
+  public void setAnalysis(@jakarta.annotation.Nonnull AuditoriaRiscoAnalysisV2 analysis) {
     this.analysis = analysis;
   }
 
 
-  public AuditoriaRiscoV2 timeline(@javax.annotation.Nonnull AuditoriaRiscoTimelineV2 timeline) {
+  public AuditoriaRiscoV2 timeline(@jakarta.annotation.Nonnull AuditoriaRiscoTimelineV2 timeline) {
     this.timeline = timeline;
     return this;
   }
@@ -266,17 +266,17 @@ public class AuditoriaRiscoV2 {
    * turns_sentiment + audio_events + groups
    * @return timeline
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoTimelineV2 getTimeline() {
     return timeline;
   }
 
-  public void setTimeline(@javax.annotation.Nonnull AuditoriaRiscoTimelineV2 timeline) {
+  public void setTimeline(@jakarta.annotation.Nonnull AuditoriaRiscoTimelineV2 timeline) {
     this.timeline = timeline;
   }
 
 
-  public AuditoriaRiscoV2 audioEventModel(@javax.annotation.Nonnull AuditoriaRiscoAudioEventModelV2 audioEventModel) {
+  public AuditoriaRiscoV2 audioEventModel(@jakarta.annotation.Nonnull AuditoriaRiscoAudioEventModelV2 audioEventModel) {
     this.audioEventModel = audioEventModel;
     return this;
   }
@@ -285,17 +285,17 @@ public class AuditoriaRiscoV2 {
    * MAC audio event semantics
    * @return audioEventModel
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoAudioEventModelV2 getAudioEventModel() {
     return audioEventModel;
   }
 
-  public void setAudioEventModel(@javax.annotation.Nonnull AuditoriaRiscoAudioEventModelV2 audioEventModel) {
+  public void setAudioEventModel(@jakarta.annotation.Nonnull AuditoriaRiscoAudioEventModelV2 audioEventModel) {
     this.audioEventModel = audioEventModel;
   }
 
 
-  public AuditoriaRiscoV2 categoriesSummary(@javax.annotation.Nonnull Map<String, Object> categoriesSummary) {
+  public AuditoriaRiscoV2 categoriesSummary(@jakarta.annotation.Nonnull Map<String, Object> categoriesSummary) {
     this.categoriesSummary = categoriesSummary;
     return this;
   }
@@ -312,17 +312,17 @@ public class AuditoriaRiscoV2 {
    * Per-category summary (keyed by category)
    * @return categoriesSummary
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Map<String, Object> getCategoriesSummary() {
     return categoriesSummary;
   }
 
-  public void setCategoriesSummary(@javax.annotation.Nonnull Map<String, Object> categoriesSummary) {
+  public void setCategoriesSummary(@jakarta.annotation.Nonnull Map<String, Object> categoriesSummary) {
     this.categoriesSummary = categoriesSummary;
   }
 
 
-  public AuditoriaRiscoV2 indexer(@javax.annotation.Nonnull AuditoriaRiscoIndexerV2 indexer) {
+  public AuditoriaRiscoV2 indexer(@jakarta.annotation.Nonnull AuditoriaRiscoIndexerV2 indexer) {
     this.indexer = indexer;
     return this;
   }
@@ -331,17 +331,17 @@ public class AuditoriaRiscoV2 {
    * Suggested terms for bank
    * @return indexer
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoIndexerV2 getIndexer() {
     return indexer;
   }
 
-  public void setIndexer(@javax.annotation.Nonnull AuditoriaRiscoIndexerV2 indexer) {
+  public void setIndexer(@jakarta.annotation.Nonnull AuditoriaRiscoIndexerV2 indexer) {
     this.indexer = indexer;
   }
 
 
-  public AuditoriaRiscoV2 summary(@javax.annotation.Nonnull AuditoriaRiscoSummaryV2 summary) {
+  public AuditoriaRiscoV2 summary(@jakarta.annotation.Nonnull AuditoriaRiscoSummaryV2 summary) {
     this.summary = summary;
     return this;
   }
@@ -350,17 +350,17 @@ public class AuditoriaRiscoV2 {
    * Executive summary counts
    * @return summary
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoSummaryV2 getSummary() {
     return summary;
   }
 
-  public void setSummary(@javax.annotation.Nonnull AuditoriaRiscoSummaryV2 summary) {
+  public void setSummary(@jakarta.annotation.Nonnull AuditoriaRiscoSummaryV2 summary) {
     this.summary = summary;
   }
 
 
-  public AuditoriaRiscoV2 acoesI18n(@javax.annotation.Nonnull Map<String, Object> acoesI18n) {
+  public AuditoriaRiscoV2 acoesI18n(@jakarta.annotation.Nonnull Map<String, Object> acoesI18n) {
     this.acoesI18n = acoesI18n;
     return this;
   }
@@ -377,17 +377,17 @@ public class AuditoriaRiscoV2 {
    * Used actions i18n catalog (keyed by action)
    * @return acoesI18n
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Map<String, Object> getAcoesI18n() {
     return acoesI18n;
   }
 
-  public void setAcoesI18n(@javax.annotation.Nonnull Map<String, Object> acoesI18n) {
+  public void setAcoesI18n(@jakarta.annotation.Nonnull Map<String, Object> acoesI18n) {
     this.acoesI18n = acoesI18n;
   }
 
 
-  public AuditoriaRiscoV2 auditDecisions(@javax.annotation.Nonnull AuditoriaRiscoAuditDecisionsV2 auditDecisions) {
+  public AuditoriaRiscoV2 auditDecisions(@jakarta.annotation.Nonnull AuditoriaRiscoAuditDecisionsV2 auditDecisions) {
     this.auditDecisions = auditDecisions;
     return this;
   }
@@ -396,17 +396,17 @@ public class AuditoriaRiscoV2 {
    * Risk origin + validator changes
    * @return auditDecisions
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoAuditDecisionsV2 getAuditDecisions() {
     return auditDecisions;
   }
 
-  public void setAuditDecisions(@javax.annotation.Nonnull AuditoriaRiscoAuditDecisionsV2 auditDecisions) {
+  public void setAuditDecisions(@jakarta.annotation.Nonnull AuditoriaRiscoAuditDecisionsV2 auditDecisions) {
     this.auditDecisions = auditDecisions;
   }
 
 
-  public AuditoriaRiscoV2 scoringExplanation(@javax.annotation.Nonnull AuditoriaRiscoScoringExplanationV2 scoringExplanation) {
+  public AuditoriaRiscoV2 scoringExplanation(@jakarta.annotation.Nonnull AuditoriaRiscoScoringExplanationV2 scoringExplanation) {
     this.scoringExplanation = scoringExplanation;
     return this;
   }
@@ -415,17 +415,17 @@ public class AuditoriaRiscoV2 {
    * Score composition explanation
    * @return scoringExplanation
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoScoringExplanationV2 getScoringExplanation() {
     return scoringExplanation;
   }
 
-  public void setScoringExplanation(@javax.annotation.Nonnull AuditoriaRiscoScoringExplanationV2 scoringExplanation) {
+  public void setScoringExplanation(@jakarta.annotation.Nonnull AuditoriaRiscoScoringExplanationV2 scoringExplanation) {
     this.scoringExplanation = scoringExplanation;
   }
 
 
-  public AuditoriaRiscoV2 htmlReport(@javax.annotation.Nonnull String htmlReport) {
+  public AuditoriaRiscoV2 htmlReport(@jakarta.annotation.Nonnull String htmlReport) {
     this.htmlReport = htmlReport;
     return this;
   }
@@ -434,12 +434,12 @@ public class AuditoriaRiscoV2 {
    * HTML report (base64 gzip)
    * @return htmlReport
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getHtmlReport() {
     return htmlReport;
   }
 
-  public void setHtmlReport(@javax.annotation.Nonnull String htmlReport) {
+  public void setHtmlReport(@jakarta.annotation.Nonnull String htmlReport) {
     this.htmlReport = htmlReport;
   }
 

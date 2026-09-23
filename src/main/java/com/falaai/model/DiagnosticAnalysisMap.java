@@ -54,42 +54,42 @@ import com.falaai.JSON;
 /**
  * DiagnosticAnalysisMap
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticAnalysisMap {
   public static final String SERIALIZED_NAME_DIALOGUE_SUMMARY = "dialogue_summary";
   @SerializedName(SERIALIZED_NAME_DIALOGUE_SUMMARY)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticTextAnalysis dialogueSummary;
 
   public static final String SERIALIZED_NAME_CONTACT_REASON = "contact_reason";
   @SerializedName(SERIALIZED_NAME_CONTACT_REASON)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticTextAnalysis contactReason;
 
   public static final String SERIALIZED_NAME_IDENTIFIED_ACTION = "identified_action";
   @SerializedName(SERIALIZED_NAME_IDENTIFIED_ACTION)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticCategoricalAnalysis identifiedAction;
 
   public static final String SERIALIZED_NAME_IDENTIFIED_LABEL = "identified_label";
   @SerializedName(SERIALIZED_NAME_IDENTIFIED_LABEL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticCategoricalAnalysis identifiedLabel;
 
   public static final String SERIALIZED_NAME_SENTIMENT = "sentiment";
   @SerializedName(SERIALIZED_NAME_SENTIMENT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private DiagnosticCategoricalAnalysis sentiment;
 
   public static final String SERIALIZED_NAME_PARTICIPANTS_IDENTIFIED = "participants_identified";
   @SerializedName(SERIALIZED_NAME_PARTICIPANTS_IDENTIFIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<ParticipantDiagnostic> participantsIdentified = new ArrayList<>();
 
   public DiagnosticAnalysisMap() {
   }
 
-  public DiagnosticAnalysisMap dialogueSummary(@javax.annotation.Nonnull DiagnosticTextAnalysis dialogueSummary) {
+  public DiagnosticAnalysisMap dialogueSummary(@jakarta.annotation.Nonnull DiagnosticTextAnalysis dialogueSummary) {
     this.dialogueSummary = dialogueSummary;
     return this;
   }
@@ -98,17 +98,17 @@ public class DiagnosticAnalysisMap {
    * Detailed conversation summary
    * @return dialogueSummary
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticTextAnalysis getDialogueSummary() {
     return dialogueSummary;
   }
 
-  public void setDialogueSummary(@javax.annotation.Nonnull DiagnosticTextAnalysis dialogueSummary) {
+  public void setDialogueSummary(@jakarta.annotation.Nonnull DiagnosticTextAnalysis dialogueSummary) {
     this.dialogueSummary = dialogueSummary;
   }
 
 
-  public DiagnosticAnalysisMap contactReason(@javax.annotation.Nonnull DiagnosticTextAnalysis contactReason) {
+  public DiagnosticAnalysisMap contactReason(@jakarta.annotation.Nonnull DiagnosticTextAnalysis contactReason) {
     this.contactReason = contactReason;
     return this;
   }
@@ -117,17 +117,17 @@ public class DiagnosticAnalysisMap {
    * Initial contact reason
    * @return contactReason
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticTextAnalysis getContactReason() {
     return contactReason;
   }
 
-  public void setContactReason(@javax.annotation.Nonnull DiagnosticTextAnalysis contactReason) {
+  public void setContactReason(@jakarta.annotation.Nonnull DiagnosticTextAnalysis contactReason) {
     this.contactReason = contactReason;
   }
 
 
-  public DiagnosticAnalysisMap identifiedAction(@javax.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedAction) {
+  public DiagnosticAnalysisMap identifiedAction(@jakarta.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedAction) {
     this.identifiedAction = identifiedAction;
     return this;
   }
@@ -136,17 +136,17 @@ public class DiagnosticAnalysisMap {
    * Action taken / resolution
    * @return identifiedAction
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticCategoricalAnalysis getIdentifiedAction() {
     return identifiedAction;
   }
 
-  public void setIdentifiedAction(@javax.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedAction) {
+  public void setIdentifiedAction(@jakarta.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedAction) {
     this.identifiedAction = identifiedAction;
   }
 
 
-  public DiagnosticAnalysisMap identifiedLabel(@javax.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedLabel) {
+  public DiagnosticAnalysisMap identifiedLabel(@jakarta.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedLabel) {
     this.identifiedLabel = identifiedLabel;
     return this;
   }
@@ -155,17 +155,17 @@ public class DiagnosticAnalysisMap {
    * Theme classification
    * @return identifiedLabel
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticCategoricalAnalysis getIdentifiedLabel() {
     return identifiedLabel;
   }
 
-  public void setIdentifiedLabel(@javax.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedLabel) {
+  public void setIdentifiedLabel(@jakarta.annotation.Nonnull DiagnosticCategoricalAnalysis identifiedLabel) {
     this.identifiedLabel = identifiedLabel;
   }
 
 
-  public DiagnosticAnalysisMap sentiment(@javax.annotation.Nonnull DiagnosticCategoricalAnalysis sentiment) {
+  public DiagnosticAnalysisMap sentiment(@jakarta.annotation.Nonnull DiagnosticCategoricalAnalysis sentiment) {
     this.sentiment = sentiment;
     return this;
   }
@@ -174,17 +174,17 @@ public class DiagnosticAnalysisMap {
    * Predominant sentiment
    * @return sentiment
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public DiagnosticCategoricalAnalysis getSentiment() {
     return sentiment;
   }
 
-  public void setSentiment(@javax.annotation.Nonnull DiagnosticCategoricalAnalysis sentiment) {
+  public void setSentiment(@jakarta.annotation.Nonnull DiagnosticCategoricalAnalysis sentiment) {
     this.sentiment = sentiment;
   }
 
 
-  public DiagnosticAnalysisMap participantsIdentified(@javax.annotation.Nullable List<ParticipantDiagnostic> participantsIdentified) {
+  public DiagnosticAnalysisMap participantsIdentified(@jakarta.annotation.Nullable List<ParticipantDiagnostic> participantsIdentified) {
     this.participantsIdentified = participantsIdentified;
     return this;
   }
@@ -201,12 +201,12 @@ public class DiagnosticAnalysisMap {
    * Identified participants and roles (same field names as auditoria)
    * @return participantsIdentified
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<ParticipantDiagnostic> getParticipantsIdentified() {
     return participantsIdentified;
   }
 
-  public void setParticipantsIdentified(@javax.annotation.Nullable List<ParticipantDiagnostic> participantsIdentified) {
+  public void setParticipantsIdentified(@jakarta.annotation.Nullable List<ParticipantDiagnostic> participantsIdentified) {
     this.participantsIdentified = participantsIdentified;
   }
 

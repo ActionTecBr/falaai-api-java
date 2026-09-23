@@ -49,37 +49,37 @@ import com.falaai.JSON;
 /**
  * UsageByKeyItem
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class UsageByKeyItem {
   public static final String SERIALIZED_NAME_KEY_ID = "key_id";
   @SerializedName(SERIALIZED_NAME_KEY_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String keyId;
 
   public static final String SERIALIZED_NAME_KEY_NAME = "key_name";
   @SerializedName(SERIALIZED_NAME_KEY_NAME)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String keyName;
 
   public static final String SERIALIZED_NAME_TOTAL_CREDITS = "total_credits";
   @SerializedName(SERIALIZED_NAME_TOTAL_CREDITS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer totalCredits;
 
   public static final String SERIALIZED_NAME_REQUEST_COUNT = "request_count";
   @SerializedName(SERIALIZED_NAME_REQUEST_COUNT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer requestCount;
 
   public static final String SERIALIZED_NAME_LAST_USED = "last_used";
   @SerializedName(SERIALIZED_NAME_LAST_USED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String lastUsed;
 
   public UsageByKeyItem() {
   }
 
-  public UsageByKeyItem keyId(@javax.annotation.Nonnull String keyId) {
+  public UsageByKeyItem keyId(@jakarta.annotation.Nonnull String keyId) {
     this.keyId = keyId;
     return this;
   }
@@ -88,17 +88,17 @@ public class UsageByKeyItem {
    * API key id
    * @return keyId
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getKeyId() {
     return keyId;
   }
 
-  public void setKeyId(@javax.annotation.Nonnull String keyId) {
+  public void setKeyId(@jakarta.annotation.Nonnull String keyId) {
     this.keyId = keyId;
   }
 
 
-  public UsageByKeyItem keyName(@javax.annotation.Nonnull String keyName) {
+  public UsageByKeyItem keyName(@jakarta.annotation.Nonnull String keyName) {
     this.keyName = keyName;
     return this;
   }
@@ -107,17 +107,17 @@ public class UsageByKeyItem {
    * API key name
    * @return keyName
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getKeyName() {
     return keyName;
   }
 
-  public void setKeyName(@javax.annotation.Nonnull String keyName) {
+  public void setKeyName(@jakarta.annotation.Nonnull String keyName) {
     this.keyName = keyName;
   }
 
 
-  public UsageByKeyItem totalCredits(@javax.annotation.Nonnull Integer totalCredits) {
+  public UsageByKeyItem totalCredits(@jakarta.annotation.Nonnull Integer totalCredits) {
     this.totalCredits = totalCredits;
     return this;
   }
@@ -126,17 +126,17 @@ public class UsageByKeyItem {
    * Total credits consumed by the key
    * @return totalCredits
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getTotalCredits() {
     return totalCredits;
   }
 
-  public void setTotalCredits(@javax.annotation.Nonnull Integer totalCredits) {
+  public void setTotalCredits(@jakarta.annotation.Nonnull Integer totalCredits) {
     this.totalCredits = totalCredits;
   }
 
 
-  public UsageByKeyItem requestCount(@javax.annotation.Nonnull Integer requestCount) {
+  public UsageByKeyItem requestCount(@jakarta.annotation.Nonnull Integer requestCount) {
     this.requestCount = requestCount;
     return this;
   }
@@ -145,17 +145,17 @@ public class UsageByKeyItem {
    * Number of requests
    * @return requestCount
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getRequestCount() {
     return requestCount;
   }
 
-  public void setRequestCount(@javax.annotation.Nonnull Integer requestCount) {
+  public void setRequestCount(@jakarta.annotation.Nonnull Integer requestCount) {
     this.requestCount = requestCount;
   }
 
 
-  public UsageByKeyItem lastUsed(@javax.annotation.Nullable String lastUsed) {
+  public UsageByKeyItem lastUsed(@jakarta.annotation.Nullable String lastUsed) {
     this.lastUsed = lastUsed;
     return this;
   }
@@ -164,12 +164,12 @@ public class UsageByKeyItem {
    * ISO 8601 of last use (null if never)
    * @return lastUsed
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getLastUsed() {
     return lastUsed;
   }
 
-  public void setLastUsed(@javax.annotation.Nullable String lastUsed) {
+  public void setLastUsed(@jakarta.annotation.Nullable String lastUsed) {
     this.lastUsed = lastUsed;
   }
 

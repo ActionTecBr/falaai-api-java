@@ -49,42 +49,42 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoParticipantV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoParticipantV2 {
   public static final String SERIALIZED_NAME_INTERLOCUTOR = "interlocutor";
   @SerializedName(SERIALIZED_NAME_INTERLOCUTOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String interlocutor;
 
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String name;
 
   public static final String SERIALIZED_NAME_ROLE = "role";
   @SerializedName(SERIALIZED_NAME_ROLE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String role;
 
   public static final String SERIALIZED_NAME_CONFIDENCE = "confidence";
   @SerializedName(SERIALIZED_NAME_CONFIDENCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String confidence;
 
   public static final String SERIALIZED_NAME_SOURCE = "source";
   @SerializedName(SERIALIZED_NAME_SOURCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String source;
 
   public static final String SERIALIZED_NAME_EVIDENCE = "evidence";
   @SerializedName(SERIALIZED_NAME_EVIDENCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String evidence;
 
   public AuditoriaRiscoParticipantV2() {
   }
 
-  public AuditoriaRiscoParticipantV2 interlocutor(@javax.annotation.Nullable String interlocutor) {
+  public AuditoriaRiscoParticipantV2 interlocutor(@jakarta.annotation.Nullable String interlocutor) {
     this.interlocutor = interlocutor;
     return this;
   }
@@ -93,17 +93,17 @@ public class AuditoriaRiscoParticipantV2 {
    * Speaker label
    * @return interlocutor
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getInterlocutor() {
     return interlocutor;
   }
 
-  public void setInterlocutor(@javax.annotation.Nullable String interlocutor) {
+  public void setInterlocutor(@jakarta.annotation.Nullable String interlocutor) {
     this.interlocutor = interlocutor;
   }
 
 
-  public AuditoriaRiscoParticipantV2 name(@javax.annotation.Nullable String name) {
+  public AuditoriaRiscoParticipantV2 name(@jakarta.annotation.Nullable String name) {
     this.name = name;
     return this;
   }
@@ -112,17 +112,17 @@ public class AuditoriaRiscoParticipantV2 {
    * Participant name
    * @return name
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nullable String name) {
+  public void setName(@jakarta.annotation.Nullable String name) {
     this.name = name;
   }
 
 
-  public AuditoriaRiscoParticipantV2 role(@javax.annotation.Nullable String role) {
+  public AuditoriaRiscoParticipantV2 role(@jakarta.annotation.Nullable String role) {
     this.role = role;
     return this;
   }
@@ -131,17 +131,17 @@ public class AuditoriaRiscoParticipantV2 {
    * Role (agent/client/bot/unknown)
    * @return role
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getRole() {
     return role;
   }
 
-  public void setRole(@javax.annotation.Nullable String role) {
+  public void setRole(@jakarta.annotation.Nullable String role) {
     this.role = role;
   }
 
 
-  public AuditoriaRiscoParticipantV2 confidence(@javax.annotation.Nullable String confidence) {
+  public AuditoriaRiscoParticipantV2 confidence(@jakarta.annotation.Nullable String confidence) {
     this.confidence = confidence;
     return this;
   }
@@ -150,17 +150,17 @@ public class AuditoriaRiscoParticipantV2 {
    * Role inference confidence (high/medium/low)
    * @return confidence
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getConfidence() {
     return confidence;
   }
 
-  public void setConfidence(@javax.annotation.Nullable String confidence) {
+  public void setConfidence(@jakarta.annotation.Nullable String confidence) {
     this.confidence = confidence;
   }
 
 
-  public AuditoriaRiscoParticipantV2 source(@javax.annotation.Nullable String source) {
+  public AuditoriaRiscoParticipantV2 source(@jakarta.annotation.Nullable String source) {
     this.source = source;
     return this;
   }
@@ -169,17 +169,17 @@ public class AuditoriaRiscoParticipantV2 {
    * Role source (input/inferred)
    * @return source
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getSource() {
     return source;
   }
 
-  public void setSource(@javax.annotation.Nullable String source) {
+  public void setSource(@jakarta.annotation.Nullable String source) {
     this.source = source;
   }
 
 
-  public AuditoriaRiscoParticipantV2 evidence(@javax.annotation.Nullable String evidence) {
+  public AuditoriaRiscoParticipantV2 evidence(@jakarta.annotation.Nullable String evidence) {
     this.evidence = evidence;
     return this;
   }
@@ -188,12 +188,12 @@ public class AuditoriaRiscoParticipantV2 {
    * Role inference evidence
    * @return evidence
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getEvidence() {
     return evidence;
   }
 
-  public void setEvidence(@javax.annotation.Nullable String evidence) {
+  public void setEvidence(@jakarta.annotation.Nullable String evidence) {
     this.evidence = evidence;
   }
 

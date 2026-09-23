@@ -52,37 +52,37 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoParticipantsV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoParticipantsV2 {
   public static final String SERIALIZED_NAME_IDENTIFIED = "identified";
   @SerializedName(SERIALIZED_NAME_IDENTIFIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<AuditoriaRiscoParticipantV2> identified = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CALL_DIRECTION = "call_direction";
   @SerializedName(SERIALIZED_NAME_CALL_DIRECTION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String callDirection;
 
   public static final String SERIALIZED_NAME_ROLE_INFERENCE_RELIABLE = "role_inference_reliable";
   @SerializedName(SERIALIZED_NAME_ROLE_INFERENCE_RELIABLE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean roleInferenceReliable = true;
 
   public static final String SERIALIZED_NAME_IDENTIFICATION_STATUS = "identification_status";
   @SerializedName(SERIALIZED_NAME_IDENTIFICATION_STATUS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String identificationStatus = "none";
 
   public static final String SERIALIZED_NAME_UNIDENTIFIED_ITEMS_COUNT = "unidentified_items_count";
   @SerializedName(SERIALIZED_NAME_UNIDENTIFIED_ITEMS_COUNT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer unidentifiedItemsCount = 0;
 
   public AuditoriaRiscoParticipantsV2() {
   }
 
-  public AuditoriaRiscoParticipantsV2 identified(@javax.annotation.Nullable List<AuditoriaRiscoParticipantV2> identified) {
+  public AuditoriaRiscoParticipantsV2 identified(@jakarta.annotation.Nullable List<AuditoriaRiscoParticipantV2> identified) {
     this.identified = identified;
     return this;
   }
@@ -99,17 +99,17 @@ public class AuditoriaRiscoParticipantsV2 {
    * Identified participants
    * @return identified
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<AuditoriaRiscoParticipantV2> getIdentified() {
     return identified;
   }
 
-  public void setIdentified(@javax.annotation.Nullable List<AuditoriaRiscoParticipantV2> identified) {
+  public void setIdentified(@jakarta.annotation.Nullable List<AuditoriaRiscoParticipantV2> identified) {
     this.identified = identified;
   }
 
 
-  public AuditoriaRiscoParticipantsV2 callDirection(@javax.annotation.Nullable String callDirection) {
+  public AuditoriaRiscoParticipantsV2 callDirection(@jakarta.annotation.Nullable String callDirection) {
     this.callDirection = callDirection;
     return this;
   }
@@ -118,17 +118,17 @@ public class AuditoriaRiscoParticipantsV2 {
    * inbound/outbound
    * @return callDirection
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCallDirection() {
     return callDirection;
   }
 
-  public void setCallDirection(@javax.annotation.Nullable String callDirection) {
+  public void setCallDirection(@jakarta.annotation.Nullable String callDirection) {
     this.callDirection = callDirection;
   }
 
 
-  public AuditoriaRiscoParticipantsV2 roleInferenceReliable(@javax.annotation.Nullable Boolean roleInferenceReliable) {
+  public AuditoriaRiscoParticipantsV2 roleInferenceReliable(@jakarta.annotation.Nullable Boolean roleInferenceReliable) {
     this.roleInferenceReliable = roleInferenceReliable;
     return this;
   }
@@ -137,17 +137,17 @@ public class AuditoriaRiscoParticipantsV2 {
    * Role inference reliability
    * @return roleInferenceReliable
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getRoleInferenceReliable() {
     return roleInferenceReliable;
   }
 
-  public void setRoleInferenceReliable(@javax.annotation.Nullable Boolean roleInferenceReliable) {
+  public void setRoleInferenceReliable(@jakarta.annotation.Nullable Boolean roleInferenceReliable) {
     this.roleInferenceReliable = roleInferenceReliable;
   }
 
 
-  public AuditoriaRiscoParticipantsV2 identificationStatus(@javax.annotation.Nullable String identificationStatus) {
+  public AuditoriaRiscoParticipantsV2 identificationStatus(@jakarta.annotation.Nullable String identificationStatus) {
     this.identificationStatus = identificationStatus;
     return this;
   }
@@ -156,17 +156,17 @@ public class AuditoriaRiscoParticipantsV2 {
    * Identification status
    * @return identificationStatus
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getIdentificationStatus() {
     return identificationStatus;
   }
 
-  public void setIdentificationStatus(@javax.annotation.Nullable String identificationStatus) {
+  public void setIdentificationStatus(@jakarta.annotation.Nullable String identificationStatus) {
     this.identificationStatus = identificationStatus;
   }
 
 
-  public AuditoriaRiscoParticipantsV2 unidentifiedItemsCount(@javax.annotation.Nullable Integer unidentifiedItemsCount) {
+  public AuditoriaRiscoParticipantsV2 unidentifiedItemsCount(@jakarta.annotation.Nullable Integer unidentifiedItemsCount) {
     this.unidentifiedItemsCount = unidentifiedItemsCount;
     return this;
   }
@@ -175,12 +175,12 @@ public class AuditoriaRiscoParticipantsV2 {
    * Unidentified items count
    * @return unidentifiedItemsCount
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getUnidentifiedItemsCount() {
     return unidentifiedItemsCount;
   }
 
-  public void setUnidentifiedItemsCount(@javax.annotation.Nullable Integer unidentifiedItemsCount) {
+  public void setUnidentifiedItemsCount(@jakarta.annotation.Nullable Integer unidentifiedItemsCount) {
     this.unidentifiedItemsCount = unidentifiedItemsCount;
   }
 

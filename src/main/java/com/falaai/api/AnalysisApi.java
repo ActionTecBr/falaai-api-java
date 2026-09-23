@@ -90,7 +90,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostCall(@javax.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostCall(@jakarta.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -136,7 +136,7 @@ public class AnalysisApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostValidateBeforeCall(@javax.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostValidateBeforeCall(@jakarta.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'auditoriaRiscoRequest' is set
         if (auditoriaRiscoRequest == null) {
             throw new ApiException("Missing the required parameter 'auditoriaRiscoRequest' when calling createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPost(Async)");
@@ -160,7 +160,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public AuditoriaRiscoV2Response createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPost(@javax.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest) throws ApiException {
+    public AuditoriaRiscoV2Response createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPost(@jakarta.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest) throws ApiException {
         ApiResponse<AuditoriaRiscoV2Response> localVarResp = createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostWithHttpInfo(auditoriaRiscoRequest);
         return localVarResp.getData();
     }
@@ -179,7 +179,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<AuditoriaRiscoV2Response> createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostWithHttpInfo(@javax.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest) throws ApiException {
+    public ApiResponse<AuditoriaRiscoV2Response> createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostWithHttpInfo(@jakarta.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest) throws ApiException {
         okhttp3.Call localVarCall = createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostValidateBeforeCall(auditoriaRiscoRequest, null);
         Type localVarReturnType = new TypeToken<AuditoriaRiscoV2Response>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -200,7 +200,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostAsync(@javax.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest, final ApiCallback<AuditoriaRiscoV2Response> _callback) throws ApiException {
+    public okhttp3.Call createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostAsync(@jakarta.annotation.Nonnull AuditoriaRiscoRequest auditoriaRiscoRequest, final ApiCallback<AuditoriaRiscoV2Response> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostValidateBeforeCall(auditoriaRiscoRequest, _callback);
         Type localVarReturnType = new TypeToken<AuditoriaRiscoV2Response>(){}.getType();
@@ -221,7 +221,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createDiagnosticV1AnalyzeDiagnosticPostCall(@javax.annotation.Nonnull DiagnosticRequest diagnosticRequest, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call createDiagnosticV1AnalyzeDiagnosticPostCall(@jakarta.annotation.Nonnull DiagnosticRequest diagnosticRequest, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -267,7 +267,7 @@ public class AnalysisApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call createDiagnosticV1AnalyzeDiagnosticPostValidateBeforeCall(@javax.annotation.Nonnull DiagnosticRequest diagnosticRequest, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call createDiagnosticV1AnalyzeDiagnosticPostValidateBeforeCall(@jakarta.annotation.Nonnull DiagnosticRequest diagnosticRequest, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'diagnosticRequest' is set
         if (diagnosticRequest == null) {
             throw new ApiException("Missing the required parameter 'diagnosticRequest' when calling createDiagnosticV1AnalyzeDiagnosticPost(Async)");
@@ -291,7 +291,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public DiagnosticResponse createDiagnosticV1AnalyzeDiagnosticPost(@javax.annotation.Nonnull DiagnosticRequest diagnosticRequest) throws ApiException {
+    public DiagnosticResponse createDiagnosticV1AnalyzeDiagnosticPost(@jakarta.annotation.Nonnull DiagnosticRequest diagnosticRequest) throws ApiException {
         ApiResponse<DiagnosticResponse> localVarResp = createDiagnosticV1AnalyzeDiagnosticPostWithHttpInfo(diagnosticRequest);
         return localVarResp.getData();
     }
@@ -310,7 +310,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<DiagnosticResponse> createDiagnosticV1AnalyzeDiagnosticPostWithHttpInfo(@javax.annotation.Nonnull DiagnosticRequest diagnosticRequest) throws ApiException {
+    public ApiResponse<DiagnosticResponse> createDiagnosticV1AnalyzeDiagnosticPostWithHttpInfo(@jakarta.annotation.Nonnull DiagnosticRequest diagnosticRequest) throws ApiException {
         okhttp3.Call localVarCall = createDiagnosticV1AnalyzeDiagnosticPostValidateBeforeCall(diagnosticRequest, null);
         Type localVarReturnType = new TypeToken<DiagnosticResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -331,7 +331,7 @@ public class AnalysisApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createDiagnosticV1AnalyzeDiagnosticPostAsync(@javax.annotation.Nonnull DiagnosticRequest diagnosticRequest, final ApiCallback<DiagnosticResponse> _callback) throws ApiException {
+    public okhttp3.Call createDiagnosticV1AnalyzeDiagnosticPostAsync(@jakarta.annotation.Nonnull DiagnosticRequest diagnosticRequest, final ApiCallback<DiagnosticResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = createDiagnosticV1AnalyzeDiagnosticPostValidateBeforeCall(diagnosticRequest, _callback);
         Type localVarReturnType = new TypeToken<DiagnosticResponse>(){}.getType();

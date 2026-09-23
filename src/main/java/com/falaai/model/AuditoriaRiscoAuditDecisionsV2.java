@@ -51,27 +51,27 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoAuditDecisionsV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoAuditDecisionsV2 {
   public static final String SERIALIZED_NAME_RISK_ORIGIN = "risk_origin";
   @SerializedName(SERIALIZED_NAME_RISK_ORIGIN)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String riskOrigin;
 
   public static final String SERIALIZED_NAME_HAS_ZERO_TOLERANCE_VIOLATION = "has_zero_tolerance_violation";
   @SerializedName(SERIALIZED_NAME_HAS_ZERO_TOLERANCE_VIOLATION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean hasZeroToleranceViolation;
 
   public static final String SERIALIZED_NAME_DETERMINISTIC_VALIDATOR_CHANGES = "deterministic_validator_changes";
   @SerializedName(SERIALIZED_NAME_DETERMINISTIC_VALIDATOR_CHANGES)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Object> deterministicValidatorChanges = new ArrayList<>();
 
   public AuditoriaRiscoAuditDecisionsV2() {
   }
 
-  public AuditoriaRiscoAuditDecisionsV2 riskOrigin(@javax.annotation.Nullable String riskOrigin) {
+  public AuditoriaRiscoAuditDecisionsV2 riskOrigin(@jakarta.annotation.Nullable String riskOrigin) {
     this.riskOrigin = riskOrigin;
     return this;
   }
@@ -80,17 +80,17 @@ public class AuditoriaRiscoAuditDecisionsV2 {
    * Risk origin
    * @return riskOrigin
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getRiskOrigin() {
     return riskOrigin;
   }
 
-  public void setRiskOrigin(@javax.annotation.Nullable String riskOrigin) {
+  public void setRiskOrigin(@jakarta.annotation.Nullable String riskOrigin) {
     this.riskOrigin = riskOrigin;
   }
 
 
-  public AuditoriaRiscoAuditDecisionsV2 hasZeroToleranceViolation(@javax.annotation.Nullable Boolean hasZeroToleranceViolation) {
+  public AuditoriaRiscoAuditDecisionsV2 hasZeroToleranceViolation(@jakarta.annotation.Nullable Boolean hasZeroToleranceViolation) {
     this.hasZeroToleranceViolation = hasZeroToleranceViolation;
     return this;
   }
@@ -99,17 +99,17 @@ public class AuditoriaRiscoAuditDecisionsV2 {
    * Has zero-tolerance violation
    * @return hasZeroToleranceViolation
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getHasZeroToleranceViolation() {
     return hasZeroToleranceViolation;
   }
 
-  public void setHasZeroToleranceViolation(@javax.annotation.Nullable Boolean hasZeroToleranceViolation) {
+  public void setHasZeroToleranceViolation(@jakarta.annotation.Nullable Boolean hasZeroToleranceViolation) {
     this.hasZeroToleranceViolation = hasZeroToleranceViolation;
   }
 
 
-  public AuditoriaRiscoAuditDecisionsV2 deterministicValidatorChanges(@javax.annotation.Nullable List<Object> deterministicValidatorChanges) {
+  public AuditoriaRiscoAuditDecisionsV2 deterministicValidatorChanges(@jakarta.annotation.Nullable List<Object> deterministicValidatorChanges) {
     this.deterministicValidatorChanges = deterministicValidatorChanges;
     return this;
   }
@@ -126,12 +126,12 @@ public class AuditoriaRiscoAuditDecisionsV2 {
    * Deterministic validator changes
    * @return deterministicValidatorChanges
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Object> getDeterministicValidatorChanges() {
     return deterministicValidatorChanges;
   }
 
-  public void setDeterministicValidatorChanges(@javax.annotation.Nullable List<Object> deterministicValidatorChanges) {
+  public void setDeterministicValidatorChanges(@jakarta.annotation.Nullable List<Object> deterministicValidatorChanges) {
     this.deterministicValidatorChanges = deterministicValidatorChanges;
   }
 

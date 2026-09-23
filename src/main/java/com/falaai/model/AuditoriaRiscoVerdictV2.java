@@ -55,47 +55,47 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoVerdictV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoVerdictV2 {
   public static final String SERIALIZED_NAME_LABEL = "label";
   @SerializedName(SERIALIZED_NAME_LABEL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String label;
 
   public static final String SERIALIZED_NAME_LEVEL_CODE = "level_code";
   @SerializedName(SERIALIZED_NAME_LEVEL_CODE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String levelCode;
 
   public static final String SERIALIZED_NAME_COLOR = "color";
   @SerializedName(SERIALIZED_NAME_COLOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String color;
 
   public static final String SERIALIZED_NAME_ICON = "icon";
   @SerializedName(SERIALIZED_NAME_ICON)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String icon;
 
   public static final String SERIALIZED_NAME_RISK_MATRIX = "risk_matrix";
   @SerializedName(SERIALIZED_NAME_RISK_MATRIX)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Map<String, Object> riskMatrix = new HashMap<>();
 
   public static final String SERIALIZED_NAME_APPLIED_ACTIONS = "applied_actions";
   @SerializedName(SERIALIZED_NAME_APPLIED_ACTIONS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<AuditoriaRiscoAppliedActionV2> appliedActions = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_DECISION_DETAILS = "decision_details";
   @SerializedName(SERIALIZED_NAME_DECISION_DETAILS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object decisionDetails = null;
 
   public AuditoriaRiscoVerdictV2() {
   }
 
-  public AuditoriaRiscoVerdictV2 label(@javax.annotation.Nullable String label) {
+  public AuditoriaRiscoVerdictV2 label(@jakarta.annotation.Nullable String label) {
     this.label = label;
     return this;
   }
@@ -104,17 +104,17 @@ public class AuditoriaRiscoVerdictV2 {
    * Human-readable verdict
    * @return label
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getLabel() {
     return label;
   }
 
-  public void setLabel(@javax.annotation.Nullable String label) {
+  public void setLabel(@jakarta.annotation.Nullable String label) {
     this.label = label;
   }
 
 
-  public AuditoriaRiscoVerdictV2 levelCode(@javax.annotation.Nullable String levelCode) {
+  public AuditoriaRiscoVerdictV2 levelCode(@jakarta.annotation.Nullable String levelCode) {
     this.levelCode = levelCode;
     return this;
   }
@@ -123,17 +123,17 @@ public class AuditoriaRiscoVerdictV2 {
    * Classification level code
    * @return levelCode
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getLevelCode() {
     return levelCode;
   }
 
-  public void setLevelCode(@javax.annotation.Nullable String levelCode) {
+  public void setLevelCode(@jakarta.annotation.Nullable String levelCode) {
     this.levelCode = levelCode;
   }
 
 
-  public AuditoriaRiscoVerdictV2 color(@javax.annotation.Nullable String color) {
+  public AuditoriaRiscoVerdictV2 color(@jakarta.annotation.Nullable String color) {
     this.color = color;
     return this;
   }
@@ -142,17 +142,17 @@ public class AuditoriaRiscoVerdictV2 {
    * Level color
    * @return color
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getColor() {
     return color;
   }
 
-  public void setColor(@javax.annotation.Nullable String color) {
+  public void setColor(@jakarta.annotation.Nullable String color) {
     this.color = color;
   }
 
 
-  public AuditoriaRiscoVerdictV2 icon(@javax.annotation.Nullable String icon) {
+  public AuditoriaRiscoVerdictV2 icon(@jakarta.annotation.Nullable String icon) {
     this.icon = icon;
     return this;
   }
@@ -161,17 +161,17 @@ public class AuditoriaRiscoVerdictV2 {
    * Level icon
    * @return icon
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getIcon() {
     return icon;
   }
 
-  public void setIcon(@javax.annotation.Nullable String icon) {
+  public void setIcon(@jakarta.annotation.Nullable String icon) {
     this.icon = icon;
   }
 
 
-  public AuditoriaRiscoVerdictV2 riskMatrix(@javax.annotation.Nullable Map<String, Object> riskMatrix) {
+  public AuditoriaRiscoVerdictV2 riskMatrix(@jakarta.annotation.Nullable Map<String, Object> riskMatrix) {
     this.riskMatrix = riskMatrix;
     return this;
   }
@@ -188,17 +188,17 @@ public class AuditoriaRiscoVerdictV2 {
    * Risk matrix
    * @return riskMatrix
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Map<String, Object> getRiskMatrix() {
     return riskMatrix;
   }
 
-  public void setRiskMatrix(@javax.annotation.Nullable Map<String, Object> riskMatrix) {
+  public void setRiskMatrix(@jakarta.annotation.Nullable Map<String, Object> riskMatrix) {
     this.riskMatrix = riskMatrix;
   }
 
 
-  public AuditoriaRiscoVerdictV2 appliedActions(@javax.annotation.Nullable List<AuditoriaRiscoAppliedActionV2> appliedActions) {
+  public AuditoriaRiscoVerdictV2 appliedActions(@jakarta.annotation.Nullable List<AuditoriaRiscoAppliedActionV2> appliedActions) {
     this.appliedActions = appliedActions;
     return this;
   }
@@ -215,17 +215,17 @@ public class AuditoriaRiscoVerdictV2 {
    * Applied actions
    * @return appliedActions
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<AuditoriaRiscoAppliedActionV2> getAppliedActions() {
     return appliedActions;
   }
 
-  public void setAppliedActions(@javax.annotation.Nullable List<AuditoriaRiscoAppliedActionV2> appliedActions) {
+  public void setAppliedActions(@jakarta.annotation.Nullable List<AuditoriaRiscoAppliedActionV2> appliedActions) {
     this.appliedActions = appliedActions;
   }
 
 
-  public AuditoriaRiscoVerdictV2 decisionDetails(@javax.annotation.Nullable Object decisionDetails) {
+  public AuditoriaRiscoVerdictV2 decisionDetails(@jakarta.annotation.Nullable Object decisionDetails) {
     this.decisionDetails = decisionDetails;
     return this;
   }
@@ -234,12 +234,12 @@ public class AuditoriaRiscoVerdictV2 {
    * Decision details
    * @return decisionDetails
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getDecisionDetails() {
     return decisionDetails;
   }
 
-  public void setDecisionDetails(@javax.annotation.Nullable Object decisionDetails) {
+  public void setDecisionDetails(@jakarta.annotation.Nullable Object decisionDetails) {
     this.decisionDetails = decisionDetails;
   }
 

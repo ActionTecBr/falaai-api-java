@@ -51,27 +51,27 @@ import com.falaai.JSON;
 /**
  * DiagnosticCategoricalAnalysis
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticCategoricalAnalysis {
   public static final String SERIALIZED_NAME_LIST_CHOICE = "list_choice";
   @SerializedName(SERIALIZED_NAME_LIST_CHOICE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String listChoice;
 
   public static final String SERIALIZED_NAME_JUSTIFICATION = "justification";
   @SerializedName(SERIALIZED_NAME_JUSTIFICATION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String justification;
 
   public static final String SERIALIZED_NAME_EVIDENCE_PHRASES = "evidence_phrases";
   @SerializedName(SERIALIZED_NAME_EVIDENCE_PHRASES)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<String> evidencePhrases = new ArrayList<>();
 
   public DiagnosticCategoricalAnalysis() {
   }
 
-  public DiagnosticCategoricalAnalysis listChoice(@javax.annotation.Nullable String listChoice) {
+  public DiagnosticCategoricalAnalysis listChoice(@jakarta.annotation.Nullable String listChoice) {
     this.listChoice = listChoice;
     return this;
   }
@@ -80,17 +80,17 @@ public class DiagnosticCategoricalAnalysis {
    * Selected value from classification list (used in action, label, sentiment)
    * @return listChoice
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getListChoice() {
     return listChoice;
   }
 
-  public void setListChoice(@javax.annotation.Nullable String listChoice) {
+  public void setListChoice(@jakarta.annotation.Nullable String listChoice) {
     this.listChoice = listChoice;
   }
 
 
-  public DiagnosticCategoricalAnalysis justification(@javax.annotation.Nullable String justification) {
+  public DiagnosticCategoricalAnalysis justification(@jakarta.annotation.Nullable String justification) {
     this.justification = justification;
     return this;
   }
@@ -99,17 +99,17 @@ public class DiagnosticCategoricalAnalysis {
    * Justification for the choice
    * @return justification
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getJustification() {
     return justification;
   }
 
-  public void setJustification(@javax.annotation.Nullable String justification) {
+  public void setJustification(@jakarta.annotation.Nullable String justification) {
     this.justification = justification;
   }
 
 
-  public DiagnosticCategoricalAnalysis evidencePhrases(@javax.annotation.Nullable List<String> evidencePhrases) {
+  public DiagnosticCategoricalAnalysis evidencePhrases(@jakarta.annotation.Nullable List<String> evidencePhrases) {
     this.evidencePhrases = evidencePhrases;
     return this;
   }
@@ -126,12 +126,12 @@ public class DiagnosticCategoricalAnalysis {
    * Verbatim transcript excerpts supporting the analysis
    * @return evidencePhrases
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<String> getEvidencePhrases() {
     return evidencePhrases;
   }
 
-  public void setEvidencePhrases(@javax.annotation.Nullable List<String> evidencePhrases) {
+  public void setEvidencePhrases(@jakarta.annotation.Nullable List<String> evidencePhrases) {
     this.evidencePhrases = evidencePhrases;
   }
 

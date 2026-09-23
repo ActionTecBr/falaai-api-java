@@ -54,41 +54,41 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoRequest {
   public static final String SERIALIZED_NAME_MODEL = "model";
   @SerializedName(SERIALIZED_NAME_MODEL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String model = "falaai-auditoria-risco-1";
 
   public static final String SERIALIZED_NAME_TEXT = "text";
   @SerializedName(SERIALIZED_NAME_TEXT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String text = "";
 
   public static final String SERIALIZED_NAME_DIALOG = "dialog";
   @SerializedName(SERIALIZED_NAME_DIALOG)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String dialog = "";
 
   public static final String SERIALIZED_NAME_AUDIO_EVENTS = "audio_events";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<DiagnosticAudioEvent> audioEvents = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_DURATION_SECONDS = "duration_seconds";
   @SerializedName(SERIALIZED_NAME_DURATION_SECONDS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private BigDecimal durationSeconds;
 
   public static final String SERIALIZED_NAME_LANGUAGE = "language";
   @SerializedName(SERIALIZED_NAME_LANGUAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String language;
 
   public static final String SERIALIZED_NAME_RESPONSE_LANGUAGE = "response_language";
   @SerializedName(SERIALIZED_NAME_RESPONSE_LANGUAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String responseLanguage;
 
   /**
@@ -145,28 +145,28 @@ public class AuditoriaRiscoRequest {
 
   public static final String SERIALIZED_NAME_CALL_DIRECTION = "call_direction";
   @SerializedName(SERIALIZED_NAME_CALL_DIRECTION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private CallDirectionEnum callDirection;
 
   public static final String SERIALIZED_NAME_PARTICIPANTS = "participants";
   @SerializedName(SERIALIZED_NAME_PARTICIPANTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Participant> participants = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_RESPONSE_FORMAT = "response_format";
   @SerializedName(SERIALIZED_NAME_RESPONSE_FORMAT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String responseFormat = "v2";
 
   public static final String SERIALIZED_NAME_CLIENT_REFERENCE_ID = "client_reference_id";
   @SerializedName(SERIALIZED_NAME_CLIENT_REFERENCE_ID)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String clientReferenceId;
 
   public AuditoriaRiscoRequest() {
   }
 
-  public AuditoriaRiscoRequest model(@javax.annotation.Nullable String model) {
+  public AuditoriaRiscoRequest model(@jakarta.annotation.Nullable String model) {
     this.model = model;
     return this;
   }
@@ -175,17 +175,17 @@ public class AuditoriaRiscoRequest {
    * Analysis model. Always &#39;falaai-auditoria-risco-1&#39;
    * @return model
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getModel() {
     return model;
   }
 
-  public void setModel(@javax.annotation.Nullable String model) {
+  public void setModel(@jakarta.annotation.Nullable String model) {
     this.model = model;
   }
 
 
-  public AuditoriaRiscoRequest text(@javax.annotation.Nullable String text) {
+  public AuditoriaRiscoRequest text(@jakarta.annotation.Nullable String text) {
     this.text = text;
     return this;
   }
@@ -194,17 +194,17 @@ public class AuditoriaRiscoRequest {
    * Plain transcript (fallback if dialog is empty). At least one of &#39;dialog&#39; or &#39;text&#39; required. Max 300,000 characters
    * @return text
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getText() {
     return text;
   }
 
-  public void setText(@javax.annotation.Nullable String text) {
+  public void setText(@jakarta.annotation.Nullable String text) {
     this.text = text;
   }
 
 
-  public AuditoriaRiscoRequest dialog(@javax.annotation.Nullable String dialog) {
+  public AuditoriaRiscoRequest dialog(@jakarta.annotation.Nullable String dialog) {
     this.dialog = dialog;
     return this;
   }
@@ -213,17 +213,17 @@ public class AuditoriaRiscoRequest {
    * Diarized transcript with speaker turns. PRIMARY source. Speaker labels accepted (any case): &#39;Speaker N&#39;, &#39;Interlocutor N&#39;, &#39;Hablante N&#39;, &#39;Locutor N&#39;, &#39;Orador N&#39; (space or underscore). Normalized internally to &#39;Speaker N&#39; in the response. Max 300,000 characters
    * @return dialog
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getDialog() {
     return dialog;
   }
 
-  public void setDialog(@javax.annotation.Nullable String dialog) {
+  public void setDialog(@jakarta.annotation.Nullable String dialog) {
     this.dialog = dialog;
   }
 
 
-  public AuditoriaRiscoRequest audioEvents(@javax.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
+  public AuditoriaRiscoRequest audioEvents(@jakarta.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
     this.audioEvents = audioEvents;
     return this;
   }
@@ -240,17 +240,17 @@ public class AuditoriaRiscoRequest {
    * Audio events with timestamps (correlated with turns when diarization is present)
    * @return audioEvents
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<DiagnosticAudioEvent> getAudioEvents() {
     return audioEvents;
   }
 
-  public void setAudioEvents(@javax.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
+  public void setAudioEvents(@jakarta.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
     this.audioEvents = audioEvents;
   }
 
 
-  public AuditoriaRiscoRequest durationSeconds(@javax.annotation.Nonnull BigDecimal durationSeconds) {
+  public AuditoriaRiscoRequest durationSeconds(@jakarta.annotation.Nonnull BigDecimal durationSeconds) {
     this.durationSeconds = durationSeconds;
     return this;
   }
@@ -260,17 +260,17 @@ public class AuditoriaRiscoRequest {
    * minimum: 1.0
    * @return durationSeconds
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public BigDecimal getDurationSeconds() {
     return durationSeconds;
   }
 
-  public void setDurationSeconds(@javax.annotation.Nonnull BigDecimal durationSeconds) {
+  public void setDurationSeconds(@jakarta.annotation.Nonnull BigDecimal durationSeconds) {
     this.durationSeconds = durationSeconds;
   }
 
 
-  public AuditoriaRiscoRequest language(@javax.annotation.Nonnull String language) {
+  public AuditoriaRiscoRequest language(@jakarta.annotation.Nonnull String language) {
     this.language = language;
     return this;
   }
@@ -279,17 +279,17 @@ public class AuditoriaRiscoRequest {
    * Language of the transcript being analyzed. Must match the dialog/text language. Accepted: pt-BR, en-US, es-ES.
    * @return language
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getLanguage() {
     return language;
   }
 
-  public void setLanguage(@javax.annotation.Nonnull String language) {
+  public void setLanguage(@jakarta.annotation.Nonnull String language) {
     this.language = language;
   }
 
 
-  public AuditoriaRiscoRequest responseLanguage(@javax.annotation.Nonnull String responseLanguage) {
+  public AuditoriaRiscoRequest responseLanguage(@jakarta.annotation.Nonnull String responseLanguage) {
     this.responseLanguage = responseLanguage;
     return this;
   }
@@ -298,17 +298,17 @@ public class AuditoriaRiscoRequest {
    * Language for analysis results (labels, categories, levels, actions, HTML report). Can differ from &#39;language&#39;. Accepted: pt-BR, en-US, es-ES.
    * @return responseLanguage
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getResponseLanguage() {
     return responseLanguage;
   }
 
-  public void setResponseLanguage(@javax.annotation.Nonnull String responseLanguage) {
+  public void setResponseLanguage(@jakarta.annotation.Nonnull String responseLanguage) {
     this.responseLanguage = responseLanguage;
   }
 
 
-  public AuditoriaRiscoRequest callDirection(@javax.annotation.Nullable CallDirectionEnum callDirection) {
+  public AuditoriaRiscoRequest callDirection(@jakarta.annotation.Nullable CallDirectionEnum callDirection) {
     this.callDirection = callDirection;
     return this;
   }
@@ -317,17 +317,17 @@ public class AuditoriaRiscoRequest {
    * Who originated the call. inbound&#x3D;client called, outbound&#x3D;company called. If omitted, LLM infers from context.
    * @return callDirection
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public CallDirectionEnum getCallDirection() {
     return callDirection;
   }
 
-  public void setCallDirection(@javax.annotation.Nullable CallDirectionEnum callDirection) {
+  public void setCallDirection(@jakarta.annotation.Nullable CallDirectionEnum callDirection) {
     this.callDirection = callDirection;
   }
 
 
-  public AuditoriaRiscoRequest participants(@javax.annotation.Nullable List<Participant> participants) {
+  public AuditoriaRiscoRequest participants(@jakarta.annotation.Nullable List<Participant> participants) {
     this.participants = participants;
     return this;
   }
@@ -344,17 +344,17 @@ public class AuditoriaRiscoRequest {
    * Explicit participant roles. If omitted, LLM infers from dialog (Lei 17). When provided, used as ground truth â€” no inference.
    * @return participants
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Participant> getParticipants() {
     return participants;
   }
 
-  public void setParticipants(@javax.annotation.Nullable List<Participant> participants) {
+  public void setParticipants(@jakarta.annotation.Nullable List<Participant> participants) {
     this.participants = participants;
   }
 
 
-  public AuditoriaRiscoRequest responseFormat(@javax.annotation.Nullable String responseFormat) {
+  public AuditoriaRiscoRequest responseFormat(@jakarta.annotation.Nullable String responseFormat) {
     this.responseFormat = responseFormat;
     return this;
   }
@@ -363,17 +363,17 @@ public class AuditoriaRiscoRequest {
    * Response format version. v1&#x3D;legacy flat PT-BR, v2&#x3D;structured EN-US blocks.
    * @return responseFormat
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getResponseFormat() {
     return responseFormat;
   }
 
-  public void setResponseFormat(@javax.annotation.Nullable String responseFormat) {
+  public void setResponseFormat(@jakarta.annotation.Nullable String responseFormat) {
     this.responseFormat = responseFormat;
   }
 
 
-  public AuditoriaRiscoRequest clientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public AuditoriaRiscoRequest clientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
     return this;
   }
@@ -382,12 +382,12 @@ public class AuditoriaRiscoRequest {
    * Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9._:-], max 128 chars. Not idempotency.
    * @return clientReferenceId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getClientReferenceId() {
     return clientReferenceId;
   }
 
-  public void setClientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public void setClientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
   }
 

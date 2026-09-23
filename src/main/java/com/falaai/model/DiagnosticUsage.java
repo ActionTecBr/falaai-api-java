@@ -49,27 +49,27 @@ import com.falaai.JSON;
 /**
  * DiagnosticUsage
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticUsage {
   public static final String SERIALIZED_NAME_CHARACTERS = "characters";
   @SerializedName(SERIALIZED_NAME_CHARACTERS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer characters;
 
   public static final String SERIALIZED_NAME_CREDITS_CONSUMED = "credits_consumed";
   @SerializedName(SERIALIZED_NAME_CREDITS_CONSUMED)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer creditsConsumed;
 
   public static final String SERIALIZED_NAME_PROCESSING_MS = "processing_ms";
   @SerializedName(SERIALIZED_NAME_PROCESSING_MS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer processingMs;
 
   public DiagnosticUsage() {
   }
 
-  public DiagnosticUsage characters(@javax.annotation.Nonnull Integer characters) {
+  public DiagnosticUsage characters(@jakarta.annotation.Nonnull Integer characters) {
     this.characters = characters;
     return this;
   }
@@ -78,17 +78,17 @@ public class DiagnosticUsage {
    * Total characters analyzed
    * @return characters
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getCharacters() {
     return characters;
   }
 
-  public void setCharacters(@javax.annotation.Nonnull Integer characters) {
+  public void setCharacters(@jakarta.annotation.Nonnull Integer characters) {
     this.characters = characters;
   }
 
 
-  public DiagnosticUsage creditsConsumed(@javax.annotation.Nonnull Integer creditsConsumed) {
+  public DiagnosticUsage creditsConsumed(@jakarta.annotation.Nonnull Integer creditsConsumed) {
     this.creditsConsumed = creditsConsumed;
     return this;
   }
@@ -97,17 +97,17 @@ public class DiagnosticUsage {
    * Credits consumed: max(ceil(chars/500)*3, 3) * 5
    * @return creditsConsumed
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getCreditsConsumed() {
     return creditsConsumed;
   }
 
-  public void setCreditsConsumed(@javax.annotation.Nonnull Integer creditsConsumed) {
+  public void setCreditsConsumed(@jakarta.annotation.Nonnull Integer creditsConsumed) {
     this.creditsConsumed = creditsConsumed;
   }
 
 
-  public DiagnosticUsage processingMs(@javax.annotation.Nonnull Integer processingMs) {
+  public DiagnosticUsage processingMs(@jakarta.annotation.Nonnull Integer processingMs) {
     this.processingMs = processingMs;
     return this;
   }
@@ -116,12 +116,12 @@ public class DiagnosticUsage {
    * Total processing time in milliseconds
    * @return processingMs
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getProcessingMs() {
     return processingMs;
   }
 
-  public void setProcessingMs(@javax.annotation.Nonnull Integer processingMs) {
+  public void setProcessingMs(@jakarta.annotation.Nonnull Integer processingMs) {
     this.processingMs = processingMs;
   }
 

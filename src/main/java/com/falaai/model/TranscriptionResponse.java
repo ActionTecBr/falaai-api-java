@@ -55,92 +55,92 @@ import com.falaai.JSON;
 /**
  * TranscriptionResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class TranscriptionResponse {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String id;
 
   public static final String SERIALIZED_NAME_OBJECT = "object";
   @SerializedName(SERIALIZED_NAME_OBJECT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String _object;
 
   public static final String SERIALIZED_NAME_MODEL = "model";
   @SerializedName(SERIALIZED_NAME_MODEL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String model;
 
   public static final String SERIALIZED_NAME_FILENAME = "filename";
   @SerializedName(SERIALIZED_NAME_FILENAME)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String filename;
 
   public static final String SERIALIZED_NAME_PROCESSED_AT = "processed_at";
   @SerializedName(SERIALIZED_NAME_PROCESSED_AT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String processedAt;
 
   public static final String SERIALIZED_NAME_USAGE = "usage";
   @SerializedName(SERIALIZED_NAME_USAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private TranscriptionUsage usage;
 
   public static final String SERIALIZED_NAME_LANGUAGE = "language";
   @SerializedName(SERIALIZED_NAME_LANGUAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String language;
 
   public static final String SERIALIZED_NAME_LANGUAGE_CONFIDENCE = "language_confidence";
   @SerializedName(SERIALIZED_NAME_LANGUAGE_CONFIDENCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal languageConfidence;
 
   public static final String SERIALIZED_NAME_DURATION_SECONDS = "duration_seconds";
   @SerializedName(SERIALIZED_NAME_DURATION_SECONDS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private BigDecimal durationSeconds;
 
   public static final String SERIALIZED_NAME_TEXT = "text";
   @SerializedName(SERIALIZED_NAME_TEXT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String text;
 
   public static final String SERIALIZED_NAME_DIALOG = "dialog";
   @SerializedName(SERIALIZED_NAME_DIALOG)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String dialog;
 
   public static final String SERIALIZED_NAME_AUDIO_EVENTS = "audio_events";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENTS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<AudioEvent> audioEvents = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_EVENT_TYPES = "event_types";
   @SerializedName(SERIALIZED_NAME_EVENT_TYPES)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<String> eventTypes = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_WORD_COUNT = "word_count";
   @SerializedName(SERIALIZED_NAME_WORD_COUNT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer wordCount;
 
   public static final String SERIALIZED_NAME_INPUT = "input";
   @SerializedName(SERIALIZED_NAME_INPUT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AudioInputMeta input;
 
   public static final String SERIALIZED_NAME_CLIENT_REFERENCE_ID = "client_reference_id";
   @SerializedName(SERIALIZED_NAME_CLIENT_REFERENCE_ID)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String clientReferenceId;
 
   public TranscriptionResponse() {
   }
 
-  public TranscriptionResponse id(@javax.annotation.Nonnull String id) {
+  public TranscriptionResponse id(@jakarta.annotation.Nonnull String id) {
     this.id = id;
     return this;
   }
@@ -149,17 +149,17 @@ public class TranscriptionResponse {
    * Unique transcription identifier. Prefix &#39;tr-&#39; followed by UUID
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
 
-  public void setId(@javax.annotation.Nonnull String id) {
+  public void setId(@jakarta.annotation.Nonnull String id) {
     this.id = id;
   }
 
 
-  public TranscriptionResponse _object(@javax.annotation.Nonnull String _object) {
+  public TranscriptionResponse _object(@jakarta.annotation.Nonnull String _object) {
     this._object = _object;
     return this;
   }
@@ -168,17 +168,17 @@ public class TranscriptionResponse {
    * Returned object type. Always &#39;transcription&#39;
    * @return _object
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getObject() {
     return _object;
   }
 
-  public void setObject(@javax.annotation.Nonnull String _object) {
+  public void setObject(@jakarta.annotation.Nonnull String _object) {
     this._object = _object;
   }
 
 
-  public TranscriptionResponse model(@javax.annotation.Nonnull String model) {
+  public TranscriptionResponse model(@jakarta.annotation.Nonnull String model) {
     this.model = model;
     return this;
   }
@@ -187,17 +187,17 @@ public class TranscriptionResponse {
    * Model used for transcription. Ex: &#39;falaai-transcribe-1&#39;
    * @return model
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getModel() {
     return model;
   }
 
-  public void setModel(@javax.annotation.Nonnull String model) {
+  public void setModel(@jakarta.annotation.Nonnull String model) {
     this.model = model;
   }
 
 
-  public TranscriptionResponse filename(@javax.annotation.Nonnull String filename) {
+  public TranscriptionResponse filename(@jakarta.annotation.Nonnull String filename) {
     this.filename = filename;
     return this;
   }
@@ -206,17 +206,17 @@ public class TranscriptionResponse {
    * Original audio file name uploaded
    * @return filename
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getFilename() {
     return filename;
   }
 
-  public void setFilename(@javax.annotation.Nonnull String filename) {
+  public void setFilename(@jakarta.annotation.Nonnull String filename) {
     this.filename = filename;
   }
 
 
-  public TranscriptionResponse processedAt(@javax.annotation.Nonnull String processedAt) {
+  public TranscriptionResponse processedAt(@jakarta.annotation.Nonnull String processedAt) {
     this.processedAt = processedAt;
     return this;
   }
@@ -225,17 +225,17 @@ public class TranscriptionResponse {
    * Processing datetime in ISO 8601 UTC format
    * @return processedAt
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getProcessedAt() {
     return processedAt;
   }
 
-  public void setProcessedAt(@javax.annotation.Nonnull String processedAt) {
+  public void setProcessedAt(@jakarta.annotation.Nonnull String processedAt) {
     this.processedAt = processedAt;
   }
 
 
-  public TranscriptionResponse usage(@javax.annotation.Nonnull TranscriptionUsage usage) {
+  public TranscriptionResponse usage(@jakarta.annotation.Nonnull TranscriptionUsage usage) {
     this.usage = usage;
     return this;
   }
@@ -244,17 +244,17 @@ public class TranscriptionResponse {
    * Usage and processing information
    * @return usage
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public TranscriptionUsage getUsage() {
     return usage;
   }
 
-  public void setUsage(@javax.annotation.Nonnull TranscriptionUsage usage) {
+  public void setUsage(@jakarta.annotation.Nonnull TranscriptionUsage usage) {
     this.usage = usage;
   }
 
 
-  public TranscriptionResponse language(@javax.annotation.Nonnull String language) {
+  public TranscriptionResponse language(@jakarta.annotation.Nonnull String language) {
     this.language = language;
     return this;
   }
@@ -263,17 +263,17 @@ public class TranscriptionResponse {
    * ISO 639-3 language code detected in audio. Ex: &#39;por&#39; (Portuguese), &#39;eng&#39; (English), &#39;spa&#39; (Spanish)
    * @return language
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getLanguage() {
     return language;
   }
 
-  public void setLanguage(@javax.annotation.Nonnull String language) {
+  public void setLanguage(@jakarta.annotation.Nonnull String language) {
     this.language = language;
   }
 
 
-  public TranscriptionResponse languageConfidence(@javax.annotation.Nullable BigDecimal languageConfidence) {
+  public TranscriptionResponse languageConfidence(@jakarta.annotation.Nullable BigDecimal languageConfidence) {
     this.languageConfidence = languageConfidence;
     return this;
   }
@@ -282,17 +282,17 @@ public class TranscriptionResponse {
    * Language detection confidence level (0.0 to 1.0). Higher is more reliable
    * @return languageConfidence
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getLanguageConfidence() {
     return languageConfidence;
   }
 
-  public void setLanguageConfidence(@javax.annotation.Nullable BigDecimal languageConfidence) {
+  public void setLanguageConfidence(@jakarta.annotation.Nullable BigDecimal languageConfidence) {
     this.languageConfidence = languageConfidence;
   }
 
 
-  public TranscriptionResponse durationSeconds(@javax.annotation.Nonnull BigDecimal durationSeconds) {
+  public TranscriptionResponse durationSeconds(@jakarta.annotation.Nonnull BigDecimal durationSeconds) {
     this.durationSeconds = durationSeconds;
     return this;
   }
@@ -301,17 +301,17 @@ public class TranscriptionResponse {
    * Total audio duration in seconds
    * @return durationSeconds
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public BigDecimal getDurationSeconds() {
     return durationSeconds;
   }
 
-  public void setDurationSeconds(@javax.annotation.Nonnull BigDecimal durationSeconds) {
+  public void setDurationSeconds(@jakarta.annotation.Nonnull BigDecimal durationSeconds) {
     this.durationSeconds = durationSeconds;
   }
 
 
-  public TranscriptionResponse text(@javax.annotation.Nonnull String text) {
+  public TranscriptionResponse text(@jakarta.annotation.Nonnull String text) {
     this.text = text;
     return this;
   }
@@ -320,17 +320,17 @@ public class TranscriptionResponse {
    * Full transcription as plain text, including audio events in brackets
    * @return text
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getText() {
     return text;
   }
 
-  public void setText(@javax.annotation.Nonnull String text) {
+  public void setText(@jakarta.annotation.Nonnull String text) {
     this.text = text;
   }
 
 
-  public TranscriptionResponse dialog(@javax.annotation.Nonnull String dialog) {
+  public TranscriptionResponse dialog(@jakarta.annotation.Nonnull String dialog) {
     this.dialog = dialog;
     return this;
   }
@@ -339,17 +339,17 @@ public class TranscriptionResponse {
    * Turn-by-turn formatted transcript with speaker identification and start/end timestamps
    * @return dialog
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getDialog() {
     return dialog;
   }
 
-  public void setDialog(@javax.annotation.Nonnull String dialog) {
+  public void setDialog(@jakarta.annotation.Nonnull String dialog) {
     this.dialog = dialog;
   }
 
 
-  public TranscriptionResponse audioEvents(@javax.annotation.Nonnull List<AudioEvent> audioEvents) {
+  public TranscriptionResponse audioEvents(@jakarta.annotation.Nonnull List<AudioEvent> audioEvents) {
     this.audioEvents = audioEvents;
     return this;
   }
@@ -366,17 +366,17 @@ public class TranscriptionResponse {
    * List of detected audio events (laughs, sighs, pauses, etc) with timestamps and duration
    * @return audioEvents
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<AudioEvent> getAudioEvents() {
     return audioEvents;
   }
 
-  public void setAudioEvents(@javax.annotation.Nonnull List<AudioEvent> audioEvents) {
+  public void setAudioEvents(@jakarta.annotation.Nonnull List<AudioEvent> audioEvents) {
     this.audioEvents = audioEvents;
   }
 
 
-  public TranscriptionResponse eventTypes(@javax.annotation.Nonnull List<String> eventTypes) {
+  public TranscriptionResponse eventTypes(@jakarta.annotation.Nonnull List<String> eventTypes) {
     this.eventTypes = eventTypes;
     return this;
   }
@@ -393,17 +393,17 @@ public class TranscriptionResponse {
    * Unique audio event types found in transcription, alphabetically sorted
    * @return eventTypes
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<String> getEventTypes() {
     return eventTypes;
   }
 
-  public void setEventTypes(@javax.annotation.Nonnull List<String> eventTypes) {
+  public void setEventTypes(@jakarta.annotation.Nonnull List<String> eventTypes) {
     this.eventTypes = eventTypes;
   }
 
 
-  public TranscriptionResponse wordCount(@javax.annotation.Nonnull Integer wordCount) {
+  public TranscriptionResponse wordCount(@jakarta.annotation.Nonnull Integer wordCount) {
     this.wordCount = wordCount;
     return this;
   }
@@ -412,17 +412,17 @@ public class TranscriptionResponse {
    * Total number of recognized words in transcription
    * @return wordCount
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getWordCount() {
     return wordCount;
   }
 
-  public void setWordCount(@javax.annotation.Nonnull Integer wordCount) {
+  public void setWordCount(@jakarta.annotation.Nonnull Integer wordCount) {
     this.wordCount = wordCount;
   }
 
 
-  public TranscriptionResponse input(@javax.annotation.Nonnull AudioInputMeta input) {
+  public TranscriptionResponse input(@jakarta.annotation.Nonnull AudioInputMeta input) {
     this.input = input;
     return this;
   }
@@ -431,17 +431,17 @@ public class TranscriptionResponse {
    * Metadados do arquivo de audio enviado (duracao, formato, codec, sample rate, canais)
    * @return input
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AudioInputMeta getInput() {
     return input;
   }
 
-  public void setInput(@javax.annotation.Nonnull AudioInputMeta input) {
+  public void setInput(@jakarta.annotation.Nonnull AudioInputMeta input) {
     this.input = input;
   }
 
 
-  public TranscriptionResponse clientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public TranscriptionResponse clientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
     return this;
   }
@@ -450,12 +450,12 @@ public class TranscriptionResponse {
    * Client-supplied ID echoed verbatim (if provided in request)
    * @return clientReferenceId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getClientReferenceId() {
     return clientReferenceId;
   }
 
-  public void setClientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public void setClientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
   }
 

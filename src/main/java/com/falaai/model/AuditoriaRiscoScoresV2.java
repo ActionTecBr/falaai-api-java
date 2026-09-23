@@ -52,22 +52,22 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoScoresV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoScoresV2 {
   public static final String SERIALIZED_NAME_CONVERSATION = "conversation";
   @SerializedName(SERIALIZED_NAME_CONVERSATION)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoConversationScoresV2 conversation;
 
   public static final String SERIALIZED_NAME_PER_PARTICIPANT = "per_participant";
   @SerializedName(SERIALIZED_NAME_PER_PARTICIPANT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Map<String, Object> perParticipant = new HashMap<>();
 
   public AuditoriaRiscoScoresV2() {
   }
 
-  public AuditoriaRiscoScoresV2 conversation(@javax.annotation.Nonnull AuditoriaRiscoConversationScoresV2 conversation) {
+  public AuditoriaRiscoScoresV2 conversation(@jakarta.annotation.Nonnull AuditoriaRiscoConversationScoresV2 conversation) {
     this.conversation = conversation;
     return this;
   }
@@ -76,17 +76,17 @@ public class AuditoriaRiscoScoresV2 {
    * Conversation scores
    * @return conversation
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoConversationScoresV2 getConversation() {
     return conversation;
   }
 
-  public void setConversation(@javax.annotation.Nonnull AuditoriaRiscoConversationScoresV2 conversation) {
+  public void setConversation(@jakarta.annotation.Nonnull AuditoriaRiscoConversationScoresV2 conversation) {
     this.conversation = conversation;
   }
 
 
-  public AuditoriaRiscoScoresV2 perParticipant(@javax.annotation.Nullable Map<String, Object> perParticipant) {
+  public AuditoriaRiscoScoresV2 perParticipant(@jakarta.annotation.Nullable Map<String, Object> perParticipant) {
     this.perParticipant = perParticipant;
     return this;
   }
@@ -103,12 +103,12 @@ public class AuditoriaRiscoScoresV2 {
    * Per-participant KPIs
    * @return perParticipant
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Map<String, Object> getPerParticipant() {
     return perParticipant;
   }
 
-  public void setPerParticipant(@javax.annotation.Nullable Map<String, Object> perParticipant) {
+  public void setPerParticipant(@jakarta.annotation.Nullable Map<String, Object> perParticipant) {
     this.perParticipant = perParticipant;
   }
 

@@ -91,7 +91,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createEmailAlertV1EmailAlertsPostCall(@javax.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call createEmailAlertV1EmailAlertsPostCall(@jakarta.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -137,7 +137,7 @@ public class EmailAlertsApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call createEmailAlertV1EmailAlertsPostValidateBeforeCall(@javax.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call createEmailAlertV1EmailAlertsPostValidateBeforeCall(@jakarta.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'createEmailAlertRequest' is set
         if (createEmailAlertRequest == null) {
             throw new ApiException("Missing the required parameter 'createEmailAlertRequest' when calling createEmailAlertV1EmailAlertsPost(Async)");
@@ -161,7 +161,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public EmailAlertItem createEmailAlertV1EmailAlertsPost(@javax.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest) throws ApiException {
+    public EmailAlertItem createEmailAlertV1EmailAlertsPost(@jakarta.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest) throws ApiException {
         ApiResponse<EmailAlertItem> localVarResp = createEmailAlertV1EmailAlertsPostWithHttpInfo(createEmailAlertRequest);
         return localVarResp.getData();
     }
@@ -180,7 +180,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<EmailAlertItem> createEmailAlertV1EmailAlertsPostWithHttpInfo(@javax.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest) throws ApiException {
+    public ApiResponse<EmailAlertItem> createEmailAlertV1EmailAlertsPostWithHttpInfo(@jakarta.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest) throws ApiException {
         okhttp3.Call localVarCall = createEmailAlertV1EmailAlertsPostValidateBeforeCall(createEmailAlertRequest, null);
         Type localVarReturnType = new TypeToken<EmailAlertItem>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -201,7 +201,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createEmailAlertV1EmailAlertsPostAsync(@javax.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest, final ApiCallback<EmailAlertItem> _callback) throws ApiException {
+    public okhttp3.Call createEmailAlertV1EmailAlertsPostAsync(@jakarta.annotation.Nonnull CreateEmailAlertRequest createEmailAlertRequest, final ApiCallback<EmailAlertItem> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = createEmailAlertV1EmailAlertsPostValidateBeforeCall(createEmailAlertRequest, _callback);
         Type localVarReturnType = new TypeToken<EmailAlertItem>(){}.getType();
@@ -222,7 +222,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call deleteEmailAlertV1EmailAlertsAlertIdDeleteCall(@javax.annotation.Nonnull String alertId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call deleteEmailAlertV1EmailAlertsAlertIdDeleteCall(@jakarta.annotation.Nonnull String alertId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -268,7 +268,7 @@ public class EmailAlertsApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call deleteEmailAlertV1EmailAlertsAlertIdDeleteValidateBeforeCall(@javax.annotation.Nonnull String alertId, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call deleteEmailAlertV1EmailAlertsAlertIdDeleteValidateBeforeCall(@jakarta.annotation.Nonnull String alertId, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'alertId' is set
         if (alertId == null) {
             throw new ApiException("Missing the required parameter 'alertId' when calling deleteEmailAlertV1EmailAlertsAlertIdDelete(Async)");
@@ -292,7 +292,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public EmailAlertMessageResponse deleteEmailAlertV1EmailAlertsAlertIdDelete(@javax.annotation.Nonnull String alertId) throws ApiException {
+    public EmailAlertMessageResponse deleteEmailAlertV1EmailAlertsAlertIdDelete(@jakarta.annotation.Nonnull String alertId) throws ApiException {
         ApiResponse<EmailAlertMessageResponse> localVarResp = deleteEmailAlertV1EmailAlertsAlertIdDeleteWithHttpInfo(alertId);
         return localVarResp.getData();
     }
@@ -311,7 +311,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<EmailAlertMessageResponse> deleteEmailAlertV1EmailAlertsAlertIdDeleteWithHttpInfo(@javax.annotation.Nonnull String alertId) throws ApiException {
+    public ApiResponse<EmailAlertMessageResponse> deleteEmailAlertV1EmailAlertsAlertIdDeleteWithHttpInfo(@jakarta.annotation.Nonnull String alertId) throws ApiException {
         okhttp3.Call localVarCall = deleteEmailAlertV1EmailAlertsAlertIdDeleteValidateBeforeCall(alertId, null);
         Type localVarReturnType = new TypeToken<EmailAlertMessageResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -332,7 +332,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call deleteEmailAlertV1EmailAlertsAlertIdDeleteAsync(@javax.annotation.Nonnull String alertId, final ApiCallback<EmailAlertMessageResponse> _callback) throws ApiException {
+    public okhttp3.Call deleteEmailAlertV1EmailAlertsAlertIdDeleteAsync(@jakarta.annotation.Nonnull String alertId, final ApiCallback<EmailAlertMessageResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = deleteEmailAlertV1EmailAlertsAlertIdDeleteValidateBeforeCall(alertId, _callback);
         Type localVarReturnType = new TypeToken<EmailAlertMessageResponse>(){}.getType();
@@ -354,7 +354,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call listEmailAlertsV1EmailAlertsGetCall(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call listEmailAlertsV1EmailAlertsGetCall(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -407,7 +407,7 @@ public class EmailAlertsApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call listEmailAlertsV1EmailAlertsGetValidateBeforeCall(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call listEmailAlertsV1EmailAlertsGetValidateBeforeCall(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
         return listEmailAlertsV1EmailAlertsGetCall(page, limit, _callback);
 
     }
@@ -427,7 +427,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public EmailAlertListResponse listEmailAlertsV1EmailAlertsGet(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit) throws ApiException {
+    public EmailAlertListResponse listEmailAlertsV1EmailAlertsGet(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit) throws ApiException {
         ApiResponse<EmailAlertListResponse> localVarResp = listEmailAlertsV1EmailAlertsGetWithHttpInfo(page, limit);
         return localVarResp.getData();
     }
@@ -447,7 +447,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<EmailAlertListResponse> listEmailAlertsV1EmailAlertsGetWithHttpInfo(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit) throws ApiException {
+    public ApiResponse<EmailAlertListResponse> listEmailAlertsV1EmailAlertsGetWithHttpInfo(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit) throws ApiException {
         okhttp3.Call localVarCall = listEmailAlertsV1EmailAlertsGetValidateBeforeCall(page, limit, null);
         Type localVarReturnType = new TypeToken<EmailAlertListResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -469,7 +469,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call listEmailAlertsV1EmailAlertsGetAsync(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, final ApiCallback<EmailAlertListResponse> _callback) throws ApiException {
+    public okhttp3.Call listEmailAlertsV1EmailAlertsGetAsync(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, final ApiCallback<EmailAlertListResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = listEmailAlertsV1EmailAlertsGetValidateBeforeCall(page, limit, _callback);
         Type localVarReturnType = new TypeToken<EmailAlertListResponse>(){}.getType();
@@ -491,7 +491,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call updateEmailAlertV1EmailAlertsAlertIdPutCall(@javax.annotation.Nonnull String alertId, @javax.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call updateEmailAlertV1EmailAlertsAlertIdPutCall(@jakarta.annotation.Nonnull String alertId, @jakarta.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -538,7 +538,7 @@ public class EmailAlertsApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call updateEmailAlertV1EmailAlertsAlertIdPutValidateBeforeCall(@javax.annotation.Nonnull String alertId, @javax.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call updateEmailAlertV1EmailAlertsAlertIdPutValidateBeforeCall(@jakarta.annotation.Nonnull String alertId, @jakarta.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'alertId' is set
         if (alertId == null) {
             throw new ApiException("Missing the required parameter 'alertId' when calling updateEmailAlertV1EmailAlertsAlertIdPut(Async)");
@@ -568,7 +568,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public EmailAlertMessageResponse updateEmailAlertV1EmailAlertsAlertIdPut(@javax.annotation.Nonnull String alertId, @javax.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest) throws ApiException {
+    public EmailAlertMessageResponse updateEmailAlertV1EmailAlertsAlertIdPut(@jakarta.annotation.Nonnull String alertId, @jakarta.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest) throws ApiException {
         ApiResponse<EmailAlertMessageResponse> localVarResp = updateEmailAlertV1EmailAlertsAlertIdPutWithHttpInfo(alertId, updateEmailAlertRequest);
         return localVarResp.getData();
     }
@@ -588,7 +588,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<EmailAlertMessageResponse> updateEmailAlertV1EmailAlertsAlertIdPutWithHttpInfo(@javax.annotation.Nonnull String alertId, @javax.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest) throws ApiException {
+    public ApiResponse<EmailAlertMessageResponse> updateEmailAlertV1EmailAlertsAlertIdPutWithHttpInfo(@jakarta.annotation.Nonnull String alertId, @jakarta.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest) throws ApiException {
         okhttp3.Call localVarCall = updateEmailAlertV1EmailAlertsAlertIdPutValidateBeforeCall(alertId, updateEmailAlertRequest, null);
         Type localVarReturnType = new TypeToken<EmailAlertMessageResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -610,7 +610,7 @@ public class EmailAlertsApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call updateEmailAlertV1EmailAlertsAlertIdPutAsync(@javax.annotation.Nonnull String alertId, @javax.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest, final ApiCallback<EmailAlertMessageResponse> _callback) throws ApiException {
+    public okhttp3.Call updateEmailAlertV1EmailAlertsAlertIdPutAsync(@jakarta.annotation.Nonnull String alertId, @jakarta.annotation.Nonnull UpdateEmailAlertRequest updateEmailAlertRequest, final ApiCallback<EmailAlertMessageResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = updateEmailAlertV1EmailAlertsAlertIdPutValidateBeforeCall(alertId, updateEmailAlertRequest, _callback);
         Type localVarReturnType = new TypeToken<EmailAlertMessageResponse>(){}.getType();

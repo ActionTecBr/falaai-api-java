@@ -49,27 +49,27 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoUsageV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoUsageV2 {
   public static final String SERIALIZED_NAME_CHARACTERS = "characters";
   @SerializedName(SERIALIZED_NAME_CHARACTERS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer characters;
 
   public static final String SERIALIZED_NAME_CREDITS_CONSUMED = "credits_consumed";
   @SerializedName(SERIALIZED_NAME_CREDITS_CONSUMED)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer creditsConsumed;
 
   public static final String SERIALIZED_NAME_PROCESSING_MS = "processing_ms";
   @SerializedName(SERIALIZED_NAME_PROCESSING_MS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer processingMs;
 
   public AuditoriaRiscoUsageV2() {
   }
 
-  public AuditoriaRiscoUsageV2 characters(@javax.annotation.Nonnull Integer characters) {
+  public AuditoriaRiscoUsageV2 characters(@jakarta.annotation.Nonnull Integer characters) {
     this.characters = characters;
     return this;
   }
@@ -78,17 +78,17 @@ public class AuditoriaRiscoUsageV2 {
    * Characters analyzed
    * @return characters
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getCharacters() {
     return characters;
   }
 
-  public void setCharacters(@javax.annotation.Nonnull Integer characters) {
+  public void setCharacters(@jakarta.annotation.Nonnull Integer characters) {
     this.characters = characters;
   }
 
 
-  public AuditoriaRiscoUsageV2 creditsConsumed(@javax.annotation.Nonnull Integer creditsConsumed) {
+  public AuditoriaRiscoUsageV2 creditsConsumed(@jakarta.annotation.Nonnull Integer creditsConsumed) {
     this.creditsConsumed = creditsConsumed;
     return this;
   }
@@ -97,17 +97,17 @@ public class AuditoriaRiscoUsageV2 {
    * Credits consumed
    * @return creditsConsumed
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getCreditsConsumed() {
     return creditsConsumed;
   }
 
-  public void setCreditsConsumed(@javax.annotation.Nonnull Integer creditsConsumed) {
+  public void setCreditsConsumed(@jakarta.annotation.Nonnull Integer creditsConsumed) {
     this.creditsConsumed = creditsConsumed;
   }
 
 
-  public AuditoriaRiscoUsageV2 processingMs(@javax.annotation.Nonnull Integer processingMs) {
+  public AuditoriaRiscoUsageV2 processingMs(@jakarta.annotation.Nonnull Integer processingMs) {
     this.processingMs = processingMs;
     return this;
   }
@@ -116,12 +116,12 @@ public class AuditoriaRiscoUsageV2 {
    * Processing time (ms)
    * @return processingMs
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getProcessingMs() {
     return processingMs;
   }
 
-  public void setProcessingMs(@javax.annotation.Nonnull Integer processingMs) {
+  public void setProcessingMs(@jakarta.annotation.Nonnull Integer processingMs) {
     this.processingMs = processingMs;
   }
 

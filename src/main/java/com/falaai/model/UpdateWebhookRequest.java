@@ -52,37 +52,37 @@ import com.falaai.JSON;
 /**
  * UpdateWebhookRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class UpdateWebhookRequest {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String name;
 
   public static final String SERIALIZED_NAME_URL = "url";
   @SerializedName(SERIALIZED_NAME_URL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String url;
 
   public static final String SERIALIZED_NAME_EVENTS = "events";
   @SerializedName(SERIALIZED_NAME_EVENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<WebhookEvent> events;
 
   public static final String SERIALIZED_NAME_RETRY_ENABLED = "retry_enabled";
   @SerializedName(SERIALIZED_NAME_RETRY_ENABLED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean retryEnabled;
 
   public static final String SERIALIZED_NAME_ACTIVE = "active";
   @SerializedName(SERIALIZED_NAME_ACTIVE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean active;
 
   public UpdateWebhookRequest() {
   }
 
-  public UpdateWebhookRequest name(@javax.annotation.Nullable String name) {
+  public UpdateWebhookRequest name(@jakarta.annotation.Nullable String name) {
     this.name = name;
     return this;
   }
@@ -91,17 +91,17 @@ public class UpdateWebhookRequest {
    * Nome identificador
    * @return name
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nullable String name) {
+  public void setName(@jakarta.annotation.Nullable String name) {
     this.name = name;
   }
 
 
-  public UpdateWebhookRequest url(@javax.annotation.Nullable String url) {
+  public UpdateWebhookRequest url(@jakarta.annotation.Nullable String url) {
     this.url = url;
     return this;
   }
@@ -110,17 +110,17 @@ public class UpdateWebhookRequest {
    * URL HTTPS destino
    * @return url
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getUrl() {
     return url;
   }
 
-  public void setUrl(@javax.annotation.Nullable String url) {
+  public void setUrl(@jakarta.annotation.Nullable String url) {
     this.url = url;
   }
 
 
-  public UpdateWebhookRequest events(@javax.annotation.Nullable List<WebhookEvent> events) {
+  public UpdateWebhookRequest events(@jakarta.annotation.Nullable List<WebhookEvent> events) {
     this.events = events;
     return this;
   }
@@ -137,17 +137,17 @@ public class UpdateWebhookRequest {
    * Eventos subscritos
    * @return events
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<WebhookEvent> getEvents() {
     return events;
   }
 
-  public void setEvents(@javax.annotation.Nullable List<WebhookEvent> events) {
+  public void setEvents(@jakarta.annotation.Nullable List<WebhookEvent> events) {
     this.events = events;
   }
 
 
-  public UpdateWebhookRequest retryEnabled(@javax.annotation.Nullable Boolean retryEnabled) {
+  public UpdateWebhookRequest retryEnabled(@jakarta.annotation.Nullable Boolean retryEnabled) {
     this.retryEnabled = retryEnabled;
     return this;
   }
@@ -156,17 +156,17 @@ public class UpdateWebhookRequest {
    * Habilita retry exponencial
    * @return retryEnabled
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getRetryEnabled() {
     return retryEnabled;
   }
 
-  public void setRetryEnabled(@javax.annotation.Nullable Boolean retryEnabled) {
+  public void setRetryEnabled(@jakarta.annotation.Nullable Boolean retryEnabled) {
     this.retryEnabled = retryEnabled;
   }
 
 
-  public UpdateWebhookRequest active(@javax.annotation.Nullable Boolean active) {
+  public UpdateWebhookRequest active(@jakarta.annotation.Nullable Boolean active) {
     this.active = active;
     return this;
   }
@@ -175,12 +175,12 @@ public class UpdateWebhookRequest {
    * Ativa/desativa sem deletar
    * @return active
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getActive() {
     return active;
   }
 
-  public void setActive(@javax.annotation.Nullable Boolean active) {
+  public void setActive(@jakarta.annotation.Nullable Boolean active) {
     this.active = active;
   }
 

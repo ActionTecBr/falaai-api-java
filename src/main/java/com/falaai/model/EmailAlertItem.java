@@ -51,52 +51,52 @@ import com.falaai.JSON;
 /**
  * EmailAlertItem
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class EmailAlertItem {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String id;
 
   public static final String SERIALIZED_NAME_USER_ID = "user_id";
   @SerializedName(SERIALIZED_NAME_USER_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String userId;
 
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String name;
 
   public static final String SERIALIZED_NAME_EMAIL = "email";
   @SerializedName(SERIALIZED_NAME_EMAIL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String email;
 
   public static final String SERIALIZED_NAME_EVENTS = "events";
   @SerializedName(SERIALIZED_NAME_EVENTS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<String> events = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_ACTIVE = "active";
   @SerializedName(SERIALIZED_NAME_ACTIVE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Boolean active;
 
   public static final String SERIALIZED_NAME_CREATED_AT = "created_at";
   @SerializedName(SERIALIZED_NAME_CREATED_AT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String createdAt;
 
   public static final String SERIALIZED_NAME_UPDATED_AT = "updated_at";
   @SerializedName(SERIALIZED_NAME_UPDATED_AT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String updatedAt;
 
   public EmailAlertItem() {
   }
 
-  public EmailAlertItem id(@javax.annotation.Nonnull String id) {
+  public EmailAlertItem id(@jakarta.annotation.Nonnull String id) {
     this.id = id;
     return this;
   }
@@ -105,17 +105,17 @@ public class EmailAlertItem {
    * Email alert id
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
 
-  public void setId(@javax.annotation.Nonnull String id) {
+  public void setId(@jakarta.annotation.Nonnull String id) {
     this.id = id;
   }
 
 
-  public EmailAlertItem userId(@javax.annotation.Nonnull String userId) {
+  public EmailAlertItem userId(@jakarta.annotation.Nonnull String userId) {
     this.userId = userId;
     return this;
   }
@@ -124,17 +124,17 @@ public class EmailAlertItem {
    * Owner user id
    * @return userId
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getUserId() {
     return userId;
   }
 
-  public void setUserId(@javax.annotation.Nonnull String userId) {
+  public void setUserId(@jakarta.annotation.Nonnull String userId) {
     this.userId = userId;
   }
 
 
-  public EmailAlertItem name(@javax.annotation.Nonnull String name) {
+  public EmailAlertItem name(@jakarta.annotation.Nonnull String name) {
     this.name = name;
     return this;
   }
@@ -143,17 +143,17 @@ public class EmailAlertItem {
    * Email alert name
    * @return name
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nonnull String name) {
+  public void setName(@jakarta.annotation.Nonnull String name) {
     this.name = name;
   }
 
 
-  public EmailAlertItem email(@javax.annotation.Nonnull String email) {
+  public EmailAlertItem email(@jakarta.annotation.Nonnull String email) {
     this.email = email;
     return this;
   }
@@ -162,17 +162,17 @@ public class EmailAlertItem {
    * Destination email
    * @return email
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getEmail() {
     return email;
   }
 
-  public void setEmail(@javax.annotation.Nonnull String email) {
+  public void setEmail(@jakarta.annotation.Nonnull String email) {
     this.email = email;
   }
 
 
-  public EmailAlertItem events(@javax.annotation.Nonnull List<String> events) {
+  public EmailAlertItem events(@jakarta.annotation.Nonnull List<String> events) {
     this.events = events;
     return this;
   }
@@ -189,17 +189,17 @@ public class EmailAlertItem {
    * Subscribed events
    * @return events
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<String> getEvents() {
     return events;
   }
 
-  public void setEvents(@javax.annotation.Nonnull List<String> events) {
+  public void setEvents(@jakarta.annotation.Nonnull List<String> events) {
     this.events = events;
   }
 
 
-  public EmailAlertItem active(@javax.annotation.Nonnull Boolean active) {
+  public EmailAlertItem active(@jakarta.annotation.Nonnull Boolean active) {
     this.active = active;
     return this;
   }
@@ -208,17 +208,17 @@ public class EmailAlertItem {
    * Is active
    * @return active
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Boolean getActive() {
     return active;
   }
 
-  public void setActive(@javax.annotation.Nonnull Boolean active) {
+  public void setActive(@jakarta.annotation.Nonnull Boolean active) {
     this.active = active;
   }
 
 
-  public EmailAlertItem createdAt(@javax.annotation.Nonnull String createdAt) {
+  public EmailAlertItem createdAt(@jakarta.annotation.Nonnull String createdAt) {
     this.createdAt = createdAt;
     return this;
   }
@@ -227,17 +227,17 @@ public class EmailAlertItem {
    * ISO 8601 created
    * @return createdAt
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCreatedAt() {
     return createdAt;
   }
 
-  public void setCreatedAt(@javax.annotation.Nonnull String createdAt) {
+  public void setCreatedAt(@jakarta.annotation.Nonnull String createdAt) {
     this.createdAt = createdAt;
   }
 
 
-  public EmailAlertItem updatedAt(@javax.annotation.Nonnull String updatedAt) {
+  public EmailAlertItem updatedAt(@jakarta.annotation.Nonnull String updatedAt) {
     this.updatedAt = updatedAt;
     return this;
   }
@@ -246,12 +246,12 @@ public class EmailAlertItem {
    * ISO 8601 updated
    * @return updatedAt
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getUpdatedAt() {
     return updatedAt;
   }
 
-  public void setUpdatedAt(@javax.annotation.Nonnull String updatedAt) {
+  public void setUpdatedAt(@jakarta.annotation.Nonnull String updatedAt) {
     this.updatedAt = updatedAt;
   }
 

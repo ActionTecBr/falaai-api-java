@@ -51,42 +51,42 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoMetaV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoMetaV2 {
   public static final String SERIALIZED_NAME_ID = "id";
   @SerializedName(SERIALIZED_NAME_ID)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String id;
 
   public static final String SERIALIZED_NAME_OBJECT = "object";
   @SerializedName(SERIALIZED_NAME_OBJECT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String _object = "auditoria_risco";
 
   public static final String SERIALIZED_NAME_CALL_DURATION_S = "call_duration_s";
   @SerializedName(SERIALIZED_NAME_CALL_DURATION_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal callDurationS;
 
   public static final String SERIALIZED_NAME_ANALYZED_AT = "analyzed_at";
   @SerializedName(SERIALIZED_NAME_ANALYZED_AT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String analyzedAt;
 
   public static final String SERIALIZED_NAME_USAGE = "usage";
   @SerializedName(SERIALIZED_NAME_USAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private AuditoriaRiscoUsageV2 usage;
 
   public static final String SERIALIZED_NAME_CLIENT_REFERENCE_ID = "client_reference_id";
   @SerializedName(SERIALIZED_NAME_CLIENT_REFERENCE_ID)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String clientReferenceId;
 
   public AuditoriaRiscoMetaV2() {
   }
 
-  public AuditoriaRiscoMetaV2 id(@javax.annotation.Nonnull String id) {
+  public AuditoriaRiscoMetaV2 id(@jakarta.annotation.Nonnull String id) {
     this.id = id;
     return this;
   }
@@ -95,17 +95,17 @@ public class AuditoriaRiscoMetaV2 {
    * Analysis id
    * @return id
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getId() {
     return id;
   }
 
-  public void setId(@javax.annotation.Nonnull String id) {
+  public void setId(@jakarta.annotation.Nonnull String id) {
     this.id = id;
   }
 
 
-  public AuditoriaRiscoMetaV2 _object(@javax.annotation.Nullable String _object) {
+  public AuditoriaRiscoMetaV2 _object(@jakarta.annotation.Nullable String _object) {
     this._object = _object;
     return this;
   }
@@ -114,17 +114,17 @@ public class AuditoriaRiscoMetaV2 {
    * Object type
    * @return _object
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getObject() {
     return _object;
   }
 
-  public void setObject(@javax.annotation.Nullable String _object) {
+  public void setObject(@jakarta.annotation.Nullable String _object) {
     this._object = _object;
   }
 
 
-  public AuditoriaRiscoMetaV2 callDurationS(@javax.annotation.Nullable BigDecimal callDurationS) {
+  public AuditoriaRiscoMetaV2 callDurationS(@jakarta.annotation.Nullable BigDecimal callDurationS) {
     this.callDurationS = callDurationS;
     return this;
   }
@@ -133,17 +133,17 @@ public class AuditoriaRiscoMetaV2 {
    * Call duration (s)
    * @return callDurationS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getCallDurationS() {
     return callDurationS;
   }
 
-  public void setCallDurationS(@javax.annotation.Nullable BigDecimal callDurationS) {
+  public void setCallDurationS(@jakarta.annotation.Nullable BigDecimal callDurationS) {
     this.callDurationS = callDurationS;
   }
 
 
-  public AuditoriaRiscoMetaV2 analyzedAt(@javax.annotation.Nullable String analyzedAt) {
+  public AuditoriaRiscoMetaV2 analyzedAt(@jakarta.annotation.Nullable String analyzedAt) {
     this.analyzedAt = analyzedAt;
     return this;
   }
@@ -152,17 +152,17 @@ public class AuditoriaRiscoMetaV2 {
    * ISO 8601 analyzed timestamp
    * @return analyzedAt
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getAnalyzedAt() {
     return analyzedAt;
   }
 
-  public void setAnalyzedAt(@javax.annotation.Nullable String analyzedAt) {
+  public void setAnalyzedAt(@jakarta.annotation.Nullable String analyzedAt) {
     this.analyzedAt = analyzedAt;
   }
 
 
-  public AuditoriaRiscoMetaV2 usage(@javax.annotation.Nonnull AuditoriaRiscoUsageV2 usage) {
+  public AuditoriaRiscoMetaV2 usage(@jakarta.annotation.Nonnull AuditoriaRiscoUsageV2 usage) {
     this.usage = usage;
     return this;
   }
@@ -171,17 +171,17 @@ public class AuditoriaRiscoMetaV2 {
    * Usage block
    * @return usage
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public AuditoriaRiscoUsageV2 getUsage() {
     return usage;
   }
 
-  public void setUsage(@javax.annotation.Nonnull AuditoriaRiscoUsageV2 usage) {
+  public void setUsage(@jakarta.annotation.Nonnull AuditoriaRiscoUsageV2 usage) {
     this.usage = usage;
   }
 
 
-  public AuditoriaRiscoMetaV2 clientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public AuditoriaRiscoMetaV2 clientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
     return this;
   }
@@ -190,12 +190,12 @@ public class AuditoriaRiscoMetaV2 {
    * Echoed client reference id
    * @return clientReferenceId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getClientReferenceId() {
     return clientReferenceId;
   }
 
-  public void setClientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public void setClientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
   }
 

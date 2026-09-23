@@ -50,37 +50,37 @@ import com.falaai.JSON;
 /**
  * AudioInputMeta
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AudioInputMeta {
   public static final String SERIALIZED_NAME_DURATION_S = "duration_s";
   @SerializedName(SERIALIZED_NAME_DURATION_S)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private BigDecimal durationS;
 
   public static final String SERIALIZED_NAME_ORIGINAL_FORMAT = "original_format";
   @SerializedName(SERIALIZED_NAME_ORIGINAL_FORMAT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String originalFormat;
 
   public static final String SERIALIZED_NAME_CODEC = "codec";
   @SerializedName(SERIALIZED_NAME_CODEC)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String codec;
 
   public static final String SERIALIZED_NAME_SAMPLE_RATE = "sample_rate";
   @SerializedName(SERIALIZED_NAME_SAMPLE_RATE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer sampleRate;
 
   public static final String SERIALIZED_NAME_CHANNELS = "channels";
   @SerializedName(SERIALIZED_NAME_CHANNELS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer channels;
 
   public AudioInputMeta() {
   }
 
-  public AudioInputMeta durationS(@javax.annotation.Nonnull BigDecimal durationS) {
+  public AudioInputMeta durationS(@jakarta.annotation.Nonnull BigDecimal durationS) {
     this.durationS = durationS;
     return this;
   }
@@ -89,17 +89,17 @@ public class AudioInputMeta {
    * Exact audio duration sent in seconds
    * @return durationS
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public BigDecimal getDurationS() {
     return durationS;
   }
 
-  public void setDurationS(@javax.annotation.Nonnull BigDecimal durationS) {
+  public void setDurationS(@jakarta.annotation.Nonnull BigDecimal durationS) {
     this.durationS = durationS;
   }
 
 
-  public AudioInputMeta originalFormat(@javax.annotation.Nonnull String originalFormat) {
+  public AudioInputMeta originalFormat(@jakarta.annotation.Nonnull String originalFormat) {
     this.originalFormat = originalFormat;
     return this;
   }
@@ -108,17 +108,17 @@ public class AudioInputMeta {
    * Original file format (wav, mp3, ogg, etc)
    * @return originalFormat
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getOriginalFormat() {
     return originalFormat;
   }
 
-  public void setOriginalFormat(@javax.annotation.Nonnull String originalFormat) {
+  public void setOriginalFormat(@jakarta.annotation.Nonnull String originalFormat) {
     this.originalFormat = originalFormat;
   }
 
 
-  public AudioInputMeta codec(@javax.annotation.Nonnull String codec) {
+  public AudioInputMeta codec(@jakarta.annotation.Nonnull String codec) {
     this.codec = codec;
     return this;
   }
@@ -127,17 +127,17 @@ public class AudioInputMeta {
    * Audio codec sent
    * @return codec
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCodec() {
     return codec;
   }
 
-  public void setCodec(@javax.annotation.Nonnull String codec) {
+  public void setCodec(@jakarta.annotation.Nonnull String codec) {
     this.codec = codec;
   }
 
 
-  public AudioInputMeta sampleRate(@javax.annotation.Nonnull Integer sampleRate) {
+  public AudioInputMeta sampleRate(@jakarta.annotation.Nonnull Integer sampleRate) {
     this.sampleRate = sampleRate;
     return this;
   }
@@ -146,17 +146,17 @@ public class AudioInputMeta {
    * Audio sample rate in Hz
    * @return sampleRate
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getSampleRate() {
     return sampleRate;
   }
 
-  public void setSampleRate(@javax.annotation.Nonnull Integer sampleRate) {
+  public void setSampleRate(@jakarta.annotation.Nonnull Integer sampleRate) {
     this.sampleRate = sampleRate;
   }
 
 
-  public AudioInputMeta channels(@javax.annotation.Nonnull Integer channels) {
+  public AudioInputMeta channels(@jakarta.annotation.Nonnull Integer channels) {
     this.channels = channels;
     return this;
   }
@@ -165,12 +165,12 @@ public class AudioInputMeta {
    * Number of channels (1&#x3D;mono, 2&#x3D;stereo)
    * @return channels
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getChannels() {
     return channels;
   }
 
-  public void setChannels(@javax.annotation.Nonnull Integer channels) {
+  public void setChannels(@jakarta.annotation.Nonnull Integer channels) {
     this.channels = channels;
   }
 

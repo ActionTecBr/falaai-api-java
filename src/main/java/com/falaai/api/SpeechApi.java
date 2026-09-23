@@ -91,7 +91,7 @@ public class SpeechApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createTranscriptionV1AudioTranscriptionsPostCall(@javax.annotation.Nonnull File _file, @javax.annotation.Nullable String model, @javax.annotation.Nullable String language, @javax.annotation.Nullable String clientReferenceId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call createTranscriptionV1AudioTranscriptionsPostCall(@jakarta.annotation.Nonnull File _file, @jakarta.annotation.Nullable String model, @jakarta.annotation.Nullable String language, @jakarta.annotation.Nullable String clientReferenceId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -153,7 +153,7 @@ public class SpeechApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call createTranscriptionV1AudioTranscriptionsPostValidateBeforeCall(@javax.annotation.Nonnull File _file, @javax.annotation.Nullable String model, @javax.annotation.Nullable String language, @javax.annotation.Nullable String clientReferenceId, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call createTranscriptionV1AudioTranscriptionsPostValidateBeforeCall(@jakarta.annotation.Nonnull File _file, @jakarta.annotation.Nullable String model, @jakarta.annotation.Nullable String language, @jakarta.annotation.Nullable String clientReferenceId, final ApiCallback _callback) throws ApiException {
         // verify the required parameter '_file' is set
         if (_file == null) {
             throw new ApiException("Missing the required parameter '_file' when calling createTranscriptionV1AudioTranscriptionsPost(Async)");
@@ -180,7 +180,7 @@ public class SpeechApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public TranscriptionResponse createTranscriptionV1AudioTranscriptionsPost(@javax.annotation.Nonnull File _file, @javax.annotation.Nullable String model, @javax.annotation.Nullable String language, @javax.annotation.Nullable String clientReferenceId) throws ApiException {
+    public TranscriptionResponse createTranscriptionV1AudioTranscriptionsPost(@jakarta.annotation.Nonnull File _file, @jakarta.annotation.Nullable String model, @jakarta.annotation.Nullable String language, @jakarta.annotation.Nullable String clientReferenceId) throws ApiException {
         ApiResponse<TranscriptionResponse> localVarResp = createTranscriptionV1AudioTranscriptionsPostWithHttpInfo(_file, model, language, clientReferenceId);
         return localVarResp.getData();
     }
@@ -202,7 +202,7 @@ public class SpeechApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<TranscriptionResponse> createTranscriptionV1AudioTranscriptionsPostWithHttpInfo(@javax.annotation.Nonnull File _file, @javax.annotation.Nullable String model, @javax.annotation.Nullable String language, @javax.annotation.Nullable String clientReferenceId) throws ApiException {
+    public ApiResponse<TranscriptionResponse> createTranscriptionV1AudioTranscriptionsPostWithHttpInfo(@jakarta.annotation.Nonnull File _file, @jakarta.annotation.Nullable String model, @jakarta.annotation.Nullable String language, @jakarta.annotation.Nullable String clientReferenceId) throws ApiException {
         okhttp3.Call localVarCall = createTranscriptionV1AudioTranscriptionsPostValidateBeforeCall(_file, model, language, clientReferenceId, null);
         Type localVarReturnType = new TypeToken<TranscriptionResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -226,7 +226,7 @@ public class SpeechApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createTranscriptionV1AudioTranscriptionsPostAsync(@javax.annotation.Nonnull File _file, @javax.annotation.Nullable String model, @javax.annotation.Nullable String language, @javax.annotation.Nullable String clientReferenceId, final ApiCallback<TranscriptionResponse> _callback) throws ApiException {
+    public okhttp3.Call createTranscriptionV1AudioTranscriptionsPostAsync(@jakarta.annotation.Nonnull File _file, @jakarta.annotation.Nullable String model, @jakarta.annotation.Nullable String language, @jakarta.annotation.Nullable String clientReferenceId, final ApiCallback<TranscriptionResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = createTranscriptionV1AudioTranscriptionsPostValidateBeforeCall(_file, model, language, clientReferenceId, _callback);
         Type localVarReturnType = new TypeToken<TranscriptionResponse>(){}.getType();

@@ -50,7 +50,7 @@ import com.google.gson.JsonParseException;
 
 import com.falaai.JSON;
 
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class LocationInner extends AbstractOpenApiSchema {
     private static final Logger log = Logger.getLogger(LocationInner.class.getName());
 

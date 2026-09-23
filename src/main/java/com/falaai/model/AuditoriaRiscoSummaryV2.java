@@ -50,92 +50,92 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoSummaryV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoSummaryV2 {
   public static final String SERIALIZED_NAME_TOTAL_TURNS = "total_turns";
   @SerializedName(SERIALIZED_NAME_TOTAL_TURNS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalTurns;
 
   public static final String SERIALIZED_NAME_TOTAL_CALIBRATED = "total_calibrated";
   @SerializedName(SERIALIZED_NAME_TOTAL_CALIBRATED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalCalibrated;
 
   public static final String SERIALIZED_NAME_ACTIVE = "active";
   @SerializedName(SERIALIZED_NAME_ACTIVE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer active;
 
   public static final String SERIALIZED_NAME_TOLERATED = "tolerated";
   @SerializedName(SERIALIZED_NAME_TOLERATED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer tolerated;
 
   public static final String SERIALIZED_NAME_BLOCKED = "blocked";
   @SerializedName(SERIALIZED_NAME_BLOCKED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer blocked;
 
   public static final String SERIALIZED_NAME_AUDIO_EVENTS_USED = "audio_events_used";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENTS_USED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer audioEventsUsed;
 
   public static final String SERIALIZED_NAME_AUDIO_EVENTS_AGGRAVATED = "audio_events_aggravated";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENTS_AGGRAVATED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer audioEventsAggravated;
 
   public static final String SERIALIZED_NAME_MAC_AUDIO_APPLIED = "mac_audio_applied";
   @SerializedName(SERIALIZED_NAME_MAC_AUDIO_APPLIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object macAudioApplied = null;
 
   public static final String SERIALIZED_NAME_MVAD_APPLIED = "mvad_applied";
   @SerializedName(SERIALIZED_NAME_MVAD_APPLIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object mvadApplied = null;
 
   public static final String SERIALIZED_NAME_TOTAL_PARTICIPANTS = "total_participants";
   @SerializedName(SERIALIZED_NAME_TOTAL_PARTICIPANTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalParticipants;
 
   public static final String SERIALIZED_NAME_TOTAL_AGENTS = "total_agents";
   @SerializedName(SERIALIZED_NAME_TOTAL_AGENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalAgents;
 
   public static final String SERIALIZED_NAME_TOTAL_CLIENTS = "total_clients";
   @SerializedName(SERIALIZED_NAME_TOTAL_CLIENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalClients;
 
   public static final String SERIALIZED_NAME_TOTAL_BOTS = "total_bots";
   @SerializedName(SERIALIZED_NAME_TOTAL_BOTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalBots;
 
   public static final String SERIALIZED_NAME_TOTAL_UNKNOWN = "total_unknown";
   @SerializedName(SERIALIZED_NAME_TOTAL_UNKNOWN)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer totalUnknown;
 
   public static final String SERIALIZED_NAME_CLIENT_RISK_ALERTS_COUNT = "client_risk_alerts_count";
   @SerializedName(SERIALIZED_NAME_CLIENT_RISK_ALERTS_COUNT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer clientRiskAlertsCount;
 
   public static final String SERIALIZED_NAME_CLIENT_BEHAVIOR_ALERTS_COUNT = "client_behavior_alerts_count";
   @SerializedName(SERIALIZED_NAME_CLIENT_BEHAVIOR_ALERTS_COUNT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer clientBehaviorAlertsCount;
 
   public AuditoriaRiscoSummaryV2() {
   }
 
-  public AuditoriaRiscoSummaryV2 totalTurns(@javax.annotation.Nullable Integer totalTurns) {
+  public AuditoriaRiscoSummaryV2 totalTurns(@jakarta.annotation.Nullable Integer totalTurns) {
     this.totalTurns = totalTurns;
     return this;
   }
@@ -144,17 +144,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total turns
    * @return totalTurns
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalTurns() {
     return totalTurns;
   }
 
-  public void setTotalTurns(@javax.annotation.Nullable Integer totalTurns) {
+  public void setTotalTurns(@jakarta.annotation.Nullable Integer totalTurns) {
     this.totalTurns = totalTurns;
   }
 
 
-  public AuditoriaRiscoSummaryV2 totalCalibrated(@javax.annotation.Nullable Integer totalCalibrated) {
+  public AuditoriaRiscoSummaryV2 totalCalibrated(@jakarta.annotation.Nullable Integer totalCalibrated) {
     this.totalCalibrated = totalCalibrated;
     return this;
   }
@@ -163,17 +163,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total calibrated detections
    * @return totalCalibrated
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalCalibrated() {
     return totalCalibrated;
   }
 
-  public void setTotalCalibrated(@javax.annotation.Nullable Integer totalCalibrated) {
+  public void setTotalCalibrated(@jakarta.annotation.Nullable Integer totalCalibrated) {
     this.totalCalibrated = totalCalibrated;
   }
 
 
-  public AuditoriaRiscoSummaryV2 active(@javax.annotation.Nullable Integer active) {
+  public AuditoriaRiscoSummaryV2 active(@jakarta.annotation.Nullable Integer active) {
     this.active = active;
     return this;
   }
@@ -182,17 +182,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Active detections
    * @return active
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getActive() {
     return active;
   }
 
-  public void setActive(@javax.annotation.Nullable Integer active) {
+  public void setActive(@jakarta.annotation.Nullable Integer active) {
     this.active = active;
   }
 
 
-  public AuditoriaRiscoSummaryV2 tolerated(@javax.annotation.Nullable Integer tolerated) {
+  public AuditoriaRiscoSummaryV2 tolerated(@jakarta.annotation.Nullable Integer tolerated) {
     this.tolerated = tolerated;
     return this;
   }
@@ -201,17 +201,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Tolerated detections
    * @return tolerated
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTolerated() {
     return tolerated;
   }
 
-  public void setTolerated(@javax.annotation.Nullable Integer tolerated) {
+  public void setTolerated(@jakarta.annotation.Nullable Integer tolerated) {
     this.tolerated = tolerated;
   }
 
 
-  public AuditoriaRiscoSummaryV2 blocked(@javax.annotation.Nullable Integer blocked) {
+  public AuditoriaRiscoSummaryV2 blocked(@jakarta.annotation.Nullable Integer blocked) {
     this.blocked = blocked;
     return this;
   }
@@ -220,17 +220,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Blocked detections
    * @return blocked
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getBlocked() {
     return blocked;
   }
 
-  public void setBlocked(@javax.annotation.Nullable Integer blocked) {
+  public void setBlocked(@jakarta.annotation.Nullable Integer blocked) {
     this.blocked = blocked;
   }
 
 
-  public AuditoriaRiscoSummaryV2 audioEventsUsed(@javax.annotation.Nullable Integer audioEventsUsed) {
+  public AuditoriaRiscoSummaryV2 audioEventsUsed(@jakarta.annotation.Nullable Integer audioEventsUsed) {
     this.audioEventsUsed = audioEventsUsed;
     return this;
   }
@@ -239,17 +239,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Audio events used
    * @return audioEventsUsed
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getAudioEventsUsed() {
     return audioEventsUsed;
   }
 
-  public void setAudioEventsUsed(@javax.annotation.Nullable Integer audioEventsUsed) {
+  public void setAudioEventsUsed(@jakarta.annotation.Nullable Integer audioEventsUsed) {
     this.audioEventsUsed = audioEventsUsed;
   }
 
 
-  public AuditoriaRiscoSummaryV2 audioEventsAggravated(@javax.annotation.Nullable Integer audioEventsAggravated) {
+  public AuditoriaRiscoSummaryV2 audioEventsAggravated(@jakarta.annotation.Nullable Integer audioEventsAggravated) {
     this.audioEventsAggravated = audioEventsAggravated;
     return this;
   }
@@ -258,17 +258,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Audio events aggravated
    * @return audioEventsAggravated
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getAudioEventsAggravated() {
     return audioEventsAggravated;
   }
 
-  public void setAudioEventsAggravated(@javax.annotation.Nullable Integer audioEventsAggravated) {
+  public void setAudioEventsAggravated(@jakarta.annotation.Nullable Integer audioEventsAggravated) {
     this.audioEventsAggravated = audioEventsAggravated;
   }
 
 
-  public AuditoriaRiscoSummaryV2 macAudioApplied(@javax.annotation.Nullable Object macAudioApplied) {
+  public AuditoriaRiscoSummaryV2 macAudioApplied(@jakarta.annotation.Nullable Object macAudioApplied) {
     this.macAudioApplied = macAudioApplied;
     return this;
   }
@@ -277,17 +277,17 @@ public class AuditoriaRiscoSummaryV2 {
    * MAC audio applied
    * @return macAudioApplied
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getMacAudioApplied() {
     return macAudioApplied;
   }
 
-  public void setMacAudioApplied(@javax.annotation.Nullable Object macAudioApplied) {
+  public void setMacAudioApplied(@jakarta.annotation.Nullable Object macAudioApplied) {
     this.macAudioApplied = macAudioApplied;
   }
 
 
-  public AuditoriaRiscoSummaryV2 mvadApplied(@javax.annotation.Nullable Object mvadApplied) {
+  public AuditoriaRiscoSummaryV2 mvadApplied(@jakarta.annotation.Nullable Object mvadApplied) {
     this.mvadApplied = mvadApplied;
     return this;
   }
@@ -296,17 +296,17 @@ public class AuditoriaRiscoSummaryV2 {
    * MVAD applied
    * @return mvadApplied
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getMvadApplied() {
     return mvadApplied;
   }
 
-  public void setMvadApplied(@javax.annotation.Nullable Object mvadApplied) {
+  public void setMvadApplied(@jakarta.annotation.Nullable Object mvadApplied) {
     this.mvadApplied = mvadApplied;
   }
 
 
-  public AuditoriaRiscoSummaryV2 totalParticipants(@javax.annotation.Nullable Integer totalParticipants) {
+  public AuditoriaRiscoSummaryV2 totalParticipants(@jakarta.annotation.Nullable Integer totalParticipants) {
     this.totalParticipants = totalParticipants;
     return this;
   }
@@ -315,17 +315,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total participants
    * @return totalParticipants
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalParticipants() {
     return totalParticipants;
   }
 
-  public void setTotalParticipants(@javax.annotation.Nullable Integer totalParticipants) {
+  public void setTotalParticipants(@jakarta.annotation.Nullable Integer totalParticipants) {
     this.totalParticipants = totalParticipants;
   }
 
 
-  public AuditoriaRiscoSummaryV2 totalAgents(@javax.annotation.Nullable Integer totalAgents) {
+  public AuditoriaRiscoSummaryV2 totalAgents(@jakarta.annotation.Nullable Integer totalAgents) {
     this.totalAgents = totalAgents;
     return this;
   }
@@ -334,17 +334,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total agents
    * @return totalAgents
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalAgents() {
     return totalAgents;
   }
 
-  public void setTotalAgents(@javax.annotation.Nullable Integer totalAgents) {
+  public void setTotalAgents(@jakarta.annotation.Nullable Integer totalAgents) {
     this.totalAgents = totalAgents;
   }
 
 
-  public AuditoriaRiscoSummaryV2 totalClients(@javax.annotation.Nullable Integer totalClients) {
+  public AuditoriaRiscoSummaryV2 totalClients(@jakarta.annotation.Nullable Integer totalClients) {
     this.totalClients = totalClients;
     return this;
   }
@@ -353,17 +353,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total clients
    * @return totalClients
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalClients() {
     return totalClients;
   }
 
-  public void setTotalClients(@javax.annotation.Nullable Integer totalClients) {
+  public void setTotalClients(@jakarta.annotation.Nullable Integer totalClients) {
     this.totalClients = totalClients;
   }
 
 
-  public AuditoriaRiscoSummaryV2 totalBots(@javax.annotation.Nullable Integer totalBots) {
+  public AuditoriaRiscoSummaryV2 totalBots(@jakarta.annotation.Nullable Integer totalBots) {
     this.totalBots = totalBots;
     return this;
   }
@@ -372,17 +372,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total bots
    * @return totalBots
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalBots() {
     return totalBots;
   }
 
-  public void setTotalBots(@javax.annotation.Nullable Integer totalBots) {
+  public void setTotalBots(@jakarta.annotation.Nullable Integer totalBots) {
     this.totalBots = totalBots;
   }
 
 
-  public AuditoriaRiscoSummaryV2 totalUnknown(@javax.annotation.Nullable Integer totalUnknown) {
+  public AuditoriaRiscoSummaryV2 totalUnknown(@jakarta.annotation.Nullable Integer totalUnknown) {
     this.totalUnknown = totalUnknown;
     return this;
   }
@@ -391,17 +391,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Total unknown
    * @return totalUnknown
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTotalUnknown() {
     return totalUnknown;
   }
 
-  public void setTotalUnknown(@javax.annotation.Nullable Integer totalUnknown) {
+  public void setTotalUnknown(@jakarta.annotation.Nullable Integer totalUnknown) {
     this.totalUnknown = totalUnknown;
   }
 
 
-  public AuditoriaRiscoSummaryV2 clientRiskAlertsCount(@javax.annotation.Nullable Integer clientRiskAlertsCount) {
+  public AuditoriaRiscoSummaryV2 clientRiskAlertsCount(@jakarta.annotation.Nullable Integer clientRiskAlertsCount) {
     this.clientRiskAlertsCount = clientRiskAlertsCount;
     return this;
   }
@@ -410,17 +410,17 @@ public class AuditoriaRiscoSummaryV2 {
    * Client risk alerts count
    * @return clientRiskAlertsCount
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getClientRiskAlertsCount() {
     return clientRiskAlertsCount;
   }
 
-  public void setClientRiskAlertsCount(@javax.annotation.Nullable Integer clientRiskAlertsCount) {
+  public void setClientRiskAlertsCount(@jakarta.annotation.Nullable Integer clientRiskAlertsCount) {
     this.clientRiskAlertsCount = clientRiskAlertsCount;
   }
 
 
-  public AuditoriaRiscoSummaryV2 clientBehaviorAlertsCount(@javax.annotation.Nullable Integer clientBehaviorAlertsCount) {
+  public AuditoriaRiscoSummaryV2 clientBehaviorAlertsCount(@jakarta.annotation.Nullable Integer clientBehaviorAlertsCount) {
     this.clientBehaviorAlertsCount = clientBehaviorAlertsCount;
     return this;
   }
@@ -429,12 +429,12 @@ public class AuditoriaRiscoSummaryV2 {
    * Client behavior alerts count
    * @return clientBehaviorAlertsCount
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getClientBehaviorAlertsCount() {
     return clientBehaviorAlertsCount;
   }
 
-  public void setClientBehaviorAlertsCount(@javax.annotation.Nullable Integer clientBehaviorAlertsCount) {
+  public void setClientBehaviorAlertsCount(@jakarta.annotation.Nullable Integer clientBehaviorAlertsCount) {
     this.clientBehaviorAlertsCount = clientBehaviorAlertsCount;
   }
 

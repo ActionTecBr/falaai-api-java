@@ -49,27 +49,27 @@ import com.falaai.JSON;
 /**
  * VersionResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class VersionResponse {
   public static final String SERIALIZED_NAME_SERVICE = "service";
   @SerializedName(SERIALIZED_NAME_SERVICE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String service;
 
   public static final String SERIALIZED_NAME_VERSION = "version";
   @SerializedName(SERIALIZED_NAME_VERSION)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String version;
 
   public static final String SERIALIZED_NAME_DEPLOY_DATE = "deployDate";
   @SerializedName(SERIALIZED_NAME_DEPLOY_DATE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String deployDate;
 
   public VersionResponse() {
   }
 
-  public VersionResponse service(@javax.annotation.Nonnull String service) {
+  public VersionResponse service(@jakarta.annotation.Nonnull String service) {
     this.service = service;
     return this;
   }
@@ -78,17 +78,17 @@ public class VersionResponse {
    * Service name
    * @return service
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getService() {
     return service;
   }
 
-  public void setService(@javax.annotation.Nonnull String service) {
+  public void setService(@jakarta.annotation.Nonnull String service) {
     this.service = service;
   }
 
 
-  public VersionResponse version(@javax.annotation.Nonnull String version) {
+  public VersionResponse version(@jakarta.annotation.Nonnull String version) {
     this.version = version;
     return this;
   }
@@ -97,17 +97,17 @@ public class VersionResponse {
    * Current API version
    * @return version
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getVersion() {
     return version;
   }
 
-  public void setVersion(@javax.annotation.Nonnull String version) {
+  public void setVersion(@jakarta.annotation.Nonnull String version) {
     this.version = version;
   }
 
 
-  public VersionResponse deployDate(@javax.annotation.Nonnull String deployDate) {
+  public VersionResponse deployDate(@jakarta.annotation.Nonnull String deployDate) {
     this.deployDate = deployDate;
     return this;
   }
@@ -116,12 +116,12 @@ public class VersionResponse {
    * Deploy timestamp
    * @return deployDate
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getDeployDate() {
     return deployDate;
   }
 
-  public void setDeployDate(@javax.annotation.Nonnull String deployDate) {
+  public void setDeployDate(@jakarta.annotation.Nonnull String deployDate) {
     this.deployDate = deployDate;
   }
 

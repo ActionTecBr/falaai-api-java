@@ -91,7 +91,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createWebhookV1WebhooksPostCall(@javax.annotation.Nonnull CreateWebhookRequest createWebhookRequest, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call createWebhookV1WebhooksPostCall(@jakarta.annotation.Nonnull CreateWebhookRequest createWebhookRequest, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -137,7 +137,7 @@ public class WebhooksApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call createWebhookV1WebhooksPostValidateBeforeCall(@javax.annotation.Nonnull CreateWebhookRequest createWebhookRequest, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call createWebhookV1WebhooksPostValidateBeforeCall(@jakarta.annotation.Nonnull CreateWebhookRequest createWebhookRequest, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'createWebhookRequest' is set
         if (createWebhookRequest == null) {
             throw new ApiException("Missing the required parameter 'createWebhookRequest' when calling createWebhookV1WebhooksPost(Async)");
@@ -161,7 +161,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public WebhookItem createWebhookV1WebhooksPost(@javax.annotation.Nonnull CreateWebhookRequest createWebhookRequest) throws ApiException {
+    public WebhookItem createWebhookV1WebhooksPost(@jakarta.annotation.Nonnull CreateWebhookRequest createWebhookRequest) throws ApiException {
         ApiResponse<WebhookItem> localVarResp = createWebhookV1WebhooksPostWithHttpInfo(createWebhookRequest);
         return localVarResp.getData();
     }
@@ -180,7 +180,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<WebhookItem> createWebhookV1WebhooksPostWithHttpInfo(@javax.annotation.Nonnull CreateWebhookRequest createWebhookRequest) throws ApiException {
+    public ApiResponse<WebhookItem> createWebhookV1WebhooksPostWithHttpInfo(@jakarta.annotation.Nonnull CreateWebhookRequest createWebhookRequest) throws ApiException {
         okhttp3.Call localVarCall = createWebhookV1WebhooksPostValidateBeforeCall(createWebhookRequest, null);
         Type localVarReturnType = new TypeToken<WebhookItem>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -201,7 +201,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call createWebhookV1WebhooksPostAsync(@javax.annotation.Nonnull CreateWebhookRequest createWebhookRequest, final ApiCallback<WebhookItem> _callback) throws ApiException {
+    public okhttp3.Call createWebhookV1WebhooksPostAsync(@jakarta.annotation.Nonnull CreateWebhookRequest createWebhookRequest, final ApiCallback<WebhookItem> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = createWebhookV1WebhooksPostValidateBeforeCall(createWebhookRequest, _callback);
         Type localVarReturnType = new TypeToken<WebhookItem>(){}.getType();
@@ -222,7 +222,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call deleteWebhookV1WebhooksWebhookIdDeleteCall(@javax.annotation.Nonnull String webhookId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call deleteWebhookV1WebhooksWebhookIdDeleteCall(@jakarta.annotation.Nonnull String webhookId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -268,7 +268,7 @@ public class WebhooksApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call deleteWebhookV1WebhooksWebhookIdDeleteValidateBeforeCall(@javax.annotation.Nonnull String webhookId, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call deleteWebhookV1WebhooksWebhookIdDeleteValidateBeforeCall(@jakarta.annotation.Nonnull String webhookId, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'webhookId' is set
         if (webhookId == null) {
             throw new ApiException("Missing the required parameter 'webhookId' when calling deleteWebhookV1WebhooksWebhookIdDelete(Async)");
@@ -292,7 +292,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public MessageResponse deleteWebhookV1WebhooksWebhookIdDelete(@javax.annotation.Nonnull String webhookId) throws ApiException {
+    public MessageResponse deleteWebhookV1WebhooksWebhookIdDelete(@jakarta.annotation.Nonnull String webhookId) throws ApiException {
         ApiResponse<MessageResponse> localVarResp = deleteWebhookV1WebhooksWebhookIdDeleteWithHttpInfo(webhookId);
         return localVarResp.getData();
     }
@@ -311,7 +311,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<MessageResponse> deleteWebhookV1WebhooksWebhookIdDeleteWithHttpInfo(@javax.annotation.Nonnull String webhookId) throws ApiException {
+    public ApiResponse<MessageResponse> deleteWebhookV1WebhooksWebhookIdDeleteWithHttpInfo(@jakarta.annotation.Nonnull String webhookId) throws ApiException {
         okhttp3.Call localVarCall = deleteWebhookV1WebhooksWebhookIdDeleteValidateBeforeCall(webhookId, null);
         Type localVarReturnType = new TypeToken<MessageResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -332,7 +332,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call deleteWebhookV1WebhooksWebhookIdDeleteAsync(@javax.annotation.Nonnull String webhookId, final ApiCallback<MessageResponse> _callback) throws ApiException {
+    public okhttp3.Call deleteWebhookV1WebhooksWebhookIdDeleteAsync(@jakarta.annotation.Nonnull String webhookId, final ApiCallback<MessageResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = deleteWebhookV1WebhooksWebhookIdDeleteValidateBeforeCall(webhookId, _callback);
         Type localVarReturnType = new TypeToken<MessageResponse>(){}.getType();
@@ -354,7 +354,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call listWebhooksV1WebhooksGetCall(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call listWebhooksV1WebhooksGetCall(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -407,7 +407,7 @@ public class WebhooksApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call listWebhooksV1WebhooksGetValidateBeforeCall(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call listWebhooksV1WebhooksGetValidateBeforeCall(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, final ApiCallback _callback) throws ApiException {
         return listWebhooksV1WebhooksGetCall(page, limit, _callback);
 
     }
@@ -427,7 +427,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public WebhookListResponse listWebhooksV1WebhooksGet(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit) throws ApiException {
+    public WebhookListResponse listWebhooksV1WebhooksGet(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit) throws ApiException {
         ApiResponse<WebhookListResponse> localVarResp = listWebhooksV1WebhooksGetWithHttpInfo(page, limit);
         return localVarResp.getData();
     }
@@ -447,7 +447,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<WebhookListResponse> listWebhooksV1WebhooksGetWithHttpInfo(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit) throws ApiException {
+    public ApiResponse<WebhookListResponse> listWebhooksV1WebhooksGetWithHttpInfo(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit) throws ApiException {
         okhttp3.Call localVarCall = listWebhooksV1WebhooksGetValidateBeforeCall(page, limit, null);
         Type localVarReturnType = new TypeToken<WebhookListResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -469,7 +469,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call listWebhooksV1WebhooksGetAsync(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, final ApiCallback<WebhookListResponse> _callback) throws ApiException {
+    public okhttp3.Call listWebhooksV1WebhooksGetAsync(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, final ApiCallback<WebhookListResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = listWebhooksV1WebhooksGetValidateBeforeCall(page, limit, _callback);
         Type localVarReturnType = new TypeToken<WebhookListResponse>(){}.getType();
@@ -491,7 +491,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call updateWebhookV1WebhooksWebhookIdPutCall(@javax.annotation.Nonnull String webhookId, @javax.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call updateWebhookV1WebhooksWebhookIdPutCall(@jakarta.annotation.Nonnull String webhookId, @jakarta.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -538,7 +538,7 @@ public class WebhooksApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call updateWebhookV1WebhooksWebhookIdPutValidateBeforeCall(@javax.annotation.Nonnull String webhookId, @javax.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call updateWebhookV1WebhooksWebhookIdPutValidateBeforeCall(@jakarta.annotation.Nonnull String webhookId, @jakarta.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest, final ApiCallback _callback) throws ApiException {
         // verify the required parameter 'webhookId' is set
         if (webhookId == null) {
             throw new ApiException("Missing the required parameter 'webhookId' when calling updateWebhookV1WebhooksWebhookIdPut(Async)");
@@ -568,7 +568,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public MessageResponse updateWebhookV1WebhooksWebhookIdPut(@javax.annotation.Nonnull String webhookId, @javax.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest) throws ApiException {
+    public MessageResponse updateWebhookV1WebhooksWebhookIdPut(@jakarta.annotation.Nonnull String webhookId, @jakarta.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest) throws ApiException {
         ApiResponse<MessageResponse> localVarResp = updateWebhookV1WebhooksWebhookIdPutWithHttpInfo(webhookId, updateWebhookRequest);
         return localVarResp.getData();
     }
@@ -588,7 +588,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<MessageResponse> updateWebhookV1WebhooksWebhookIdPutWithHttpInfo(@javax.annotation.Nonnull String webhookId, @javax.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest) throws ApiException {
+    public ApiResponse<MessageResponse> updateWebhookV1WebhooksWebhookIdPutWithHttpInfo(@jakarta.annotation.Nonnull String webhookId, @jakarta.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest) throws ApiException {
         okhttp3.Call localVarCall = updateWebhookV1WebhooksWebhookIdPutValidateBeforeCall(webhookId, updateWebhookRequest, null);
         Type localVarReturnType = new TypeToken<MessageResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -610,7 +610,7 @@ public class WebhooksApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call updateWebhookV1WebhooksWebhookIdPutAsync(@javax.annotation.Nonnull String webhookId, @javax.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest, final ApiCallback<MessageResponse> _callback) throws ApiException {
+    public okhttp3.Call updateWebhookV1WebhooksWebhookIdPutAsync(@jakarta.annotation.Nonnull String webhookId, @jakarta.annotation.Nonnull UpdateWebhookRequest updateWebhookRequest, final ApiCallback<MessageResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = updateWebhookV1WebhooksWebhookIdPutValidateBeforeCall(webhookId, updateWebhookRequest, _callback);
         Type localVarReturnType = new TypeToken<MessageResponse>(){}.getType();

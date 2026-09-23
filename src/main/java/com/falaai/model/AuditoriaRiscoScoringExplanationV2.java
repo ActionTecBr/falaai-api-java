@@ -51,22 +51,22 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoScoringExplanationV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoScoringExplanationV2 {
   public static final String SERIALIZED_NAME_SUMMARY = "summary";
   @SerializedName(SERIALIZED_NAME_SUMMARY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String summary;
 
   public static final String SERIALIZED_NAME_STEPS = "steps";
   @SerializedName(SERIALIZED_NAME_STEPS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Object> steps = new ArrayList<>();
 
   public AuditoriaRiscoScoringExplanationV2() {
   }
 
-  public AuditoriaRiscoScoringExplanationV2 summary(@javax.annotation.Nullable String summary) {
+  public AuditoriaRiscoScoringExplanationV2 summary(@jakarta.annotation.Nullable String summary) {
     this.summary = summary;
     return this;
   }
@@ -75,17 +75,17 @@ public class AuditoriaRiscoScoringExplanationV2 {
    * Explanation summary
    * @return summary
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getSummary() {
     return summary;
   }
 
-  public void setSummary(@javax.annotation.Nullable String summary) {
+  public void setSummary(@jakarta.annotation.Nullable String summary) {
     this.summary = summary;
   }
 
 
-  public AuditoriaRiscoScoringExplanationV2 steps(@javax.annotation.Nullable List<Object> steps) {
+  public AuditoriaRiscoScoringExplanationV2 steps(@jakarta.annotation.Nullable List<Object> steps) {
     this.steps = steps;
     return this;
   }
@@ -102,12 +102,12 @@ public class AuditoriaRiscoScoringExplanationV2 {
    * Explanation steps
    * @return steps
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Object> getSteps() {
     return steps;
   }
 
-  public void setSteps(@javax.annotation.Nullable List<Object> steps) {
+  public void setSteps(@jakarta.annotation.Nullable List<Object> steps) {
     this.steps = steps;
   }
 

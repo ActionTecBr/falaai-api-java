@@ -51,67 +51,67 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoConversationScoresV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoConversationScoresV2 {
   public static final String SERIALIZED_NAME_CONSOLIDATED_SCORE = "consolidated_score";
   @SerializedName(SERIALIZED_NAME_CONSOLIDATED_SCORE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal consolidatedScore;
 
   public static final String SERIALIZED_NAME_VIOLATION_DENSITY_PER_MIN = "violation_density_per_min";
   @SerializedName(SERIALIZED_NAME_VIOLATION_DENSITY_PER_MIN)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal violationDensityPerMin;
 
   public static final String SERIALIZED_NAME_SENTIMENT_TREND = "sentiment_trend";
   @SerializedName(SERIALIZED_NAME_SENTIMENT_TREND)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object sentimentTrend = null;
 
   public static final String SERIALIZED_NAME_PCT_TURNS_WITH_VIOLATION = "pct_turns_with_violation";
   @SerializedName(SERIALIZED_NAME_PCT_TURNS_WITH_VIOLATION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal pctTurnsWithViolation;
 
   public static final String SERIALIZED_NAME_MOST_CRITICAL_TURN = "most_critical_turn";
   @SerializedName(SERIALIZED_NAME_MOST_CRITICAL_TURN)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object mostCriticalTurn = null;
 
   public static final String SERIALIZED_NAME_POSITIVE_NEGATIVE_RATIO = "positive_negative_ratio";
   @SerializedName(SERIALIZED_NAME_POSITIVE_NEGATIVE_RATIO)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object positiveNegativeRatio = null;
 
   public static final String SERIALIZED_NAME_GLOBAL_RISK_SEVERITY = "global_risk_severity";
   @SerializedName(SERIALIZED_NAME_GLOBAL_RISK_SEVERITY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String globalRiskSeverity;
 
   public static final String SERIALIZED_NAME_GLOBAL_RISK_SEVERITY_LABEL = "global_risk_severity_label";
   @SerializedName(SERIALIZED_NAME_GLOBAL_RISK_SEVERITY_LABEL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String globalRiskSeverityLabel;
 
   public static final String SERIALIZED_NAME_GLOBAL_RISK_SEVERITY_COLOR = "global_risk_severity_color";
   @SerializedName(SERIALIZED_NAME_GLOBAL_RISK_SEVERITY_COLOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String globalRiskSeverityColor;
 
   public static final String SERIALIZED_NAME_RISK_LIKELIHOOD_AVG = "risk_likelihood_avg";
   @SerializedName(SERIALIZED_NAME_RISK_LIKELIHOOD_AVG)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal riskLikelihoodAvg;
 
   public static final String SERIALIZED_NAME_RISK_IMPACT_AVG = "risk_impact_avg";
   @SerializedName(SERIALIZED_NAME_RISK_IMPACT_AVG)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal riskImpactAvg;
 
   public AuditoriaRiscoConversationScoresV2() {
   }
 
-  public AuditoriaRiscoConversationScoresV2 consolidatedScore(@javax.annotation.Nullable BigDecimal consolidatedScore) {
+  public AuditoriaRiscoConversationScoresV2 consolidatedScore(@jakarta.annotation.Nullable BigDecimal consolidatedScore) {
     this.consolidatedScore = consolidatedScore;
     return this;
   }
@@ -120,17 +120,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Consolidated score
    * @return consolidatedScore
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getConsolidatedScore() {
     return consolidatedScore;
   }
 
-  public void setConsolidatedScore(@javax.annotation.Nullable BigDecimal consolidatedScore) {
+  public void setConsolidatedScore(@jakarta.annotation.Nullable BigDecimal consolidatedScore) {
     this.consolidatedScore = consolidatedScore;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 violationDensityPerMin(@javax.annotation.Nullable BigDecimal violationDensityPerMin) {
+  public AuditoriaRiscoConversationScoresV2 violationDensityPerMin(@jakarta.annotation.Nullable BigDecimal violationDensityPerMin) {
     this.violationDensityPerMin = violationDensityPerMin;
     return this;
   }
@@ -139,17 +139,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Violation density/min
    * @return violationDensityPerMin
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getViolationDensityPerMin() {
     return violationDensityPerMin;
   }
 
-  public void setViolationDensityPerMin(@javax.annotation.Nullable BigDecimal violationDensityPerMin) {
+  public void setViolationDensityPerMin(@jakarta.annotation.Nullable BigDecimal violationDensityPerMin) {
     this.violationDensityPerMin = violationDensityPerMin;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 sentimentTrend(@javax.annotation.Nullable Object sentimentTrend) {
+  public AuditoriaRiscoConversationScoresV2 sentimentTrend(@jakarta.annotation.Nullable Object sentimentTrend) {
     this.sentimentTrend = sentimentTrend;
     return this;
   }
@@ -158,17 +158,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Sentiment trend
    * @return sentimentTrend
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getSentimentTrend() {
     return sentimentTrend;
   }
 
-  public void setSentimentTrend(@javax.annotation.Nullable Object sentimentTrend) {
+  public void setSentimentTrend(@jakarta.annotation.Nullable Object sentimentTrend) {
     this.sentimentTrend = sentimentTrend;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 pctTurnsWithViolation(@javax.annotation.Nullable BigDecimal pctTurnsWithViolation) {
+  public AuditoriaRiscoConversationScoresV2 pctTurnsWithViolation(@jakarta.annotation.Nullable BigDecimal pctTurnsWithViolation) {
     this.pctTurnsWithViolation = pctTurnsWithViolation;
     return this;
   }
@@ -177,17 +177,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * % turns with violation
    * @return pctTurnsWithViolation
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getPctTurnsWithViolation() {
     return pctTurnsWithViolation;
   }
 
-  public void setPctTurnsWithViolation(@javax.annotation.Nullable BigDecimal pctTurnsWithViolation) {
+  public void setPctTurnsWithViolation(@jakarta.annotation.Nullable BigDecimal pctTurnsWithViolation) {
     this.pctTurnsWithViolation = pctTurnsWithViolation;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 mostCriticalTurn(@javax.annotation.Nullable Object mostCriticalTurn) {
+  public AuditoriaRiscoConversationScoresV2 mostCriticalTurn(@jakarta.annotation.Nullable Object mostCriticalTurn) {
     this.mostCriticalTurn = mostCriticalTurn;
     return this;
   }
@@ -196,17 +196,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Most critical turn
    * @return mostCriticalTurn
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getMostCriticalTurn() {
     return mostCriticalTurn;
   }
 
-  public void setMostCriticalTurn(@javax.annotation.Nullable Object mostCriticalTurn) {
+  public void setMostCriticalTurn(@jakarta.annotation.Nullable Object mostCriticalTurn) {
     this.mostCriticalTurn = mostCriticalTurn;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 positiveNegativeRatio(@javax.annotation.Nullable Object positiveNegativeRatio) {
+  public AuditoriaRiscoConversationScoresV2 positiveNegativeRatio(@jakarta.annotation.Nullable Object positiveNegativeRatio) {
     this.positiveNegativeRatio = positiveNegativeRatio;
     return this;
   }
@@ -215,17 +215,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Positive:negative ratio
    * @return positiveNegativeRatio
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getPositiveNegativeRatio() {
     return positiveNegativeRatio;
   }
 
-  public void setPositiveNegativeRatio(@javax.annotation.Nullable Object positiveNegativeRatio) {
+  public void setPositiveNegativeRatio(@jakarta.annotation.Nullable Object positiveNegativeRatio) {
     this.positiveNegativeRatio = positiveNegativeRatio;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 globalRiskSeverity(@javax.annotation.Nullable String globalRiskSeverity) {
+  public AuditoriaRiscoConversationScoresV2 globalRiskSeverity(@jakarta.annotation.Nullable String globalRiskSeverity) {
     this.globalRiskSeverity = globalRiskSeverity;
     return this;
   }
@@ -234,17 +234,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Global risk severity code
    * @return globalRiskSeverity
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getGlobalRiskSeverity() {
     return globalRiskSeverity;
   }
 
-  public void setGlobalRiskSeverity(@javax.annotation.Nullable String globalRiskSeverity) {
+  public void setGlobalRiskSeverity(@jakarta.annotation.Nullable String globalRiskSeverity) {
     this.globalRiskSeverity = globalRiskSeverity;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 globalRiskSeverityLabel(@javax.annotation.Nullable String globalRiskSeverityLabel) {
+  public AuditoriaRiscoConversationScoresV2 globalRiskSeverityLabel(@jakarta.annotation.Nullable String globalRiskSeverityLabel) {
     this.globalRiskSeverityLabel = globalRiskSeverityLabel;
     return this;
   }
@@ -253,17 +253,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Global risk severity label
    * @return globalRiskSeverityLabel
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getGlobalRiskSeverityLabel() {
     return globalRiskSeverityLabel;
   }
 
-  public void setGlobalRiskSeverityLabel(@javax.annotation.Nullable String globalRiskSeverityLabel) {
+  public void setGlobalRiskSeverityLabel(@jakarta.annotation.Nullable String globalRiskSeverityLabel) {
     this.globalRiskSeverityLabel = globalRiskSeverityLabel;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 globalRiskSeverityColor(@javax.annotation.Nullable String globalRiskSeverityColor) {
+  public AuditoriaRiscoConversationScoresV2 globalRiskSeverityColor(@jakarta.annotation.Nullable String globalRiskSeverityColor) {
     this.globalRiskSeverityColor = globalRiskSeverityColor;
     return this;
   }
@@ -272,17 +272,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Global risk severity color
    * @return globalRiskSeverityColor
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getGlobalRiskSeverityColor() {
     return globalRiskSeverityColor;
   }
 
-  public void setGlobalRiskSeverityColor(@javax.annotation.Nullable String globalRiskSeverityColor) {
+  public void setGlobalRiskSeverityColor(@jakarta.annotation.Nullable String globalRiskSeverityColor) {
     this.globalRiskSeverityColor = globalRiskSeverityColor;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 riskLikelihoodAvg(@javax.annotation.Nullable BigDecimal riskLikelihoodAvg) {
+  public AuditoriaRiscoConversationScoresV2 riskLikelihoodAvg(@jakarta.annotation.Nullable BigDecimal riskLikelihoodAvg) {
     this.riskLikelihoodAvg = riskLikelihoodAvg;
     return this;
   }
@@ -291,17 +291,17 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Risk likelihood avg
    * @return riskLikelihoodAvg
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getRiskLikelihoodAvg() {
     return riskLikelihoodAvg;
   }
 
-  public void setRiskLikelihoodAvg(@javax.annotation.Nullable BigDecimal riskLikelihoodAvg) {
+  public void setRiskLikelihoodAvg(@jakarta.annotation.Nullable BigDecimal riskLikelihoodAvg) {
     this.riskLikelihoodAvg = riskLikelihoodAvg;
   }
 
 
-  public AuditoriaRiscoConversationScoresV2 riskImpactAvg(@javax.annotation.Nullable BigDecimal riskImpactAvg) {
+  public AuditoriaRiscoConversationScoresV2 riskImpactAvg(@jakarta.annotation.Nullable BigDecimal riskImpactAvg) {
     this.riskImpactAvg = riskImpactAvg;
     return this;
   }
@@ -310,12 +310,12 @@ public class AuditoriaRiscoConversationScoresV2 {
    * Risk impact avg
    * @return riskImpactAvg
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getRiskImpactAvg() {
     return riskImpactAvg;
   }
 
-  public void setRiskImpactAvg(@javax.annotation.Nullable BigDecimal riskImpactAvg) {
+  public void setRiskImpactAvg(@jakarta.annotation.Nullable BigDecimal riskImpactAvg) {
     this.riskImpactAvg = riskImpactAvg;
   }
 

@@ -52,27 +52,27 @@ import com.falaai.JSON;
 /**
  * EmailAlertListResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class EmailAlertListResponse {
   public static final String SERIALIZED_NAME_DATA = "data";
   @SerializedName(SERIALIZED_NAME_DATA)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<EmailAlertItem> data = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_PAGE = "page";
   @SerializedName(SERIALIZED_NAME_PAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer page;
 
   public static final String SERIALIZED_NAME_LIMIT = "limit";
   @SerializedName(SERIALIZED_NAME_LIMIT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer limit;
 
   public EmailAlertListResponse() {
   }
 
-  public EmailAlertListResponse data(@javax.annotation.Nonnull List<EmailAlertItem> data) {
+  public EmailAlertListResponse data(@jakarta.annotation.Nonnull List<EmailAlertItem> data) {
     this.data = data;
     return this;
   }
@@ -89,17 +89,17 @@ public class EmailAlertListResponse {
    * Get data
    * @return data
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<EmailAlertItem> getData() {
     return data;
   }
 
-  public void setData(@javax.annotation.Nonnull List<EmailAlertItem> data) {
+  public void setData(@jakarta.annotation.Nonnull List<EmailAlertItem> data) {
     this.data = data;
   }
 
 
-  public EmailAlertListResponse page(@javax.annotation.Nonnull Integer page) {
+  public EmailAlertListResponse page(@jakarta.annotation.Nonnull Integer page) {
     this.page = page;
     return this;
   }
@@ -108,17 +108,17 @@ public class EmailAlertListResponse {
    * Get page
    * @return page
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getPage() {
     return page;
   }
 
-  public void setPage(@javax.annotation.Nonnull Integer page) {
+  public void setPage(@jakarta.annotation.Nonnull Integer page) {
     this.page = page;
   }
 
 
-  public EmailAlertListResponse limit(@javax.annotation.Nonnull Integer limit) {
+  public EmailAlertListResponse limit(@jakarta.annotation.Nonnull Integer limit) {
     this.limit = limit;
     return this;
   }
@@ -127,12 +127,12 @@ public class EmailAlertListResponse {
    * Get limit
    * @return limit
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getLimit() {
     return limit;
   }
 
-  public void setLimit(@javax.annotation.Nonnull Integer limit) {
+  public void setLimit(@jakarta.annotation.Nonnull Integer limit) {
     this.limit = limit;
   }
 

@@ -51,27 +51,27 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoAudioEventModelV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoAudioEventModelV2 {
   public static final String SERIALIZED_NAME_MODEL = "model";
   @SerializedName(SERIALIZED_NAME_MODEL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String model = "";
 
   public static final String SERIALIZED_NAME_DESCRIPTION = "description";
   @SerializedName(SERIALIZED_NAME_DESCRIPTION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String description = "";
 
   public static final String SERIALIZED_NAME_WINDOWS_S = "windows_s";
   @SerializedName(SERIALIZED_NAME_WINDOWS_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Map<String, Object> windowsS = new HashMap<>();
 
   public AuditoriaRiscoAudioEventModelV2() {
   }
 
-  public AuditoriaRiscoAudioEventModelV2 model(@javax.annotation.Nullable String model) {
+  public AuditoriaRiscoAudioEventModelV2 model(@jakarta.annotation.Nullable String model) {
     this.model = model;
     return this;
   }
@@ -80,17 +80,17 @@ public class AuditoriaRiscoAudioEventModelV2 {
    * MAC model text (i18n)
    * @return model
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getModel() {
     return model;
   }
 
-  public void setModel(@javax.annotation.Nullable String model) {
+  public void setModel(@jakarta.annotation.Nullable String model) {
     this.model = model;
   }
 
 
-  public AuditoriaRiscoAudioEventModelV2 description(@javax.annotation.Nullable String description) {
+  public AuditoriaRiscoAudioEventModelV2 description(@jakarta.annotation.Nullable String description) {
     this.description = description;
     return this;
   }
@@ -99,17 +99,17 @@ public class AuditoriaRiscoAudioEventModelV2 {
    * MAC description (i18n)
    * @return description
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getDescription() {
     return description;
   }
 
-  public void setDescription(@javax.annotation.Nullable String description) {
+  public void setDescription(@jakarta.annotation.Nullable String description) {
     this.description = description;
   }
 
 
-  public AuditoriaRiscoAudioEventModelV2 windowsS(@javax.annotation.Nullable Map<String, Object> windowsS) {
+  public AuditoriaRiscoAudioEventModelV2 windowsS(@jakarta.annotation.Nullable Map<String, Object> windowsS) {
     this.windowsS = windowsS;
     return this;
   }
@@ -126,12 +126,12 @@ public class AuditoriaRiscoAudioEventModelV2 {
    * Temporal windows (s)
    * @return windowsS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Map<String, Object> getWindowsS() {
     return windowsS;
   }
 
-  public void setWindowsS(@javax.annotation.Nullable Map<String, Object> windowsS) {
+  public void setWindowsS(@jakarta.annotation.Nullable Map<String, Object> windowsS) {
     this.windowsS = windowsS;
   }
 

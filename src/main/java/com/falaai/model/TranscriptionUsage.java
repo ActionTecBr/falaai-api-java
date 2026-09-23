@@ -50,27 +50,27 @@ import com.falaai.JSON;
 /**
  * TranscriptionUsage
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class TranscriptionUsage {
   public static final String SERIALIZED_NAME_AUDIO_SECONDS = "audio_seconds";
   @SerializedName(SERIALIZED_NAME_AUDIO_SECONDS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private BigDecimal audioSeconds;
 
   public static final String SERIALIZED_NAME_CREDITS_CONSUMED = "credits_consumed";
   @SerializedName(SERIALIZED_NAME_CREDITS_CONSUMED)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer creditsConsumed;
 
   public static final String SERIALIZED_NAME_PROCESSING_MS = "processing_ms";
   @SerializedName(SERIALIZED_NAME_PROCESSING_MS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer processingMs;
 
   public TranscriptionUsage() {
   }
 
-  public TranscriptionUsage audioSeconds(@javax.annotation.Nonnull BigDecimal audioSeconds) {
+  public TranscriptionUsage audioSeconds(@jakarta.annotation.Nonnull BigDecimal audioSeconds) {
     this.audioSeconds = audioSeconds;
     return this;
   }
@@ -79,17 +79,17 @@ public class TranscriptionUsage {
    * Actual audio duration processed in seconds
    * @return audioSeconds
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public BigDecimal getAudioSeconds() {
     return audioSeconds;
   }
 
-  public void setAudioSeconds(@javax.annotation.Nonnull BigDecimal audioSeconds) {
+  public void setAudioSeconds(@jakarta.annotation.Nonnull BigDecimal audioSeconds) {
     this.audioSeconds = audioSeconds;
   }
 
 
-  public TranscriptionUsage creditsConsumed(@javax.annotation.Nonnull Integer creditsConsumed) {
+  public TranscriptionUsage creditsConsumed(@jakarta.annotation.Nonnull Integer creditsConsumed) {
     this.creditsConsumed = creditsConsumed;
     return this;
   }
@@ -98,17 +98,17 @@ public class TranscriptionUsage {
    * Number of credits consumed in this request
    * @return creditsConsumed
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getCreditsConsumed() {
     return creditsConsumed;
   }
 
-  public void setCreditsConsumed(@javax.annotation.Nonnull Integer creditsConsumed) {
+  public void setCreditsConsumed(@jakarta.annotation.Nonnull Integer creditsConsumed) {
     this.creditsConsumed = creditsConsumed;
   }
 
 
-  public TranscriptionUsage processingMs(@javax.annotation.Nonnull Integer processingMs) {
+  public TranscriptionUsage processingMs(@jakarta.annotation.Nonnull Integer processingMs) {
     this.processingMs = processingMs;
     return this;
   }
@@ -117,12 +117,12 @@ public class TranscriptionUsage {
    * Total processing time in milliseconds
    * @return processingMs
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getProcessingMs() {
     return processingMs;
   }
 
-  public void setProcessingMs(@javax.annotation.Nonnull Integer processingMs) {
+  public void setProcessingMs(@jakarta.annotation.Nonnull Integer processingMs) {
     this.processingMs = processingMs;
   }
 

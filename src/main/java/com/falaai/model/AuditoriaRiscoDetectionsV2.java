@@ -53,37 +53,37 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoDetectionsV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoDetectionsV2 {
   public static final String SERIALIZED_NAME_VIOLATIONS = "violations";
   @SerializedName(SERIALIZED_NAME_VIOLATIONS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<AuditoriaRiscoDetectionItemV2> violations = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_POSITIVES = "positives";
   @SerializedName(SERIALIZED_NAME_POSITIVES)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<AuditoriaRiscoDetectionItemV2> positives = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CLIENT_RISK_ALERTS = "client_risk_alerts";
   @SerializedName(SERIALIZED_NAME_CLIENT_RISK_ALERTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> clientRiskAlerts = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CLIENT_BEHAVIOR_ALERTS = "client_behavior_alerts";
   @SerializedName(SERIALIZED_NAME_CLIENT_BEHAVIOR_ALERTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> clientBehaviorAlerts = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CLIENT_NEGATIVES = "client_negatives";
   @SerializedName(SERIALIZED_NAME_CLIENT_NEGATIVES)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<AuditoriaRiscoDetectionItemV2> clientNegatives = new ArrayList<>();
 
   public AuditoriaRiscoDetectionsV2() {
   }
 
-  public AuditoriaRiscoDetectionsV2 violations(@javax.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> violations) {
+  public AuditoriaRiscoDetectionsV2 violations(@jakarta.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> violations) {
     this.violations = violations;
     return this;
   }
@@ -100,17 +100,17 @@ public class AuditoriaRiscoDetectionsV2 {
    * Active violations
    * @return violations
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<AuditoriaRiscoDetectionItemV2> getViolations() {
     return violations;
   }
 
-  public void setViolations(@javax.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> violations) {
+  public void setViolations(@jakarta.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> violations) {
     this.violations = violations;
   }
 
 
-  public AuditoriaRiscoDetectionsV2 positives(@javax.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> positives) {
+  public AuditoriaRiscoDetectionsV2 positives(@jakarta.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> positives) {
     this.positives = positives;
     return this;
   }
@@ -127,17 +127,17 @@ public class AuditoriaRiscoDetectionsV2 {
    * Active positives
    * @return positives
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<AuditoriaRiscoDetectionItemV2> getPositives() {
     return positives;
   }
 
-  public void setPositives(@javax.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> positives) {
+  public void setPositives(@jakarta.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> positives) {
     this.positives = positives;
   }
 
 
-  public AuditoriaRiscoDetectionsV2 clientRiskAlerts(@javax.annotation.Nullable List<Map<String, Object>> clientRiskAlerts) {
+  public AuditoriaRiscoDetectionsV2 clientRiskAlerts(@jakarta.annotation.Nullable List<Map<String, Object>> clientRiskAlerts) {
     this.clientRiskAlerts = clientRiskAlerts;
     return this;
   }
@@ -154,17 +154,17 @@ public class AuditoriaRiscoDetectionsV2 {
    * Client risk alerts
    * @return clientRiskAlerts
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getClientRiskAlerts() {
     return clientRiskAlerts;
   }
 
-  public void setClientRiskAlerts(@javax.annotation.Nullable List<Map<String, Object>> clientRiskAlerts) {
+  public void setClientRiskAlerts(@jakarta.annotation.Nullable List<Map<String, Object>> clientRiskAlerts) {
     this.clientRiskAlerts = clientRiskAlerts;
   }
 
 
-  public AuditoriaRiscoDetectionsV2 clientBehaviorAlerts(@javax.annotation.Nullable List<Map<String, Object>> clientBehaviorAlerts) {
+  public AuditoriaRiscoDetectionsV2 clientBehaviorAlerts(@jakarta.annotation.Nullable List<Map<String, Object>> clientBehaviorAlerts) {
     this.clientBehaviorAlerts = clientBehaviorAlerts;
     return this;
   }
@@ -181,17 +181,17 @@ public class AuditoriaRiscoDetectionsV2 {
    * Client behavior alerts
    * @return clientBehaviorAlerts
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getClientBehaviorAlerts() {
     return clientBehaviorAlerts;
   }
 
-  public void setClientBehaviorAlerts(@javax.annotation.Nullable List<Map<String, Object>> clientBehaviorAlerts) {
+  public void setClientBehaviorAlerts(@jakarta.annotation.Nullable List<Map<String, Object>> clientBehaviorAlerts) {
     this.clientBehaviorAlerts = clientBehaviorAlerts;
   }
 
 
-  public AuditoriaRiscoDetectionsV2 clientNegatives(@javax.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> clientNegatives) {
+  public AuditoriaRiscoDetectionsV2 clientNegatives(@jakarta.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> clientNegatives) {
     this.clientNegatives = clientNegatives;
     return this;
   }
@@ -208,12 +208,12 @@ public class AuditoriaRiscoDetectionsV2 {
    * Client negatives
    * @return clientNegatives
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<AuditoriaRiscoDetectionItemV2> getClientNegatives() {
     return clientNegatives;
   }
 
-  public void setClientNegatives(@javax.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> clientNegatives) {
+  public void setClientNegatives(@jakarta.annotation.Nullable List<AuditoriaRiscoDetectionItemV2> clientNegatives) {
     this.clientNegatives = clientNegatives;
   }
 

@@ -53,47 +53,47 @@ import com.falaai.JSON;
 /**
  * DiagnosticRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticRequest {
   public static final String SERIALIZED_NAME_MODEL = "model";
   @SerializedName(SERIALIZED_NAME_MODEL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String model = "falaai-diagnostic-1";
 
   public static final String SERIALIZED_NAME_TEXT = "text";
   @SerializedName(SERIALIZED_NAME_TEXT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String text = "";
 
   public static final String SERIALIZED_NAME_DIALOG = "dialog";
   @SerializedName(SERIALIZED_NAME_DIALOG)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String dialog = "";
 
   public static final String SERIALIZED_NAME_AUDIO_EVENTS = "audio_events";
   @SerializedName(SERIALIZED_NAME_AUDIO_EVENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<DiagnosticAudioEvent> audioEvents = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_LANGUAGE = "language";
   @SerializedName(SERIALIZED_NAME_LANGUAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String language;
 
   public static final String SERIALIZED_NAME_DURATION_SECONDS = "duration_seconds";
   @SerializedName(SERIALIZED_NAME_DURATION_SECONDS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private BigDecimal durationSeconds;
 
   public static final String SERIALIZED_NAME_CLIENT_REFERENCE_ID = "client_reference_id";
   @SerializedName(SERIALIZED_NAME_CLIENT_REFERENCE_ID)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String clientReferenceId;
 
   public DiagnosticRequest() {
   }
 
-  public DiagnosticRequest model(@javax.annotation.Nullable String model) {
+  public DiagnosticRequest model(@jakarta.annotation.Nullable String model) {
     this.model = model;
     return this;
   }
@@ -102,17 +102,17 @@ public class DiagnosticRequest {
    * Analysis model. Always &#39;falaai-diagnostic-1&#39;
    * @return model
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getModel() {
     return model;
   }
 
-  public void setModel(@javax.annotation.Nullable String model) {
+  public void setModel(@jakarta.annotation.Nullable String model) {
     this.model = model;
   }
 
 
-  public DiagnosticRequest text(@javax.annotation.Nullable String text) {
+  public DiagnosticRequest text(@jakarta.annotation.Nullable String text) {
     this.text = text;
     return this;
   }
@@ -121,17 +121,17 @@ public class DiagnosticRequest {
    * Plain transcript (fallback if dialog is empty). At least one of &#39;dialog&#39; or &#39;text&#39; required. Max 300,000 characters
    * @return text
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getText() {
     return text;
   }
 
-  public void setText(@javax.annotation.Nullable String text) {
+  public void setText(@jakarta.annotation.Nullable String text) {
     this.text = text;
   }
 
 
-  public DiagnosticRequest dialog(@javax.annotation.Nullable String dialog) {
+  public DiagnosticRequest dialog(@jakarta.annotation.Nullable String dialog) {
     this.dialog = dialog;
     return this;
   }
@@ -140,17 +140,17 @@ public class DiagnosticRequest {
    * Diarized transcript with speaker turns. PRIMARY source. At least one of &#39;dialog&#39; or &#39;text&#39; required. Speaker labels accepted (any case): &#39;Speaker N&#39;, &#39;Interlocutor N&#39;, &#39;Hablante N&#39;, &#39;Locutor N&#39;, &#39;Orador N&#39; (space or underscore). Normalized internally to &#39;Speaker N&#39; in the response. Max 300,000 characters
    * @return dialog
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getDialog() {
     return dialog;
   }
 
-  public void setDialog(@javax.annotation.Nullable String dialog) {
+  public void setDialog(@jakarta.annotation.Nullable String dialog) {
     this.dialog = dialog;
   }
 
 
-  public DiagnosticRequest audioEvents(@javax.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
+  public DiagnosticRequest audioEvents(@jakarta.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
     this.audioEvents = audioEvents;
     return this;
   }
@@ -167,17 +167,17 @@ public class DiagnosticRequest {
    * Detected audio events with timestamps (required when using dialog)
    * @return audioEvents
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<DiagnosticAudioEvent> getAudioEvents() {
     return audioEvents;
   }
 
-  public void setAudioEvents(@javax.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
+  public void setAudioEvents(@jakarta.annotation.Nullable List<DiagnosticAudioEvent> audioEvents) {
     this.audioEvents = audioEvents;
   }
 
 
-  public DiagnosticRequest language(@javax.annotation.Nonnull String language) {
+  public DiagnosticRequest language(@jakarta.annotation.Nonnull String language) {
     this.language = language;
     return this;
   }
@@ -186,17 +186,17 @@ public class DiagnosticRequest {
    * Transcript language. Required. Accepted: en-US, pt-BR, es-ES, es-MX, fr-FR, de-DE, it-IT, pt-PT, zh-CN, ja-JP, ko-KR, ar-SA, hi-IN, ru-RU, id-ID, tr-TR, nl-NL, pl-PL, vi-VN, th-TH, en-GB
    * @return language
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getLanguage() {
     return language;
   }
 
-  public void setLanguage(@javax.annotation.Nonnull String language) {
+  public void setLanguage(@jakarta.annotation.Nonnull String language) {
     this.language = language;
   }
 
 
-  public DiagnosticRequest durationSeconds(@javax.annotation.Nonnull BigDecimal durationSeconds) {
+  public DiagnosticRequest durationSeconds(@jakarta.annotation.Nonnull BigDecimal durationSeconds) {
     this.durationSeconds = durationSeconds;
     return this;
   }
@@ -206,17 +206,17 @@ public class DiagnosticRequest {
    * minimum: 1.0
    * @return durationSeconds
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public BigDecimal getDurationSeconds() {
     return durationSeconds;
   }
 
-  public void setDurationSeconds(@javax.annotation.Nonnull BigDecimal durationSeconds) {
+  public void setDurationSeconds(@jakarta.annotation.Nonnull BigDecimal durationSeconds) {
     this.durationSeconds = durationSeconds;
   }
 
 
-  public DiagnosticRequest clientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public DiagnosticRequest clientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
     return this;
   }
@@ -225,12 +225,12 @@ public class DiagnosticRequest {
    * Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9._:-], max 128 chars. Not idempotency.
    * @return clientReferenceId
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getClientReferenceId() {
     return clientReferenceId;
   }
 
-  public void setClientReferenceId(@javax.annotation.Nullable String clientReferenceId) {
+  public void setClientReferenceId(@jakarta.annotation.Nullable String clientReferenceId) {
     this.clientReferenceId = clientReferenceId;
   }
 

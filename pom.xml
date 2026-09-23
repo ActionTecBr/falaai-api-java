@@ -1,43 +1,42 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>io.github.actiontecbr</groupId>
+    <groupId>com.falaai</groupId>
     <artifactId>falaai-api</artifactId>
     <packaging>jar</packaging>
     <name>falaai-api</name>
     <version>1.21.47</version>
-    <url>https://falaai.action.tec.br/api</url>
-    <description>Official Java SDK for the FalaAI API - AI-powered call transcription, diagnosis and compliance auditing.</description>
+    <url>https://github.com/openapitools/openapi-generator</url>
+    <description>OpenAPI Java</description>
     <scm>
-        <connection>scm:git:git@github.com:ActionTecBr/falaai-api-java.git</connection>
-        <developerConnection>scm:git:git@github.com:ActionTecBr/falaai-api-java.git</developerConnection>
-        <url>https://github.com/ActionTecBr/falaai-api-java</url>
+        <connection>scm:git:git@github.com:openapitools/openapi-generator.git</connection>
+        <developerConnection>scm:git:git@github.com:openapitools/openapi-generator.git</developerConnection>
+        <url>https://github.com/openapitools/openapi-generator</url>
     </scm>
 
     <licenses>
         <license>
-            <name>MIT</name>
-            <url>https://opensource.org/licenses/MIT</url>
+            <name>Unlicense</name>
+            <url>http://unlicense.org</url>
             <distribution>repo</distribution>
         </license>
     </licenses>
 
     <developers>
         <developer>
-            <name>Action Tec Br</name>
-            <email>livio@action.tec.br</email>
-            <organization>Action Tec Br</organization>
-            <organizationUrl>https://falaai.action.tec.br</organizationUrl>
+            <name>OpenAPI-Generator Contributors</name>
+            <email>team@openapitools.org</email>
+            <organization>OpenAPITools.org</organization>
+            <organizationUrl>http://openapitools.org</organizationUrl>
         </developer>
     </developers>
-
 
     <build>
         <plugins>
            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.16.0</version>
+                <version>3.8.1</version>
                 <configuration>
                     <fork>true</fork>
                     <meminitial>128m</meminitial>
@@ -94,7 +93,7 @@
             </plugin>
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
-                <version>3.11.0</version>
+                <version>3.6.1</version>
                 <executions>
                     <execution>
                         <phase>package</phase>
@@ -156,7 +155,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.12.0</version>
+                <version>3.6.3</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -231,17 +230,6 @@
                 </java>
               </configuration>
             </plugin>
-            <plugin>
-            <groupId>org.sonatype.central</groupId>
-            <artifactId>central-publishing-maven-plugin</artifactId>
-            <version>0.9.0</version>
-            <extensions>true</extensions>
-            <configuration>
-                <publishingServerId>central</publishingServerId>
-                <autoPublish>true</autoPublish>
-                <waitUntil>published</waitUntil>
-            </configuration>
-        </plugin>
         </plugins>
     </build>
 
@@ -338,10 +326,10 @@
         <gson-fire-version>1.9.0</gson-fire-version>
         <okhttp-version>4.12.0</okhttp-version>
         <gson-version>2.10.1</gson-version>
-        <commons-lang3-version>3.20.0</commons-lang3-version>
+        <commons-lang3-version>3.18.0</commons-lang3-version>
         <jackson-databind-nullable-version>0.2.11</jackson-databind-nullable-version>
         <jakarta-annotation-version>3.0.0</jakarta-annotation-version>
-        <beanvalidation-version>2.0.2</beanvalidation-version>
+        <beanvalidation-version>3.0.2</beanvalidation-version>
         <junit-version>5.10.3</junit-version>
         <junit-platform-runner.version>1.10.0</junit-platform-runner.version>
         <jakarta.ws.rs-api-version>2.1.6</jakarta.ws.rs-api-version>

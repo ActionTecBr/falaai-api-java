@@ -50,37 +50,37 @@ import com.falaai.JSON;
 /**
  * DiagnosticAudioEvent
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class DiagnosticAudioEvent {
   public static final String SERIALIZED_NAME_EVENT = "event";
   @SerializedName(SERIALIZED_NAME_EVENT)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String event;
 
   public static final String SERIALIZED_NAME_START_S = "start_s";
   @SerializedName(SERIALIZED_NAME_START_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal startS;
 
   public static final String SERIALIZED_NAME_END_S = "end_s";
   @SerializedName(SERIALIZED_NAME_END_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal endS;
 
   public static final String SERIALIZED_NAME_DURATION_S = "duration_s";
   @SerializedName(SERIALIZED_NAME_DURATION_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal durationS;
 
   public static final String SERIALIZED_NAME_FORMATTED_TIMESTAMP = "formatted_timestamp";
   @SerializedName(SERIALIZED_NAME_FORMATTED_TIMESTAMP)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String formattedTimestamp;
 
   public DiagnosticAudioEvent() {
   }
 
-  public DiagnosticAudioEvent event(@javax.annotation.Nonnull String event) {
+  public DiagnosticAudioEvent event(@jakarta.annotation.Nonnull String event) {
     this.event = event;
     return this;
   }
@@ -89,17 +89,17 @@ public class DiagnosticAudioEvent {
    * Audio event type. E.g.: [laughter], [sigh]
    * @return event
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getEvent() {
     return event;
   }
 
-  public void setEvent(@javax.annotation.Nonnull String event) {
+  public void setEvent(@jakarta.annotation.Nonnull String event) {
     this.event = event;
   }
 
 
-  public DiagnosticAudioEvent startS(@javax.annotation.Nullable BigDecimal startS) {
+  public DiagnosticAudioEvent startS(@jakarta.annotation.Nullable BigDecimal startS) {
     this.startS = startS;
     return this;
   }
@@ -108,17 +108,17 @@ public class DiagnosticAudioEvent {
    * Start time in seconds
    * @return startS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getStartS() {
     return startS;
   }
 
-  public void setStartS(@javax.annotation.Nullable BigDecimal startS) {
+  public void setStartS(@jakarta.annotation.Nullable BigDecimal startS) {
     this.startS = startS;
   }
 
 
-  public DiagnosticAudioEvent endS(@javax.annotation.Nullable BigDecimal endS) {
+  public DiagnosticAudioEvent endS(@jakarta.annotation.Nullable BigDecimal endS) {
     this.endS = endS;
     return this;
   }
@@ -127,17 +127,17 @@ public class DiagnosticAudioEvent {
    * End time in seconds
    * @return endS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getEndS() {
     return endS;
   }
 
-  public void setEndS(@javax.annotation.Nullable BigDecimal endS) {
+  public void setEndS(@jakarta.annotation.Nullable BigDecimal endS) {
     this.endS = endS;
   }
 
 
-  public DiagnosticAudioEvent durationS(@javax.annotation.Nullable BigDecimal durationS) {
+  public DiagnosticAudioEvent durationS(@jakarta.annotation.Nullable BigDecimal durationS) {
     this.durationS = durationS;
     return this;
   }
@@ -146,17 +146,17 @@ public class DiagnosticAudioEvent {
    * Duration in seconds
    * @return durationS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getDurationS() {
     return durationS;
   }
 
-  public void setDurationS(@javax.annotation.Nullable BigDecimal durationS) {
+  public void setDurationS(@jakarta.annotation.Nullable BigDecimal durationS) {
     this.durationS = durationS;
   }
 
 
-  public DiagnosticAudioEvent formattedTimestamp(@javax.annotation.Nullable String formattedTimestamp) {
+  public DiagnosticAudioEvent formattedTimestamp(@jakarta.annotation.Nullable String formattedTimestamp) {
     this.formattedTimestamp = formattedTimestamp;
     return this;
   }
@@ -165,12 +165,12 @@ public class DiagnosticAudioEvent {
    * Formatted timestamp (HH:MM:SS.ms)
    * @return formattedTimestamp
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getFormattedTimestamp() {
     return formattedTimestamp;
   }
 
-  public void setFormattedTimestamp(@javax.annotation.Nullable String formattedTimestamp) {
+  public void setFormattedTimestamp(@jakarta.annotation.Nullable String formattedTimestamp) {
     this.formattedTimestamp = formattedTimestamp;
   }
 

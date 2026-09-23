@@ -49,42 +49,42 @@ import com.falaai.JSON;
 /**
  * HealthResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class HealthResponse {
   public static final String SERIALIZED_NAME_STATUS = "status";
   @SerializedName(SERIALIZED_NAME_STATUS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String status;
 
   public static final String SERIALIZED_NAME_VERSION = "version";
   @SerializedName(SERIALIZED_NAME_VERSION)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String version;
 
   public static final String SERIALIZED_NAME_UPTIME_SECONDS = "uptime_seconds";
   @SerializedName(SERIALIZED_NAME_UPTIME_SECONDS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Integer uptimeSeconds;
 
   public static final String SERIALIZED_NAME_DATABASE = "database";
   @SerializedName(SERIALIZED_NAME_DATABASE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private Boolean database;
 
   public static final String SERIALIZED_NAME_PHASE = "phase";
   @SerializedName(SERIALIZED_NAME_PHASE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String phase;
 
   public static final String SERIALIZED_NAME_LAUNCH_DATE = "launch_date";
   @SerializedName(SERIALIZED_NAME_LAUNCH_DATE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String launchDate;
 
   public HealthResponse() {
   }
 
-  public HealthResponse status(@javax.annotation.Nonnull String status) {
+  public HealthResponse status(@jakarta.annotation.Nonnull String status) {
     this.status = status;
     return this;
   }
@@ -93,17 +93,17 @@ public class HealthResponse {
    * Overall API status
    * @return status
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getStatus() {
     return status;
   }
 
-  public void setStatus(@javax.annotation.Nonnull String status) {
+  public void setStatus(@jakarta.annotation.Nonnull String status) {
     this.status = status;
   }
 
 
-  public HealthResponse version(@javax.annotation.Nonnull String version) {
+  public HealthResponse version(@jakarta.annotation.Nonnull String version) {
     this.version = version;
     return this;
   }
@@ -112,17 +112,17 @@ public class HealthResponse {
    * Current API version
    * @return version
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getVersion() {
     return version;
   }
 
-  public void setVersion(@javax.annotation.Nonnull String version) {
+  public void setVersion(@jakarta.annotation.Nonnull String version) {
     this.version = version;
   }
 
 
-  public HealthResponse uptimeSeconds(@javax.annotation.Nonnull Integer uptimeSeconds) {
+  public HealthResponse uptimeSeconds(@jakarta.annotation.Nonnull Integer uptimeSeconds) {
     this.uptimeSeconds = uptimeSeconds;
     return this;
   }
@@ -131,17 +131,17 @@ public class HealthResponse {
    * Uptime in seconds
    * @return uptimeSeconds
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Integer getUptimeSeconds() {
     return uptimeSeconds;
   }
 
-  public void setUptimeSeconds(@javax.annotation.Nonnull Integer uptimeSeconds) {
+  public void setUptimeSeconds(@jakarta.annotation.Nonnull Integer uptimeSeconds) {
     this.uptimeSeconds = uptimeSeconds;
   }
 
 
-  public HealthResponse database(@javax.annotation.Nonnull Boolean database) {
+  public HealthResponse database(@jakarta.annotation.Nonnull Boolean database) {
     this.database = database;
     return this;
   }
@@ -150,17 +150,17 @@ public class HealthResponse {
    * Database connection status
    * @return database
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public Boolean getDatabase() {
     return database;
   }
 
-  public void setDatabase(@javax.annotation.Nonnull Boolean database) {
+  public void setDatabase(@jakarta.annotation.Nonnull Boolean database) {
     this.database = database;
   }
 
 
-  public HealthResponse phase(@javax.annotation.Nonnull String phase) {
+  public HealthResponse phase(@jakarta.annotation.Nonnull String phase) {
     this.phase = phase;
     return this;
   }
@@ -169,17 +169,17 @@ public class HealthResponse {
    * Development phase
    * @return phase
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getPhase() {
     return phase;
   }
 
-  public void setPhase(@javax.annotation.Nonnull String phase) {
+  public void setPhase(@jakarta.annotation.Nonnull String phase) {
     this.phase = phase;
   }
 
 
-  public HealthResponse launchDate(@javax.annotation.Nonnull String launchDate) {
+  public HealthResponse launchDate(@jakarta.annotation.Nonnull String launchDate) {
     this.launchDate = launchDate;
     return this;
   }
@@ -188,12 +188,12 @@ public class HealthResponse {
    * Expected public launch date
    * @return launchDate
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getLaunchDate() {
     return launchDate;
   }
 
-  public void setLaunchDate(@javax.annotation.Nonnull String launchDate) {
+  public void setLaunchDate(@jakarta.annotation.Nonnull String launchDate) {
     this.launchDate = launchDate;
   }
 

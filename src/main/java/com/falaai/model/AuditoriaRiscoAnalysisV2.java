@@ -51,27 +51,27 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoAnalysisV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoAnalysisV2 {
   public static final String SERIALIZED_NAME_GLOBAL_METRICS = "global_metrics";
   @SerializedName(SERIALIZED_NAME_GLOBAL_METRICS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Map<String, Object> globalMetrics = new HashMap<>();
 
   public static final String SERIALIZED_NAME_FINAL_ANALYSIS = "final_analysis";
   @SerializedName(SERIALIZED_NAME_FINAL_ANALYSIS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Map<String, Object> finalAnalysis = new HashMap<>();
 
   public static final String SERIALIZED_NAME_FRAMEWORKS = "frameworks";
   @SerializedName(SERIALIZED_NAME_FRAMEWORKS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Map<String, Object> frameworks = new HashMap<>();
 
   public AuditoriaRiscoAnalysisV2() {
   }
 
-  public AuditoriaRiscoAnalysisV2 globalMetrics(@javax.annotation.Nullable Map<String, Object> globalMetrics) {
+  public AuditoriaRiscoAnalysisV2 globalMetrics(@jakarta.annotation.Nullable Map<String, Object> globalMetrics) {
     this.globalMetrics = globalMetrics;
     return this;
   }
@@ -88,17 +88,17 @@ public class AuditoriaRiscoAnalysisV2 {
    * Global metrics
    * @return globalMetrics
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Map<String, Object> getGlobalMetrics() {
     return globalMetrics;
   }
 
-  public void setGlobalMetrics(@javax.annotation.Nullable Map<String, Object> globalMetrics) {
+  public void setGlobalMetrics(@jakarta.annotation.Nullable Map<String, Object> globalMetrics) {
     this.globalMetrics = globalMetrics;
   }
 
 
-  public AuditoriaRiscoAnalysisV2 finalAnalysis(@javax.annotation.Nullable Map<String, Object> finalAnalysis) {
+  public AuditoriaRiscoAnalysisV2 finalAnalysis(@jakarta.annotation.Nullable Map<String, Object> finalAnalysis) {
     this.finalAnalysis = finalAnalysis;
     return this;
   }
@@ -115,17 +115,17 @@ public class AuditoriaRiscoAnalysisV2 {
    * Final analysis
    * @return finalAnalysis
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Map<String, Object> getFinalAnalysis() {
     return finalAnalysis;
   }
 
-  public void setFinalAnalysis(@javax.annotation.Nullable Map<String, Object> finalAnalysis) {
+  public void setFinalAnalysis(@jakarta.annotation.Nullable Map<String, Object> finalAnalysis) {
     this.finalAnalysis = finalAnalysis;
   }
 
 
-  public AuditoriaRiscoAnalysisV2 frameworks(@javax.annotation.Nullable Map<String, Object> frameworks) {
+  public AuditoriaRiscoAnalysisV2 frameworks(@jakarta.annotation.Nullable Map<String, Object> frameworks) {
     this.frameworks = frameworks;
     return this;
   }
@@ -142,12 +142,12 @@ public class AuditoriaRiscoAnalysisV2 {
    * Frameworks (COPC/ISO/Kirkpatrick/CES)
    * @return frameworks
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Map<String, Object> getFrameworks() {
     return frameworks;
   }
 
-  public void setFrameworks(@javax.annotation.Nullable Map<String, Object> frameworks) {
+  public void setFrameworks(@jakarta.annotation.Nullable Map<String, Object> frameworks) {
     this.frameworks = frameworks;
   }
 

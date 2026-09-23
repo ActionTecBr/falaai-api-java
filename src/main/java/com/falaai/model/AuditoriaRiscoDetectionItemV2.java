@@ -54,247 +54,247 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoDetectionItemV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoDetectionItemV2 {
   public static final String SERIALIZED_NAME_TURN = "turn";
   @SerializedName(SERIALIZED_NAME_TURN)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Integer turn;
 
   public static final String SERIALIZED_NAME_INTERLOCUTOR = "interlocutor";
   @SerializedName(SERIALIZED_NAME_INTERLOCUTOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String interlocutor;
 
   public static final String SERIALIZED_NAME_ROLE = "role";
   @SerializedName(SERIALIZED_NAME_ROLE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String role;
 
   public static final String SERIALIZED_NAME_TIMESTAMP_START_S = "timestamp_start_s";
   @SerializedName(SERIALIZED_NAME_TIMESTAMP_START_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal timestampStartS;
 
   public static final String SERIALIZED_NAME_TIMESTAMP_END_S = "timestamp_end_s";
   @SerializedName(SERIALIZED_NAME_TIMESTAMP_END_S)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal timestampEndS;
 
   public static final String SERIALIZED_NAME_TIMESTAMP_FORMATTED = "timestamp_formatted";
   @SerializedName(SERIALIZED_NAME_TIMESTAMP_FORMATTED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String timestampFormatted;
 
   public static final String SERIALIZED_NAME_TERM_TEXT = "term_text";
   @SerializedName(SERIALIZED_NAME_TERM_TEXT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String termText;
 
   public static final String SERIALIZED_NAME_SUGGESTED_TERM_FOR_BANK = "suggested_term_for_bank";
   @SerializedName(SERIALIZED_NAME_SUGGESTED_TERM_FOR_BANK)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object suggestedTermForBank = null;
 
   public static final String SERIALIZED_NAME_CATEGORY = "category";
   @SerializedName(SERIALIZED_NAME_CATEGORY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String category;
 
   public static final String SERIALIZED_NAME_CATEGORY_LABEL = "category_label";
   @SerializedName(SERIALIZED_NAME_CATEGORY_LABEL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String categoryLabel;
 
   public static final String SERIALIZED_NAME_CATEGORY_COLOR = "category_color";
   @SerializedName(SERIALIZED_NAME_CATEGORY_COLOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String categoryColor;
 
   public static final String SERIALIZED_NAME_CATEGORY_ICON = "category_icon";
   @SerializedName(SERIALIZED_NAME_CATEGORY_ICON)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String categoryIcon;
 
   public static final String SERIALIZED_NAME_CRITICALITY = "criticality";
   @SerializedName(SERIALIZED_NAME_CRITICALITY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String criticality;
 
   public static final String SERIALIZED_NAME_CATEGORY_THRESHOLD = "category_threshold";
   @SerializedName(SERIALIZED_NAME_CATEGORY_THRESHOLD)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal categoryThreshold;
 
   public static final String SERIALIZED_NAME_CATEGORY_TYPE = "category_type";
   @SerializedName(SERIALIZED_NAME_CATEGORY_TYPE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String categoryType;
 
   public static final String SERIALIZED_NAME_CATEGORY_GROUP = "category_group";
   @SerializedName(SERIALIZED_NAME_CATEGORY_GROUP)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String categoryGroup;
 
   public static final String SERIALIZED_NAME_NATURE = "nature";
   @SerializedName(SERIALIZED_NAME_NATURE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String nature;
 
   public static final String SERIALIZED_NAME_LLM_CONFIDENCE = "llm_confidence";
   @SerializedName(SERIALIZED_NAME_LLM_CONFIDENCE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal llmConfidence;
 
   public static final String SERIALIZED_NAME_REASON = "reason";
   @SerializedName(SERIALIZED_NAME_REASON)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String reason;
 
   public static final String SERIALIZED_NAME_IS_VALID_CONTEXT = "is_valid_context";
   @SerializedName(SERIALIZED_NAME_IS_VALID_CONTEXT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean isValidContext;
 
   public static final String SERIALIZED_NAME_RISK_PROBABILITY = "risk_probability";
   @SerializedName(SERIALIZED_NAME_RISK_PROBABILITY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal riskProbability;
 
   public static final String SERIALIZED_NAME_RISK_IMPACT = "risk_impact";
   @SerializedName(SERIALIZED_NAME_RISK_IMPACT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal riskImpact;
 
   public static final String SERIALIZED_NAME_CATEGORY_WEIGHT = "category_weight";
   @SerializedName(SERIALIZED_NAME_CATEGORY_WEIGHT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal categoryWeight;
 
   public static final String SERIALIZED_NAME_TURN_SENTIMENT = "turn_sentiment";
   @SerializedName(SERIALIZED_NAME_TURN_SENTIMENT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String turnSentiment;
 
   public static final String SERIALIZED_NAME_INTENSITY = "intensity";
   @SerializedName(SERIALIZED_NAME_INTENSITY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object intensity = null;
 
   public static final String SERIALIZED_NAME_MOD_APPLIED = "mod_applied";
   @SerializedName(SERIALIZED_NAME_MOD_APPLIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal modApplied;
 
   public static final String SERIALIZED_NAME_MAC_APPLIED = "mac_applied";
   @SerializedName(SERIALIZED_NAME_MAC_APPLIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal macApplied;
 
   public static final String SERIALIZED_NAME_MVAD_APPLIED = "mvad_applied";
   @SerializedName(SERIALIZED_NAME_MVAD_APPLIED)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal mvadApplied;
 
   public static final String SERIALIZED_NAME_MOD_FORMULA = "mod_formula";
   @SerializedName(SERIALIZED_NAME_MOD_FORMULA)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String modFormula;
 
   public static final String SERIALIZED_NAME_MAC_DETAILS = "mac_details";
   @SerializedName(SERIALIZED_NAME_MAC_DETAILS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> macDetails = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CALIBRATION_REASON = "calibration_reason";
   @SerializedName(SERIALIZED_NAME_CALIBRATION_REASON)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String calibrationReason;
 
   public static final String SERIALIZED_NAME_FINAL_SCORE = "final_score";
   @SerializedName(SERIALIZED_NAME_FINAL_SCORE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal finalScore;
 
   public static final String SERIALIZED_NAME_FINAL_SCORE_FORMULA = "final_score_formula";
   @SerializedName(SERIALIZED_NAME_FINAL_SCORE_FORMULA)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String finalScoreFormula;
 
   public static final String SERIALIZED_NAME_CONVERSATION_LIMIT = "conversation_limit";
   @SerializedName(SERIALIZED_NAME_CONVERSATION_LIMIT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Object conversationLimit = null;
 
   public static final String SERIALIZED_NAME_APPLY_SATURATION = "apply_saturation";
   @SerializedName(SERIALIZED_NAME_APPLY_SATURATION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean applySaturation;
 
   public static final String SERIALIZED_NAME_BLOCK_REPETITION = "block_repetition";
   @SerializedName(SERIALIZED_NAME_BLOCK_REPETITION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean blockRepetition;
 
   public static final String SERIALIZED_NAME_STATUS = "status";
   @SerializedName(SERIALIZED_NAME_STATUS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String status;
 
   public static final String SERIALIZED_NAME_EFFECTIVE_IMPACT = "effective_impact";
   @SerializedName(SERIALIZED_NAME_EFFECTIVE_IMPACT)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal effectiveImpact;
 
   public static final String SERIALIZED_NAME_SATURATION_FACTOR = "saturation_factor";
   @SerializedName(SERIALIZED_NAME_SATURATION_FACTOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private BigDecimal saturationFactor;
 
   public static final String SERIALIZED_NAME_SATURATION_FORMULA = "saturation_formula";
   @SerializedName(SERIALIZED_NAME_SATURATION_FORMULA)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String saturationFormula;
 
   public static final String SERIALIZED_NAME_THRESHOLD_FORMULA = "threshold_formula";
   @SerializedName(SERIALIZED_NAME_THRESHOLD_FORMULA)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String thresholdFormula;
 
   public static final String SERIALIZED_NAME_BLOCKED_FORMULA = "blocked_formula";
   @SerializedName(SERIALIZED_NAME_BLOCKED_FORMULA)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String blockedFormula;
 
   public static final String SERIALIZED_NAME_RECONCILIATION_NOTE = "reconciliation_note";
   @SerializedName(SERIALIZED_NAME_RECONCILIATION_NOTE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String reconciliationNote;
 
   public static final String SERIALIZED_NAME_VIOLATED_FRAMEWORKS = "violated_frameworks";
   @SerializedName(SERIALIZED_NAME_VIOLATED_FRAMEWORKS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Object> violatedFrameworks = new ArrayList<>();
 
   public static final String SERIALIZED_NAME_CITATION_FIDELITY = "citation_fidelity";
   @SerializedName(SERIALIZED_NAME_CITATION_FIDELITY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean citationFidelity = true;
 
   public static final String SERIALIZED_NAME_SUBCATEGORY = "subcategory";
   @SerializedName(SERIALIZED_NAME_SUBCATEGORY)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String subcategory;
 
   public static final String SERIALIZED_NAME_SUBCATEGORY_LABEL = "subcategory_label";
   @SerializedName(SERIALIZED_NAME_SUBCATEGORY_LABEL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String subcategoryLabel;
 
   public AuditoriaRiscoDetectionItemV2() {
   }
 
-  public AuditoriaRiscoDetectionItemV2 turn(@javax.annotation.Nullable Integer turn) {
+  public AuditoriaRiscoDetectionItemV2 turn(@jakarta.annotation.Nullable Integer turn) {
     this.turn = turn;
     return this;
   }
@@ -303,17 +303,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Turn number
    * @return turn
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Integer getTurn() {
     return turn;
   }
 
-  public void setTurn(@javax.annotation.Nullable Integer turn) {
+  public void setTurn(@jakarta.annotation.Nullable Integer turn) {
     this.turn = turn;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 interlocutor(@javax.annotation.Nullable String interlocutor) {
+  public AuditoriaRiscoDetectionItemV2 interlocutor(@jakarta.annotation.Nullable String interlocutor) {
     this.interlocutor = interlocutor;
     return this;
   }
@@ -322,17 +322,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Speaker
    * @return interlocutor
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getInterlocutor() {
     return interlocutor;
   }
 
-  public void setInterlocutor(@javax.annotation.Nullable String interlocutor) {
+  public void setInterlocutor(@jakarta.annotation.Nullable String interlocutor) {
     this.interlocutor = interlocutor;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 role(@javax.annotation.Nullable String role) {
+  public AuditoriaRiscoDetectionItemV2 role(@jakarta.annotation.Nullable String role) {
     this.role = role;
     return this;
   }
@@ -341,17 +341,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Role
    * @return role
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getRole() {
     return role;
   }
 
-  public void setRole(@javax.annotation.Nullable String role) {
+  public void setRole(@jakarta.annotation.Nullable String role) {
     this.role = role;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 timestampStartS(@javax.annotation.Nullable BigDecimal timestampStartS) {
+  public AuditoriaRiscoDetectionItemV2 timestampStartS(@jakarta.annotation.Nullable BigDecimal timestampStartS) {
     this.timestampStartS = timestampStartS;
     return this;
   }
@@ -360,17 +360,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Start (s)
    * @return timestampStartS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getTimestampStartS() {
     return timestampStartS;
   }
 
-  public void setTimestampStartS(@javax.annotation.Nullable BigDecimal timestampStartS) {
+  public void setTimestampStartS(@jakarta.annotation.Nullable BigDecimal timestampStartS) {
     this.timestampStartS = timestampStartS;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 timestampEndS(@javax.annotation.Nullable BigDecimal timestampEndS) {
+  public AuditoriaRiscoDetectionItemV2 timestampEndS(@jakarta.annotation.Nullable BigDecimal timestampEndS) {
     this.timestampEndS = timestampEndS;
     return this;
   }
@@ -379,17 +379,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * End (s)
    * @return timestampEndS
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getTimestampEndS() {
     return timestampEndS;
   }
 
-  public void setTimestampEndS(@javax.annotation.Nullable BigDecimal timestampEndS) {
+  public void setTimestampEndS(@jakarta.annotation.Nullable BigDecimal timestampEndS) {
     this.timestampEndS = timestampEndS;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 timestampFormatted(@javax.annotation.Nullable String timestampFormatted) {
+  public AuditoriaRiscoDetectionItemV2 timestampFormatted(@jakarta.annotation.Nullable String timestampFormatted) {
     this.timestampFormatted = timestampFormatted;
     return this;
   }
@@ -398,17 +398,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Formatted timestamp
    * @return timestampFormatted
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getTimestampFormatted() {
     return timestampFormatted;
   }
 
-  public void setTimestampFormatted(@javax.annotation.Nullable String timestampFormatted) {
+  public void setTimestampFormatted(@jakarta.annotation.Nullable String timestampFormatted) {
     this.timestampFormatted = timestampFormatted;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 termText(@javax.annotation.Nullable String termText) {
+  public AuditoriaRiscoDetectionItemV2 termText(@jakarta.annotation.Nullable String termText) {
     this.termText = termText;
     return this;
   }
@@ -417,17 +417,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Detected term
    * @return termText
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getTermText() {
     return termText;
   }
 
-  public void setTermText(@javax.annotation.Nullable String termText) {
+  public void setTermText(@jakarta.annotation.Nullable String termText) {
     this.termText = termText;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 suggestedTermForBank(@javax.annotation.Nullable Object suggestedTermForBank) {
+  public AuditoriaRiscoDetectionItemV2 suggestedTermForBank(@jakarta.annotation.Nullable Object suggestedTermForBank) {
     this.suggestedTermForBank = suggestedTermForBank;
     return this;
   }
@@ -436,17 +436,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Suggested term for bank
    * @return suggestedTermForBank
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getSuggestedTermForBank() {
     return suggestedTermForBank;
   }
 
-  public void setSuggestedTermForBank(@javax.annotation.Nullable Object suggestedTermForBank) {
+  public void setSuggestedTermForBank(@jakarta.annotation.Nullable Object suggestedTermForBank) {
     this.suggestedTermForBank = suggestedTermForBank;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 category(@javax.annotation.Nullable String category) {
+  public AuditoriaRiscoDetectionItemV2 category(@jakarta.annotation.Nullable String category) {
     this.category = category;
     return this;
   }
@@ -455,17 +455,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category code
    * @return category
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCategory() {
     return category;
   }
 
-  public void setCategory(@javax.annotation.Nullable String category) {
+  public void setCategory(@jakarta.annotation.Nullable String category) {
     this.category = category;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryLabel(@javax.annotation.Nonnull String categoryLabel) {
+  public AuditoriaRiscoDetectionItemV2 categoryLabel(@jakarta.annotation.Nonnull String categoryLabel) {
     this.categoryLabel = categoryLabel;
     return this;
   }
@@ -474,17 +474,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category label (i18n)
    * @return categoryLabel
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCategoryLabel() {
     return categoryLabel;
   }
 
-  public void setCategoryLabel(@javax.annotation.Nonnull String categoryLabel) {
+  public void setCategoryLabel(@jakarta.annotation.Nonnull String categoryLabel) {
     this.categoryLabel = categoryLabel;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryColor(@javax.annotation.Nullable String categoryColor) {
+  public AuditoriaRiscoDetectionItemV2 categoryColor(@jakarta.annotation.Nullable String categoryColor) {
     this.categoryColor = categoryColor;
     return this;
   }
@@ -493,17 +493,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category color
    * @return categoryColor
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCategoryColor() {
     return categoryColor;
   }
 
-  public void setCategoryColor(@javax.annotation.Nullable String categoryColor) {
+  public void setCategoryColor(@jakarta.annotation.Nullable String categoryColor) {
     this.categoryColor = categoryColor;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryIcon(@javax.annotation.Nullable String categoryIcon) {
+  public AuditoriaRiscoDetectionItemV2 categoryIcon(@jakarta.annotation.Nullable String categoryIcon) {
     this.categoryIcon = categoryIcon;
     return this;
   }
@@ -512,17 +512,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category icon
    * @return categoryIcon
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCategoryIcon() {
     return categoryIcon;
   }
 
-  public void setCategoryIcon(@javax.annotation.Nullable String categoryIcon) {
+  public void setCategoryIcon(@jakarta.annotation.Nullable String categoryIcon) {
     this.categoryIcon = categoryIcon;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 criticality(@javax.annotation.Nullable String criticality) {
+  public AuditoriaRiscoDetectionItemV2 criticality(@jakarta.annotation.Nullable String criticality) {
     this.criticality = criticality;
     return this;
   }
@@ -531,17 +531,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Criticality
    * @return criticality
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCriticality() {
     return criticality;
   }
 
-  public void setCriticality(@javax.annotation.Nullable String criticality) {
+  public void setCriticality(@jakarta.annotation.Nullable String criticality) {
     this.criticality = criticality;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryThreshold(@javax.annotation.Nullable BigDecimal categoryThreshold) {
+  public AuditoriaRiscoDetectionItemV2 categoryThreshold(@jakarta.annotation.Nullable BigDecimal categoryThreshold) {
     this.categoryThreshold = categoryThreshold;
     return this;
   }
@@ -550,17 +550,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category threshold
    * @return categoryThreshold
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getCategoryThreshold() {
     return categoryThreshold;
   }
 
-  public void setCategoryThreshold(@javax.annotation.Nullable BigDecimal categoryThreshold) {
+  public void setCategoryThreshold(@jakarta.annotation.Nullable BigDecimal categoryThreshold) {
     this.categoryThreshold = categoryThreshold;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryType(@javax.annotation.Nullable String categoryType) {
+  public AuditoriaRiscoDetectionItemV2 categoryType(@jakarta.annotation.Nullable String categoryType) {
     this.categoryType = categoryType;
     return this;
   }
@@ -569,17 +569,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category type
    * @return categoryType
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCategoryType() {
     return categoryType;
   }
 
-  public void setCategoryType(@javax.annotation.Nullable String categoryType) {
+  public void setCategoryType(@jakarta.annotation.Nullable String categoryType) {
     this.categoryType = categoryType;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryGroup(@javax.annotation.Nonnull String categoryGroup) {
+  public AuditoriaRiscoDetectionItemV2 categoryGroup(@jakarta.annotation.Nonnull String categoryGroup) {
     this.categoryGroup = categoryGroup;
     return this;
   }
@@ -588,17 +588,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category group label (i18n)
    * @return categoryGroup
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getCategoryGroup() {
     return categoryGroup;
   }
 
-  public void setCategoryGroup(@javax.annotation.Nonnull String categoryGroup) {
+  public void setCategoryGroup(@jakarta.annotation.Nonnull String categoryGroup) {
     this.categoryGroup = categoryGroup;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 nature(@javax.annotation.Nullable String nature) {
+  public AuditoriaRiscoDetectionItemV2 nature(@jakarta.annotation.Nullable String nature) {
     this.nature = nature;
     return this;
   }
@@ -607,17 +607,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Nature
    * @return nature
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getNature() {
     return nature;
   }
 
-  public void setNature(@javax.annotation.Nullable String nature) {
+  public void setNature(@jakarta.annotation.Nullable String nature) {
     this.nature = nature;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 llmConfidence(@javax.annotation.Nullable BigDecimal llmConfidence) {
+  public AuditoriaRiscoDetectionItemV2 llmConfidence(@jakarta.annotation.Nullable BigDecimal llmConfidence) {
     this.llmConfidence = llmConfidence;
     return this;
   }
@@ -626,17 +626,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * LLM confidence
    * @return llmConfidence
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getLlmConfidence() {
     return llmConfidence;
   }
 
-  public void setLlmConfidence(@javax.annotation.Nullable BigDecimal llmConfidence) {
+  public void setLlmConfidence(@jakarta.annotation.Nullable BigDecimal llmConfidence) {
     this.llmConfidence = llmConfidence;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 reason(@javax.annotation.Nullable String reason) {
+  public AuditoriaRiscoDetectionItemV2 reason(@jakarta.annotation.Nullable String reason) {
     this.reason = reason;
     return this;
   }
@@ -645,17 +645,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Reason
    * @return reason
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getReason() {
     return reason;
   }
 
-  public void setReason(@javax.annotation.Nullable String reason) {
+  public void setReason(@jakarta.annotation.Nullable String reason) {
     this.reason = reason;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 isValidContext(@javax.annotation.Nullable Boolean isValidContext) {
+  public AuditoriaRiscoDetectionItemV2 isValidContext(@jakarta.annotation.Nullable Boolean isValidContext) {
     this.isValidContext = isValidContext;
     return this;
   }
@@ -664,17 +664,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Valid context
    * @return isValidContext
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getIsValidContext() {
     return isValidContext;
   }
 
-  public void setIsValidContext(@javax.annotation.Nullable Boolean isValidContext) {
+  public void setIsValidContext(@jakarta.annotation.Nullable Boolean isValidContext) {
     this.isValidContext = isValidContext;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 riskProbability(@javax.annotation.Nullable BigDecimal riskProbability) {
+  public AuditoriaRiscoDetectionItemV2 riskProbability(@jakarta.annotation.Nullable BigDecimal riskProbability) {
     this.riskProbability = riskProbability;
     return this;
   }
@@ -683,17 +683,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Risk probability
    * @return riskProbability
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getRiskProbability() {
     return riskProbability;
   }
 
-  public void setRiskProbability(@javax.annotation.Nullable BigDecimal riskProbability) {
+  public void setRiskProbability(@jakarta.annotation.Nullable BigDecimal riskProbability) {
     this.riskProbability = riskProbability;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 riskImpact(@javax.annotation.Nullable BigDecimal riskImpact) {
+  public AuditoriaRiscoDetectionItemV2 riskImpact(@jakarta.annotation.Nullable BigDecimal riskImpact) {
     this.riskImpact = riskImpact;
     return this;
   }
@@ -702,17 +702,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Risk impact
    * @return riskImpact
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getRiskImpact() {
     return riskImpact;
   }
 
-  public void setRiskImpact(@javax.annotation.Nullable BigDecimal riskImpact) {
+  public void setRiskImpact(@jakarta.annotation.Nullable BigDecimal riskImpact) {
     this.riskImpact = riskImpact;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 categoryWeight(@javax.annotation.Nullable BigDecimal categoryWeight) {
+  public AuditoriaRiscoDetectionItemV2 categoryWeight(@jakarta.annotation.Nullable BigDecimal categoryWeight) {
     this.categoryWeight = categoryWeight;
     return this;
   }
@@ -721,17 +721,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Category weight
    * @return categoryWeight
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getCategoryWeight() {
     return categoryWeight;
   }
 
-  public void setCategoryWeight(@javax.annotation.Nullable BigDecimal categoryWeight) {
+  public void setCategoryWeight(@jakarta.annotation.Nullable BigDecimal categoryWeight) {
     this.categoryWeight = categoryWeight;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 turnSentiment(@javax.annotation.Nullable String turnSentiment) {
+  public AuditoriaRiscoDetectionItemV2 turnSentiment(@jakarta.annotation.Nullable String turnSentiment) {
     this.turnSentiment = turnSentiment;
     return this;
   }
@@ -740,17 +740,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Turn sentiment
    * @return turnSentiment
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getTurnSentiment() {
     return turnSentiment;
   }
 
-  public void setTurnSentiment(@javax.annotation.Nullable String turnSentiment) {
+  public void setTurnSentiment(@jakarta.annotation.Nullable String turnSentiment) {
     this.turnSentiment = turnSentiment;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 intensity(@javax.annotation.Nullable Object intensity) {
+  public AuditoriaRiscoDetectionItemV2 intensity(@jakarta.annotation.Nullable Object intensity) {
     this.intensity = intensity;
     return this;
   }
@@ -759,17 +759,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Intensity
    * @return intensity
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getIntensity() {
     return intensity;
   }
 
-  public void setIntensity(@javax.annotation.Nullable Object intensity) {
+  public void setIntensity(@jakarta.annotation.Nullable Object intensity) {
     this.intensity = intensity;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 modApplied(@javax.annotation.Nullable BigDecimal modApplied) {
+  public AuditoriaRiscoDetectionItemV2 modApplied(@jakarta.annotation.Nullable BigDecimal modApplied) {
     this.modApplied = modApplied;
     return this;
   }
@@ -778,17 +778,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Total modifier applied
    * @return modApplied
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getModApplied() {
     return modApplied;
   }
 
-  public void setModApplied(@javax.annotation.Nullable BigDecimal modApplied) {
+  public void setModApplied(@jakarta.annotation.Nullable BigDecimal modApplied) {
     this.modApplied = modApplied;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 macApplied(@javax.annotation.Nullable BigDecimal macApplied) {
+  public AuditoriaRiscoDetectionItemV2 macApplied(@jakarta.annotation.Nullable BigDecimal macApplied) {
     this.macApplied = macApplied;
     return this;
   }
@@ -797,17 +797,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Audio modifier applied
    * @return macApplied
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getMacApplied() {
     return macApplied;
   }
 
-  public void setMacApplied(@javax.annotation.Nullable BigDecimal macApplied) {
+  public void setMacApplied(@jakarta.annotation.Nullable BigDecimal macApplied) {
     this.macApplied = macApplied;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 mvadApplied(@javax.annotation.Nullable BigDecimal mvadApplied) {
+  public AuditoriaRiscoDetectionItemV2 mvadApplied(@jakarta.annotation.Nullable BigDecimal mvadApplied) {
     this.mvadApplied = mvadApplied;
     return this;
   }
@@ -816,17 +816,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Intensity modifier applied
    * @return mvadApplied
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getMvadApplied() {
     return mvadApplied;
   }
 
-  public void setMvadApplied(@javax.annotation.Nullable BigDecimal mvadApplied) {
+  public void setMvadApplied(@jakarta.annotation.Nullable BigDecimal mvadApplied) {
     this.mvadApplied = mvadApplied;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 modFormula(@javax.annotation.Nullable String modFormula) {
+  public AuditoriaRiscoDetectionItemV2 modFormula(@jakarta.annotation.Nullable String modFormula) {
     this.modFormula = modFormula;
     return this;
   }
@@ -835,17 +835,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Modifier formula
    * @return modFormula
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getModFormula() {
     return modFormula;
   }
 
-  public void setModFormula(@javax.annotation.Nullable String modFormula) {
+  public void setModFormula(@jakarta.annotation.Nullable String modFormula) {
     this.modFormula = modFormula;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 macDetails(@javax.annotation.Nullable List<Map<String, Object>> macDetails) {
+  public AuditoriaRiscoDetectionItemV2 macDetails(@jakarta.annotation.Nullable List<Map<String, Object>> macDetails) {
     this.macDetails = macDetails;
     return this;
   }
@@ -862,17 +862,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * MAC details
    * @return macDetails
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getMacDetails() {
     return macDetails;
   }
 
-  public void setMacDetails(@javax.annotation.Nullable List<Map<String, Object>> macDetails) {
+  public void setMacDetails(@jakarta.annotation.Nullable List<Map<String, Object>> macDetails) {
     this.macDetails = macDetails;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 calibrationReason(@javax.annotation.Nullable String calibrationReason) {
+  public AuditoriaRiscoDetectionItemV2 calibrationReason(@jakarta.annotation.Nullable String calibrationReason) {
     this.calibrationReason = calibrationReason;
     return this;
   }
@@ -881,17 +881,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Calibration reason
    * @return calibrationReason
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCalibrationReason() {
     return calibrationReason;
   }
 
-  public void setCalibrationReason(@javax.annotation.Nullable String calibrationReason) {
+  public void setCalibrationReason(@jakarta.annotation.Nullable String calibrationReason) {
     this.calibrationReason = calibrationReason;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 finalScore(@javax.annotation.Nullable BigDecimal finalScore) {
+  public AuditoriaRiscoDetectionItemV2 finalScore(@jakarta.annotation.Nullable BigDecimal finalScore) {
     this.finalScore = finalScore;
     return this;
   }
@@ -900,17 +900,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Final score
    * @return finalScore
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getFinalScore() {
     return finalScore;
   }
 
-  public void setFinalScore(@javax.annotation.Nullable BigDecimal finalScore) {
+  public void setFinalScore(@jakarta.annotation.Nullable BigDecimal finalScore) {
     this.finalScore = finalScore;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 finalScoreFormula(@javax.annotation.Nullable String finalScoreFormula) {
+  public AuditoriaRiscoDetectionItemV2 finalScoreFormula(@jakarta.annotation.Nullable String finalScoreFormula) {
     this.finalScoreFormula = finalScoreFormula;
     return this;
   }
@@ -919,17 +919,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Final score formula
    * @return finalScoreFormula
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getFinalScoreFormula() {
     return finalScoreFormula;
   }
 
-  public void setFinalScoreFormula(@javax.annotation.Nullable String finalScoreFormula) {
+  public void setFinalScoreFormula(@jakarta.annotation.Nullable String finalScoreFormula) {
     this.finalScoreFormula = finalScoreFormula;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 conversationLimit(@javax.annotation.Nullable Object conversationLimit) {
+  public AuditoriaRiscoDetectionItemV2 conversationLimit(@jakarta.annotation.Nullable Object conversationLimit) {
     this.conversationLimit = conversationLimit;
     return this;
   }
@@ -938,17 +938,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Conversation limit
    * @return conversationLimit
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Object getConversationLimit() {
     return conversationLimit;
   }
 
-  public void setConversationLimit(@javax.annotation.Nullable Object conversationLimit) {
+  public void setConversationLimit(@jakarta.annotation.Nullable Object conversationLimit) {
     this.conversationLimit = conversationLimit;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 applySaturation(@javax.annotation.Nullable Boolean applySaturation) {
+  public AuditoriaRiscoDetectionItemV2 applySaturation(@jakarta.annotation.Nullable Boolean applySaturation) {
     this.applySaturation = applySaturation;
     return this;
   }
@@ -957,17 +957,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Apply saturation
    * @return applySaturation
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getApplySaturation() {
     return applySaturation;
   }
 
-  public void setApplySaturation(@javax.annotation.Nullable Boolean applySaturation) {
+  public void setApplySaturation(@jakarta.annotation.Nullable Boolean applySaturation) {
     this.applySaturation = applySaturation;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 blockRepetition(@javax.annotation.Nullable Boolean blockRepetition) {
+  public AuditoriaRiscoDetectionItemV2 blockRepetition(@jakarta.annotation.Nullable Boolean blockRepetition) {
     this.blockRepetition = blockRepetition;
     return this;
   }
@@ -976,17 +976,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Block repetition
    * @return blockRepetition
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getBlockRepetition() {
     return blockRepetition;
   }
 
-  public void setBlockRepetition(@javax.annotation.Nullable Boolean blockRepetition) {
+  public void setBlockRepetition(@jakarta.annotation.Nullable Boolean blockRepetition) {
     this.blockRepetition = blockRepetition;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 status(@javax.annotation.Nullable String status) {
+  public AuditoriaRiscoDetectionItemV2 status(@jakarta.annotation.Nullable String status) {
     this.status = status;
     return this;
   }
@@ -995,17 +995,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Status
    * @return status
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getStatus() {
     return status;
   }
 
-  public void setStatus(@javax.annotation.Nullable String status) {
+  public void setStatus(@jakarta.annotation.Nullable String status) {
     this.status = status;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 effectiveImpact(@javax.annotation.Nullable BigDecimal effectiveImpact) {
+  public AuditoriaRiscoDetectionItemV2 effectiveImpact(@jakarta.annotation.Nullable BigDecimal effectiveImpact) {
     this.effectiveImpact = effectiveImpact;
     return this;
   }
@@ -1014,17 +1014,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Effective impact
    * @return effectiveImpact
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getEffectiveImpact() {
     return effectiveImpact;
   }
 
-  public void setEffectiveImpact(@javax.annotation.Nullable BigDecimal effectiveImpact) {
+  public void setEffectiveImpact(@jakarta.annotation.Nullable BigDecimal effectiveImpact) {
     this.effectiveImpact = effectiveImpact;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 saturationFactor(@javax.annotation.Nullable BigDecimal saturationFactor) {
+  public AuditoriaRiscoDetectionItemV2 saturationFactor(@jakarta.annotation.Nullable BigDecimal saturationFactor) {
     this.saturationFactor = saturationFactor;
     return this;
   }
@@ -1033,17 +1033,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Saturation factor
    * @return saturationFactor
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public BigDecimal getSaturationFactor() {
     return saturationFactor;
   }
 
-  public void setSaturationFactor(@javax.annotation.Nullable BigDecimal saturationFactor) {
+  public void setSaturationFactor(@jakarta.annotation.Nullable BigDecimal saturationFactor) {
     this.saturationFactor = saturationFactor;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 saturationFormula(@javax.annotation.Nullable String saturationFormula) {
+  public AuditoriaRiscoDetectionItemV2 saturationFormula(@jakarta.annotation.Nullable String saturationFormula) {
     this.saturationFormula = saturationFormula;
     return this;
   }
@@ -1052,17 +1052,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Saturation formula
    * @return saturationFormula
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getSaturationFormula() {
     return saturationFormula;
   }
 
-  public void setSaturationFormula(@javax.annotation.Nullable String saturationFormula) {
+  public void setSaturationFormula(@jakarta.annotation.Nullable String saturationFormula) {
     this.saturationFormula = saturationFormula;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 thresholdFormula(@javax.annotation.Nullable String thresholdFormula) {
+  public AuditoriaRiscoDetectionItemV2 thresholdFormula(@jakarta.annotation.Nullable String thresholdFormula) {
     this.thresholdFormula = thresholdFormula;
     return this;
   }
@@ -1071,17 +1071,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Threshold formula
    * @return thresholdFormula
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getThresholdFormula() {
     return thresholdFormula;
   }
 
-  public void setThresholdFormula(@javax.annotation.Nullable String thresholdFormula) {
+  public void setThresholdFormula(@jakarta.annotation.Nullable String thresholdFormula) {
     this.thresholdFormula = thresholdFormula;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 blockedFormula(@javax.annotation.Nullable String blockedFormula) {
+  public AuditoriaRiscoDetectionItemV2 blockedFormula(@jakarta.annotation.Nullable String blockedFormula) {
     this.blockedFormula = blockedFormula;
     return this;
   }
@@ -1090,17 +1090,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Blocked formula
    * @return blockedFormula
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getBlockedFormula() {
     return blockedFormula;
   }
 
-  public void setBlockedFormula(@javax.annotation.Nullable String blockedFormula) {
+  public void setBlockedFormula(@jakarta.annotation.Nullable String blockedFormula) {
     this.blockedFormula = blockedFormula;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 reconciliationNote(@javax.annotation.Nullable String reconciliationNote) {
+  public AuditoriaRiscoDetectionItemV2 reconciliationNote(@jakarta.annotation.Nullable String reconciliationNote) {
     this.reconciliationNote = reconciliationNote;
     return this;
   }
@@ -1109,17 +1109,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Reconciliation note
    * @return reconciliationNote
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getReconciliationNote() {
     return reconciliationNote;
   }
 
-  public void setReconciliationNote(@javax.annotation.Nullable String reconciliationNote) {
+  public void setReconciliationNote(@jakarta.annotation.Nullable String reconciliationNote) {
     this.reconciliationNote = reconciliationNote;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 violatedFrameworks(@javax.annotation.Nullable List<Object> violatedFrameworks) {
+  public AuditoriaRiscoDetectionItemV2 violatedFrameworks(@jakarta.annotation.Nullable List<Object> violatedFrameworks) {
     this.violatedFrameworks = violatedFrameworks;
     return this;
   }
@@ -1136,17 +1136,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Violated frameworks
    * @return violatedFrameworks
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Object> getViolatedFrameworks() {
     return violatedFrameworks;
   }
 
-  public void setViolatedFrameworks(@javax.annotation.Nullable List<Object> violatedFrameworks) {
+  public void setViolatedFrameworks(@jakarta.annotation.Nullable List<Object> violatedFrameworks) {
     this.violatedFrameworks = violatedFrameworks;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 citationFidelity(@javax.annotation.Nullable Boolean citationFidelity) {
+  public AuditoriaRiscoDetectionItemV2 citationFidelity(@jakarta.annotation.Nullable Boolean citationFidelity) {
     this.citationFidelity = citationFidelity;
     return this;
   }
@@ -1155,17 +1155,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Citation fidelity
    * @return citationFidelity
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getCitationFidelity() {
     return citationFidelity;
   }
 
-  public void setCitationFidelity(@javax.annotation.Nullable Boolean citationFidelity) {
+  public void setCitationFidelity(@jakarta.annotation.Nullable Boolean citationFidelity) {
     this.citationFidelity = citationFidelity;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 subcategory(@javax.annotation.Nullable String subcategory) {
+  public AuditoriaRiscoDetectionItemV2 subcategory(@jakarta.annotation.Nullable String subcategory) {
     this.subcategory = subcategory;
     return this;
   }
@@ -1174,17 +1174,17 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Subcategory code
    * @return subcategory
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getSubcategory() {
     return subcategory;
   }
 
-  public void setSubcategory(@javax.annotation.Nullable String subcategory) {
+  public void setSubcategory(@jakarta.annotation.Nullable String subcategory) {
     this.subcategory = subcategory;
   }
 
 
-  public AuditoriaRiscoDetectionItemV2 subcategoryLabel(@javax.annotation.Nullable String subcategoryLabel) {
+  public AuditoriaRiscoDetectionItemV2 subcategoryLabel(@jakarta.annotation.Nullable String subcategoryLabel) {
     this.subcategoryLabel = subcategoryLabel;
     return this;
   }
@@ -1193,12 +1193,12 @@ public class AuditoriaRiscoDetectionItemV2 {
    * Subcategory label (i18n)
    * @return subcategoryLabel
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getSubcategoryLabel() {
     return subcategoryLabel;
   }
 
-  public void setSubcategoryLabel(@javax.annotation.Nullable String subcategoryLabel) {
+  public void setSubcategoryLabel(@jakarta.annotation.Nullable String subcategoryLabel) {
     this.subcategoryLabel = subcategoryLabel;
   }
 

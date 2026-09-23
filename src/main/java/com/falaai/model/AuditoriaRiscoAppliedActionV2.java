@@ -49,52 +49,52 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoAppliedActionV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoAppliedActionV2 {
   public static final String SERIALIZED_NAME_ACTION_TYPE = "action_type";
   @SerializedName(SERIALIZED_NAME_ACTION_TYPE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String actionType;
 
   public static final String SERIALIZED_NAME_LABEL = "label";
   @SerializedName(SERIALIZED_NAME_LABEL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String label;
 
   public static final String SERIALIZED_NAME_DESCRIPTION = "description";
   @SerializedName(SERIALIZED_NAME_DESCRIPTION)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String description;
 
   public static final String SERIALIZED_NAME_PRIORITY = "priority";
   @SerializedName(SERIALIZED_NAME_PRIORITY)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String priority;
 
   public static final String SERIALIZED_NAME_COLOR = "color";
   @SerializedName(SERIALIZED_NAME_COLOR)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String color = "";
 
   public static final String SERIALIZED_NAME_ICON = "icon";
   @SerializedName(SERIALIZED_NAME_ICON)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String icon = "";
 
   public static final String SERIALIZED_NAME_CONDITION = "condition";
   @SerializedName(SERIALIZED_NAME_CONDITION)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String condition;
 
   public static final String SERIALIZED_NAME_REASON = "reason";
   @SerializedName(SERIALIZED_NAME_REASON)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String reason = "";
 
   public AuditoriaRiscoAppliedActionV2() {
   }
 
-  public AuditoriaRiscoAppliedActionV2 actionType(@javax.annotation.Nonnull String actionType) {
+  public AuditoriaRiscoAppliedActionV2 actionType(@jakarta.annotation.Nonnull String actionType) {
     this.actionType = actionType;
     return this;
   }
@@ -103,17 +103,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Action type code
    * @return actionType
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getActionType() {
     return actionType;
   }
 
-  public void setActionType(@javax.annotation.Nonnull String actionType) {
+  public void setActionType(@jakarta.annotation.Nonnull String actionType) {
     this.actionType = actionType;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 label(@javax.annotation.Nonnull String label) {
+  public AuditoriaRiscoAppliedActionV2 label(@jakarta.annotation.Nonnull String label) {
     this.label = label;
     return this;
   }
@@ -122,17 +122,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Action label
    * @return label
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getLabel() {
     return label;
   }
 
-  public void setLabel(@javax.annotation.Nonnull String label) {
+  public void setLabel(@jakarta.annotation.Nonnull String label) {
     this.label = label;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 description(@javax.annotation.Nonnull String description) {
+  public AuditoriaRiscoAppliedActionV2 description(@jakarta.annotation.Nonnull String description) {
     this.description = description;
     return this;
   }
@@ -141,17 +141,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Action description
    * @return description
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getDescription() {
     return description;
   }
 
-  public void setDescription(@javax.annotation.Nonnull String description) {
+  public void setDescription(@jakarta.annotation.Nonnull String description) {
     this.description = description;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 priority(@javax.annotation.Nonnull String priority) {
+  public AuditoriaRiscoAppliedActionV2 priority(@jakarta.annotation.Nonnull String priority) {
     this.priority = priority;
     return this;
   }
@@ -160,17 +160,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * CRITICO/ALTO/MEDIO/BAIXO
    * @return priority
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getPriority() {
     return priority;
   }
 
-  public void setPriority(@javax.annotation.Nonnull String priority) {
+  public void setPriority(@jakarta.annotation.Nonnull String priority) {
     this.priority = priority;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 color(@javax.annotation.Nullable String color) {
+  public AuditoriaRiscoAppliedActionV2 color(@jakarta.annotation.Nullable String color) {
     this.color = color;
     return this;
   }
@@ -179,17 +179,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Color
    * @return color
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getColor() {
     return color;
   }
 
-  public void setColor(@javax.annotation.Nullable String color) {
+  public void setColor(@jakarta.annotation.Nullable String color) {
     this.color = color;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 icon(@javax.annotation.Nullable String icon) {
+  public AuditoriaRiscoAppliedActionV2 icon(@jakarta.annotation.Nullable String icon) {
     this.icon = icon;
     return this;
   }
@@ -198,17 +198,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Icon
    * @return icon
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getIcon() {
     return icon;
   }
 
-  public void setIcon(@javax.annotation.Nullable String icon) {
+  public void setIcon(@jakarta.annotation.Nullable String icon) {
     this.icon = icon;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 condition(@javax.annotation.Nullable String condition) {
+  public AuditoriaRiscoAppliedActionV2 condition(@jakarta.annotation.Nullable String condition) {
     this.condition = condition;
     return this;
   }
@@ -217,17 +217,17 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Condition
    * @return condition
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getCondition() {
     return condition;
   }
 
-  public void setCondition(@javax.annotation.Nullable String condition) {
+  public void setCondition(@jakarta.annotation.Nullable String condition) {
     this.condition = condition;
   }
 
 
-  public AuditoriaRiscoAppliedActionV2 reason(@javax.annotation.Nullable String reason) {
+  public AuditoriaRiscoAppliedActionV2 reason(@jakarta.annotation.Nullable String reason) {
     this.reason = reason;
     return this;
   }
@@ -236,12 +236,12 @@ public class AuditoriaRiscoAppliedActionV2 {
    * Reason
    * @return reason
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getReason() {
     return reason;
   }
 
-  public void setReason(@javax.annotation.Nullable String reason) {
+  public void setReason(@jakarta.annotation.Nullable String reason) {
     this.reason = reason;
   }
 

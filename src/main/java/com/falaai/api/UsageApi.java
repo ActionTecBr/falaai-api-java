@@ -88,7 +88,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call getUsageByKeyV1UsageByKeyGetCall(@javax.annotation.Nullable String keyId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call getUsageByKeyV1UsageByKeyGetCall(@jakarta.annotation.Nullable String keyId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -137,7 +137,7 @@ public class UsageApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call getUsageByKeyV1UsageByKeyGetValidateBeforeCall(@javax.annotation.Nullable String keyId, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call getUsageByKeyV1UsageByKeyGetValidateBeforeCall(@jakarta.annotation.Nullable String keyId, final ApiCallback _callback) throws ApiException {
         return getUsageByKeyV1UsageByKeyGetCall(keyId, _callback);
 
     }
@@ -156,7 +156,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public List<UsageByKeyItem> getUsageByKeyV1UsageByKeyGet(@javax.annotation.Nullable String keyId) throws ApiException {
+    public List<UsageByKeyItem> getUsageByKeyV1UsageByKeyGet(@jakarta.annotation.Nullable String keyId) throws ApiException {
         ApiResponse<List<UsageByKeyItem>> localVarResp = getUsageByKeyV1UsageByKeyGetWithHttpInfo(keyId);
         return localVarResp.getData();
     }
@@ -175,7 +175,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<List<UsageByKeyItem>> getUsageByKeyV1UsageByKeyGetWithHttpInfo(@javax.annotation.Nullable String keyId) throws ApiException {
+    public ApiResponse<List<UsageByKeyItem>> getUsageByKeyV1UsageByKeyGetWithHttpInfo(@jakarta.annotation.Nullable String keyId) throws ApiException {
         okhttp3.Call localVarCall = getUsageByKeyV1UsageByKeyGetValidateBeforeCall(keyId, null);
         Type localVarReturnType = new TypeToken<List<UsageByKeyItem>>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -196,7 +196,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call getUsageByKeyV1UsageByKeyGetAsync(@javax.annotation.Nullable String keyId, final ApiCallback<List<UsageByKeyItem>> _callback) throws ApiException {
+    public okhttp3.Call getUsageByKeyV1UsageByKeyGetAsync(@jakarta.annotation.Nullable String keyId, final ApiCallback<List<UsageByKeyItem>> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = getUsageByKeyV1UsageByKeyGetValidateBeforeCall(keyId, _callback);
         Type localVarReturnType = new TypeToken<List<UsageByKeyItem>>(){}.getType();
@@ -219,7 +219,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call getUsageLogV1UsageLogGetCall(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, @javax.annotation.Nullable String apiKeyId, final ApiCallback _callback) throws ApiException {
+    public okhttp3.Call getUsageLogV1UsageLogGetCall(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, @jakarta.annotation.Nullable String apiKeyId, final ApiCallback _callback) throws ApiException {
         String basePath = null;
         // Operation Servers
         String[] localBasePaths = new String[] {  };
@@ -276,7 +276,7 @@ public class UsageApi {
     }
 
     @SuppressWarnings("rawtypes")
-    private okhttp3.Call getUsageLogV1UsageLogGetValidateBeforeCall(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, @javax.annotation.Nullable String apiKeyId, final ApiCallback _callback) throws ApiException {
+    private okhttp3.Call getUsageLogV1UsageLogGetValidateBeforeCall(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, @jakarta.annotation.Nullable String apiKeyId, final ApiCallback _callback) throws ApiException {
         return getUsageLogV1UsageLogGetCall(page, limit, apiKeyId, _callback);
 
     }
@@ -297,7 +297,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public UsageLogResponse getUsageLogV1UsageLogGet(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, @javax.annotation.Nullable String apiKeyId) throws ApiException {
+    public UsageLogResponse getUsageLogV1UsageLogGet(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, @jakarta.annotation.Nullable String apiKeyId) throws ApiException {
         ApiResponse<UsageLogResponse> localVarResp = getUsageLogV1UsageLogGetWithHttpInfo(page, limit, apiKeyId);
         return localVarResp.getData();
     }
@@ -318,7 +318,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public ApiResponse<UsageLogResponse> getUsageLogV1UsageLogGetWithHttpInfo(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, @javax.annotation.Nullable String apiKeyId) throws ApiException {
+    public ApiResponse<UsageLogResponse> getUsageLogV1UsageLogGetWithHttpInfo(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, @jakarta.annotation.Nullable String apiKeyId) throws ApiException {
         okhttp3.Call localVarCall = getUsageLogV1UsageLogGetValidateBeforeCall(page, limit, apiKeyId, null);
         Type localVarReturnType = new TypeToken<UsageLogResponse>(){}.getType();
         return localVarApiClient.execute(localVarCall, localVarReturnType);
@@ -341,7 +341,7 @@ public class UsageApi {
         <tr><td> 422 </td><td> Validation Error </td><td>  -  </td></tr>
      </table>
      */
-    public okhttp3.Call getUsageLogV1UsageLogGetAsync(@javax.annotation.Nullable Integer page, @javax.annotation.Nullable Integer limit, @javax.annotation.Nullable String apiKeyId, final ApiCallback<UsageLogResponse> _callback) throws ApiException {
+    public okhttp3.Call getUsageLogV1UsageLogGetAsync(@jakarta.annotation.Nullable Integer page, @jakarta.annotation.Nullable Integer limit, @jakarta.annotation.Nullable String apiKeyId, final ApiCallback<UsageLogResponse> _callback) throws ApiException {
 
         okhttp3.Call localVarCall = getUsageLogV1UsageLogGetValidateBeforeCall(page, limit, apiKeyId, _callback);
         Type localVarReturnType = new TypeToken<UsageLogResponse>(){}.getType();

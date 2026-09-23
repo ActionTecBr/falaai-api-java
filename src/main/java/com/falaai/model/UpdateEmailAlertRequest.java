@@ -52,32 +52,32 @@ import com.falaai.JSON;
 /**
  * UpdateEmailAlertRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class UpdateEmailAlertRequest {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String name;
 
   public static final String SERIALIZED_NAME_EMAIL = "email";
   @SerializedName(SERIALIZED_NAME_EMAIL)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private String email;
 
   public static final String SERIALIZED_NAME_EVENTS = "events";
   @SerializedName(SERIALIZED_NAME_EVENTS)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<EmailEvent> events;
 
   public static final String SERIALIZED_NAME_ACTIVE = "active";
   @SerializedName(SERIALIZED_NAME_ACTIVE)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private Boolean active;
 
   public UpdateEmailAlertRequest() {
   }
 
-  public UpdateEmailAlertRequest name(@javax.annotation.Nullable String name) {
+  public UpdateEmailAlertRequest name(@jakarta.annotation.Nullable String name) {
     this.name = name;
     return this;
   }
@@ -86,17 +86,17 @@ public class UpdateEmailAlertRequest {
    * Get name
    * @return name
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nullable String name) {
+  public void setName(@jakarta.annotation.Nullable String name) {
     this.name = name;
   }
 
 
-  public UpdateEmailAlertRequest email(@javax.annotation.Nullable String email) {
+  public UpdateEmailAlertRequest email(@jakarta.annotation.Nullable String email) {
     this.email = email;
     return this;
   }
@@ -105,17 +105,17 @@ public class UpdateEmailAlertRequest {
    * Get email
    * @return email
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public String getEmail() {
     return email;
   }
 
-  public void setEmail(@javax.annotation.Nullable String email) {
+  public void setEmail(@jakarta.annotation.Nullable String email) {
     this.email = email;
   }
 
 
-  public UpdateEmailAlertRequest events(@javax.annotation.Nullable List<EmailEvent> events) {
+  public UpdateEmailAlertRequest events(@jakarta.annotation.Nullable List<EmailEvent> events) {
     this.events = events;
     return this;
   }
@@ -132,17 +132,17 @@ public class UpdateEmailAlertRequest {
    * Get events
    * @return events
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<EmailEvent> getEvents() {
     return events;
   }
 
-  public void setEvents(@javax.annotation.Nullable List<EmailEvent> events) {
+  public void setEvents(@jakarta.annotation.Nullable List<EmailEvent> events) {
     this.events = events;
   }
 
 
-  public UpdateEmailAlertRequest active(@javax.annotation.Nullable Boolean active) {
+  public UpdateEmailAlertRequest active(@jakarta.annotation.Nullable Boolean active) {
     this.active = active;
     return this;
   }
@@ -151,12 +151,12 @@ public class UpdateEmailAlertRequest {
    * Get active
    * @return active
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public Boolean getActive() {
     return active;
   }
 
-  public void setActive(@javax.annotation.Nullable Boolean active) {
+  public void setActive(@jakarta.annotation.Nullable Boolean active) {
     this.active = active;
   }
 

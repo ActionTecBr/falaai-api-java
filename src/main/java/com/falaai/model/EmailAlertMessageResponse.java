@@ -49,17 +49,17 @@ import com.falaai.JSON;
 /**
  * EmailAlertMessageResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class EmailAlertMessageResponse {
   public static final String SERIALIZED_NAME_MESSAGE = "message";
   @SerializedName(SERIALIZED_NAME_MESSAGE)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String message;
 
   public EmailAlertMessageResponse() {
   }
 
-  public EmailAlertMessageResponse message(@javax.annotation.Nonnull String message) {
+  public EmailAlertMessageResponse message(@jakarta.annotation.Nonnull String message) {
     this.message = message;
     return this;
   }
@@ -68,12 +68,12 @@ public class EmailAlertMessageResponse {
    * Operation result message
    * @return message
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getMessage() {
     return message;
   }
 
-  public void setMessage(@javax.annotation.Nonnull String message) {
+  public void setMessage(@jakarta.annotation.Nonnull String message) {
     this.message = message;
   }
 

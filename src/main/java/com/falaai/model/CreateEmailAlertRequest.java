@@ -52,27 +52,27 @@ import com.falaai.JSON;
 /**
  * CreateEmailAlertRequest
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class CreateEmailAlertRequest {
   public static final String SERIALIZED_NAME_NAME = "name";
   @SerializedName(SERIALIZED_NAME_NAME)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String name;
 
   public static final String SERIALIZED_NAME_EMAIL = "email";
   @SerializedName(SERIALIZED_NAME_EMAIL)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private String email;
 
   public static final String SERIALIZED_NAME_EVENTS = "events";
   @SerializedName(SERIALIZED_NAME_EVENTS)
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   private List<EmailEvent> events = new ArrayList<>();
 
   public CreateEmailAlertRequest() {
   }
 
-  public CreateEmailAlertRequest name(@javax.annotation.Nonnull String name) {
+  public CreateEmailAlertRequest name(@jakarta.annotation.Nonnull String name) {
     this.name = name;
     return this;
   }
@@ -81,17 +81,17 @@ public class CreateEmailAlertRequest {
    * Nome identificador
    * @return name
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getName() {
     return name;
   }
 
-  public void setName(@javax.annotation.Nonnull String name) {
+  public void setName(@jakarta.annotation.Nonnull String name) {
     this.name = name;
   }
 
 
-  public CreateEmailAlertRequest email(@javax.annotation.Nonnull String email) {
+  public CreateEmailAlertRequest email(@jakarta.annotation.Nonnull String email) {
     this.email = email;
     return this;
   }
@@ -100,17 +100,17 @@ public class CreateEmailAlertRequest {
    * Email destino
    * @return email
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public String getEmail() {
     return email;
   }
 
-  public void setEmail(@javax.annotation.Nonnull String email) {
+  public void setEmail(@jakarta.annotation.Nonnull String email) {
     this.email = email;
   }
 
 
-  public CreateEmailAlertRequest events(@javax.annotation.Nonnull List<EmailEvent> events) {
+  public CreateEmailAlertRequest events(@jakarta.annotation.Nonnull List<EmailEvent> events) {
     this.events = events;
     return this;
   }
@@ -127,12 +127,12 @@ public class CreateEmailAlertRequest {
    * Eventos subscritos
    * @return events
    */
-  @javax.annotation.Nonnull
+  @jakarta.annotation.Nonnull
   public List<EmailEvent> getEvents() {
     return events;
   }
 
-  public void setEvents(@javax.annotation.Nonnull List<EmailEvent> events) {
+  public void setEvents(@jakarta.annotation.Nonnull List<EmailEvent> events) {
     this.events = events;
   }
 

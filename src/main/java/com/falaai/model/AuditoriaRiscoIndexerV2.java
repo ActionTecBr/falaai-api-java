@@ -52,17 +52,17 @@ import com.falaai.JSON;
 /**
  * AuditoriaRiscoIndexerV2
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
+@jakarta.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", comments = "Generator version: 7.25.0")
 public class AuditoriaRiscoIndexerV2 {
   public static final String SERIALIZED_NAME_SUGGESTED_TERMS_FOR_BANK = "suggested_terms_for_bank";
   @SerializedName(SERIALIZED_NAME_SUGGESTED_TERMS_FOR_BANK)
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   private List<Map<String, Object>> suggestedTermsForBank = new ArrayList<>();
 
   public AuditoriaRiscoIndexerV2() {
   }
 
-  public AuditoriaRiscoIndexerV2 suggestedTermsForBank(@javax.annotation.Nullable List<Map<String, Object>> suggestedTermsForBank) {
+  public AuditoriaRiscoIndexerV2 suggestedTermsForBank(@jakarta.annotation.Nullable List<Map<String, Object>> suggestedTermsForBank) {
     this.suggestedTermsForBank = suggestedTermsForBank;
     return this;
   }
@@ -79,12 +79,12 @@ public class AuditoriaRiscoIndexerV2 {
    * Suggested terms for bank
    * @return suggestedTermsForBank
    */
-  @javax.annotation.Nullable
+  @jakarta.annotation.Nullable
   public List<Map<String, Object>> getSuggestedTermsForBank() {
     return suggestedTermsForBank;
   }
 
-  public void setSuggestedTermsForBank(@javax.annotation.Nullable List<Map<String, Object>> suggestedTermsForBank) {
+  public void setSuggestedTermsForBank(@jakarta.annotation.Nullable List<Map<String, Object>> suggestedTermsForBank) {
     this.suggestedTermsForBank = suggestedTermsForBank;
   }
 
