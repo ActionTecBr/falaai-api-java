@@ -5,3 +5,4 @@ target/
 .settings/
 .classpath
 .project
+tests/e2e/logs/
