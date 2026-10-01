@@ -11,9 +11,9 @@ import com.falaai.api.AnalysisApi;
 import com.falaai.api.SpeechApi;
 import com.falaai.model.AudioEvent;
 import com.falaai.model.AudioInputMeta;
-import com.falaai.model.AuditoriaRiscoRequest;
-import com.falaai.model.AuditoriaRiscoV2;
-import com.falaai.model.AuditoriaRiscoV2Response;
+import com.falaai.model.RiskAuditRequest;
+import com.falaai.model.RiskAuditV2;
+import com.falaai.model.RiskAuditV2Response;
 import com.falaai.model.DiagnosticAudioEvent;
 import com.falaai.model.DiagnosticRequest;
 import com.falaai.model.DiagnosticResponse;
@@ -106,18 +106,18 @@ public class AiTest {
         assertNotNull(d.getUsage().getCreditsConsumed());
         assertNotNull(d.getUsage().getProcessingMs());
 
-        AuditoriaRiscoRequest ab = new AuditoriaRiscoRequest()
-                .model("falaai-auditoria-risco-1").dialog(tr.getDialog()).language("pt-BR")
+        RiskAuditRequest ab = new RiskAuditRequest()
+                .model("falaai-risk-audit-1").dialog(tr.getDialog()).language("pt-BR")
                 .responseLanguage("pt-BR").durationSeconds(tr.getDurationSeconds()).text(tr.getText())
                 .audioEvents(events)
-                .callDirection(AuditoriaRiscoRequest.CallDirectionEnum.INBOUND)
+                .callDirection(RiskAuditRequest.CallDirectionEnum.INBOUND)
                 .participants(Arrays.asList(
                         new Participant().interlocutor("Speaker 1").name("Mateus").role(Participant.RoleEnum.AGENT),
                         new Participant().interlocutor("Speaker 2").name("Cliente").role(Participant.RoleEnum.CLIENT)))
                 .responseFormat("v2").clientReferenceId("e2e-aud-2026-09-22-001");
-        ApiResponse<AuditoriaRiscoV2Response> ar = an.createAuditoriaRiscoV1AnalyzeAuditoriaRiscoPostWithHttpInfo(ab);
-        AuditoriaRiscoV2 pub = ar.getData().getResponse();
-        E2eLogger.log("auditoriaRisco", "POST", "/v1/analyze/auditoriaRisco", ab, ar.getData(), "HTTP " + ar.getStatusCode(), ar.getStatusCode());
+        ApiResponse<RiskAuditV2Response> ar = an.createRiskAuditV1AnalyzeRiskAuditPostWithHttpInfo(ab);
+        RiskAuditV2 pub = ar.getData().getResponse();
+        E2eLogger.log("riskAudit", "POST", "/v1/analyze/riskAudit", ab, ar.getData(), "HTTP " + ar.getStatusCode(), ar.getStatusCode());
         assertEquals(200, ar.getStatusCode());
         nonEmpty("meta.id", pub.getMeta().getId());
         assertNotNull(pub.getMeta().getUsage().getCharacters());
@@ -133,7 +133,7 @@ public class AiTest {
         assertNotNull(pub.getCategoriesSummary());
         assertNotNull(pub.getIndexer());
         assertNotNull(pub.getSummary());
-        assertNotNull(pub.getAcoesI18n());
+        assertNotNull(pub.getActionsI18n());
         assertNotNull(pub.getAuditDecisions());
         assertNotNull(pub.getScoringExplanation());
         assertNotNull(pub.getHtmlReport());

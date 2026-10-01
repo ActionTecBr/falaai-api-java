@@ -65,11 +65,9 @@ public class ContractTest {
     @Test
     public void exemplosExistem() {
         List<String> files = Arrays.asList(
-                "curl/transcribe.sh", "python/transcribe.py", "nodejs/transcribe.js",
-                "curl/auditoria_risco.sh", "python/auditoria_risco.py", "nodejs/auditoria_risco.js",
-                "curl/diagnostic.sh", "python/diagnostic.py", "nodejs/diagnostic.js");
+                "TranscribeExample.java", "DiagnoseExample.java", "AuditExample.java", "HealthExample.java");
         for (String f : files) {
-            assertTrue(Files.isRegularFile(ROOT.resolve("app/static/examples").resolve(f)), "exemplo ausente: " + f);
+            assertTrue(Files.isRegularFile(ROOT.resolve("sdks/java/examples").resolve(f)), "exemplo ausente: " + f);
         }
     }
 }

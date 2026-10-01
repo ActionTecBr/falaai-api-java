@@ -5,7 +5,7 @@
     <artifactId>falaai-api</artifactId>
     <packaging>jar</packaging>
     <name>falaai-api</name>
-    <version>1.21.48</version>
+    <version>1.21.49</version>
     <url>https://falaai.action.tec.br/api</url>
     <description>Official Java SDK for the FalaAI API - AI-powered call transcription, diagnosis and compliance auditing.</description>
     <scm>
@@ -106,21 +106,6 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <!-- attach test jar -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <version>3.3.0</version>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>test-jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
