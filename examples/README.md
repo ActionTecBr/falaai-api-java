@@ -1,6 +1,6 @@
 # sdks/java/examples - exemplos java (canonicos)
 
-@version 1.4.0 | criado: 28/09/2026 17:22 | atualizado: 30/09/2026 21:27
+@version 1.4.0 | criado: 28/09/2026 17:22 | atualizado: 03/10/2026 00:17
 
 ## O que e
 Os 4 exemplos java (java) dos endpoints da API, EXPORTADOS DA LANDING PAGE (fonte unica
@@ -31,17 +31,17 @@ _generate_java_examples.mjs (prefixo _ = ferramenta, nao exemplo)
 ## Relatorio da ultima execucao
 | Data | Modo | Resultado |
 |------|------|-----------|
-| 30/09/2026 21:27 | verificacao (--check) | OK - 4 exemplos java 100% conforme a landing. |
+| 03/10/2026 00:17 | verificacao (--check) | OK - 4 exemplos java 100% conforme a landing. |
 
 | Arquivo | Endpoint | Status | Gerado em |
 |---------|----------|--------|-----------|
-| HealthExample.java | GET  /v1/health | ok | 30/09/2026 21:16 |
-| TranscribeExample.java | POST /v1/audio/transcriptions | ok | 30/09/2026 21:16 |
-| DiagnoseExample.java | POST /v1/analyze/diagnostic | ok | 30/09/2026 21:16 |
-| AuditExample.java | POST /v1/analyze/riskAudit | ok | 30/09/2026 21:16 |
+| HealthExample.java | GET  /v1/health | ok | 02/10/2026 23:55 |
+| TranscribeExample.java | POST /v1/audio/transcriptions | ok | 02/10/2026 23:55 |
+| DiagnoseExample.java | POST /v1/analyze/diagnostic | ok | 02/10/2026 23:55 |
+| AuditExample.java | POST /v1/analyze/riskAudit | ok | 02/10/2026 23:55 |
 
 ## Datas
 - Criacao:     28/09/2026 17:22
-- Atualizacao: 30/09/2026 21:27
+- Atualizacao: 03/10/2026 00:17
 
 Gerado automaticamente por _generate_java_examples.mjs - NAO edite a mao.

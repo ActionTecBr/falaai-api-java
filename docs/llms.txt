@@ -1,0 +1,16 @@
+# FalaAI API - Java SDK
+
+> Official Java SDK for the FalaAI API - AI-powered call transcription (speech-to-text), conversation diagnostics, and compliance/risk auditing.
+
+## Links
+- Documentation: https://actiontecbr.github.io/falaai-api-java/
+- Repository: https://github.com/ActionTecBr/falaai-api-java
+- Package (Maven Central): https://central.sonatype.com/artifact/io.github.actiontecbr/falaai-api
+- OpenAPI contract: https://api01-falaai.action.tec.br/openapi.json
+- Platform: https://falaai.action.tec.br/api
+
+## Endpoints
+- POST /v1/audio/transcriptions - transcribe a call (audio to text)
+- POST /v1/analyze/diagnostic - conversation diagnosis
+- POST /v1/analyze/riskAudit - compliance / risk audit
+- GET /v1/health - health check

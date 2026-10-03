@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://actiontecbr.github.io/falaai-api-java/sitemap.xml
