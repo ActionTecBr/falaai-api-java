@@ -114,7 +114,7 @@ public class AiTest {
                 .participants(Arrays.asList(
                         new Participant().interlocutor("Speaker 1").name("Mateus").role(Participant.RoleEnum.AGENT),
                         new Participant().interlocutor("Speaker 2").name("Cliente").role(Participant.RoleEnum.CLIENT)))
-                .responseFormat("v2").clientReferenceId("e2e-aud-2026-09-22-001");
+                .responseFormat(RiskAuditRequest.ResponseFormatEnum.V2).clientReferenceId("e2e-aud-2026-09-22-001");
         ApiResponse<RiskAuditV2Response> ar = an.createRiskAuditV1AnalyzeRiskAuditPostWithHttpInfo(ab);
         RiskAuditV2 pub = ar.getData().getResponse();
         E2eLogger.log("riskAudit", "POST", "/v1/analyze/riskAudit", ab, ar.getData(), "HTTP " + ar.getStatusCode(), ar.getStatusCode());
