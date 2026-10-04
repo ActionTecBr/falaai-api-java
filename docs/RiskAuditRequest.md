@@ -16,7 +16,7 @@
 |**responseLanguage** | **String** | Language for analysis results (labels, categories, levels, actions, HTML report). Can differ from &#39;language&#39;. Accepted: pt-BR, en-US, es-ES. |  |
 |**callDirection** | [**CallDirectionEnum**](#CallDirectionEnum) | Who originated the call. inbound&#x3D;client called, outbound&#x3D;company called. If omitted, LLM infers from context. |  [optional] |
 |**participants** | [**List&lt;Participant&gt;**](Participant.md) | Explicit participant roles. If omitted, LLM infers from dialog (Lei 17). When provided, used as ground truth — no inference. |  [optional] |
-|**responseFormat** | **String** | Response format version. v1&#x3D;legacy flat PT-BR, v2&#x3D;structured EN-US blocks. |  [optional] |
+|**responseFormat** | [**ResponseFormatEnum**](#ResponseFormatEnum) | Response format version. Only &#39;v2&#39; (structured EN-US blocks) is available today. |  [optional] |
 |**clientReferenceId** | **String** | Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9._:-], max 128 chars. Not idempotency. |  [optional] |
 
 
@@ -27,6 +27,14 @@
 |---- | -----|
 | INBOUND | &quot;inbound&quot; |
 | OUTBOUND | &quot;outbound&quot; |
+
+
+
+## Enum: ResponseFormatEnum
+
+| Name | Value |
+|---- | -----|
+| V2 | &quot;v2&quot; |
 
 
 

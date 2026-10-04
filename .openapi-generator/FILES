@@ -67,6 +67,12 @@ docs/WebhookEvent.md
 docs/WebhookItem.md
 docs/WebhookListResponse.md
 docs/WebhooksApi.md
+docs/WhatsappApi.md
+docs/WhatsappConversation.md
+docs/WhatsappConversationsResponse.md
+docs/WhatsappMeta.md
+docs/WhatsappSpeaker.md
+docs/WhatsappUsage.md
 git_push.sh
 gradle.properties
 gradle/wrapper/gradle-wrapper.jar
@@ -96,6 +102,7 @@ src/main/java/com/falaai/api/SpeechApi.java
 src/main/java/com/falaai/api/UsageApi.java
 src/main/java/com/falaai/api/VersionApi.java
 src/main/java/com/falaai/api/WebhooksApi.java
+src/main/java/com/falaai/api/WhatsappApi.java
 src/main/java/com/falaai/auth/ApiKeyAuth.java
 src/main/java/com/falaai/auth/Authentication.java
 src/main/java/com/falaai/auth/HttpBasicAuth.java
@@ -155,6 +162,11 @@ src/main/java/com/falaai/model/VersionResponse.java
 src/main/java/com/falaai/model/WebhookEvent.java
 src/main/java/com/falaai/model/WebhookItem.java
 src/main/java/com/falaai/model/WebhookListResponse.java
+src/main/java/com/falaai/model/WhatsappConversation.java
+src/main/java/com/falaai/model/WhatsappConversationsResponse.java
+src/main/java/com/falaai/model/WhatsappMeta.java
+src/main/java/com/falaai/model/WhatsappSpeaker.java
+src/main/java/com/falaai/model/WhatsappUsage.java
 src/test/java/com/falaai/api/AnalysisApiTest.java
 src/test/java/com/falaai/api/EmailAlertsApiTest.java
 src/test/java/com/falaai/api/HealthApiTest.java
@@ -162,6 +174,7 @@ src/test/java/com/falaai/api/SpeechApiTest.java
 src/test/java/com/falaai/api/UsageApiTest.java
 src/test/java/com/falaai/api/VersionApiTest.java
 src/test/java/com/falaai/api/WebhooksApiTest.java
+src/test/java/com/falaai/api/WhatsappApiTest.java
 src/test/java/com/falaai/model/AudioEventTest.java
 src/test/java/com/falaai/model/AudioInputMetaTest.java
 src/test/java/com/falaai/model/CreateEmailAlertRequestTest.java
@@ -216,3 +229,8 @@ src/test/java/com/falaai/model/VersionResponseTest.java
 src/test/java/com/falaai/model/WebhookEventTest.java
 src/test/java/com/falaai/model/WebhookItemTest.java
 src/test/java/com/falaai/model/WebhookListResponseTest.java
+src/test/java/com/falaai/model/WhatsappConversationTest.java
+src/test/java/com/falaai/model/WhatsappConversationsResponseTest.java
+src/test/java/com/falaai/model/WhatsappMetaTest.java
+src/test/java/com/falaai/model/WhatsappSpeakerTest.java
+src/test/java/com/falaai/model/WhatsappUsageTest.java

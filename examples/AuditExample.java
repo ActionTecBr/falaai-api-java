@@ -24,7 +24,7 @@ public class AuditExample {
         req.setParticipants(java.util.List.of(
                 new com.falaai.model.Participant().interlocutor("Speaker 1").name("Carla").role(com.falaai.model.Participant.RoleEnum.AGENT),
                 new com.falaai.model.Participant().interlocutor("Speaker 2").name("").role(com.falaai.model.Participant.RoleEnum.CLIENT)));
-        req.setResponseFormat("v2");
+        req.setResponseFormat(RiskAuditRequest.ResponseFormatEnum.V2);
         req.setClientReferenceId("call-202609271311");
 
 // REQUIRED: language, response_language, duration_seconds (>= 1.0) + Authorization
