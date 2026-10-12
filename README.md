@@ -256,6 +256,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md).
 - Website: <https://falaai.action.tec.br>
 - API base URL: <https://api01-falaai.action.tec.br>
 - GitHub organization: <https://github.com/ActionTecBr>
+- Run in Postman: [![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/liviopanizza-7615625/falaai-api/collection/tzxf8gc/falaai-api)
 - Other SDKs: Python, Node.js, PHP, Go, Ruby, .NET.
 
 ### Platform documentation (orientation)
