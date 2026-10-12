@@ -108,7 +108,7 @@ public class AiTest {
 
         RiskAuditRequest ab = new RiskAuditRequest()
                 .model("falaai-risk-audit-1").dialog(tr.getDialog()).language("pt-BR")
-                .responseLanguage("pt-BR").durationSeconds(tr.getDurationSeconds()).text(tr.getText())
+                .responseLanguage("pt-BR").durationSeconds(tr.getDurationSeconds())
                 .audioEvents(events)
                 .callDirection(RiskAuditRequest.CallDirectionEnum.INBOUND)
                 .participants(Arrays.asList(
