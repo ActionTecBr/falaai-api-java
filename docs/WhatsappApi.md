@@ -9,7 +9,7 @@ All URIs are relative to *https://api01-falaai.action.tec.br*
 
 <a id="extractConversationsV1WhatsappExtractConversationsPost"></a>
 # **extractConversationsV1WhatsappExtractConversationsPost**
-> WhatsappConversationsResponse extractConversationsV1WhatsappExtractConversationsPost(_file, start, end, timezone, dateFormat, gapMinutes, minMessages, charsPerMinute, clientReferenceId)
+> WhatsappConversationsResponse extractConversationsV1WhatsappExtractConversationsPost(_file, start, end, timezone, dateFormat, gapMinutes, minMessages, voiceNote, expression, clientReferenceId)
 
 Extract and segment WhatsApp conversations from an export
 
@@ -40,10 +40,11 @@ public class Example {
     String dateFormat = "dateFormat_example"; // String | 
     BigDecimal gapMinutes = new BigDecimal("720"); // BigDecimal | 
     Integer minMessages = 2; // Integer | 
-    BigDecimal charsPerMinute = new BigDecimal("800"); // BigDecimal | 
+    Boolean voiceNote = true; // Boolean | Transcrever mensagens de voz/video gravadas na hora?
+    Boolean expression = true; // Boolean | Descrever expressoes visuais (figurinha/GIF/imagem)?
     String clientReferenceId = "clientReferenceId_example"; // String | 
     try {
-      WhatsappConversationsResponse result = apiInstance.extractConversationsV1WhatsappExtractConversationsPost(_file, start, end, timezone, dateFormat, gapMinutes, minMessages, charsPerMinute, clientReferenceId);
+      WhatsappConversationsResponse result = apiInstance.extractConversationsV1WhatsappExtractConversationsPost(_file, start, end, timezone, dateFormat, gapMinutes, minMessages, voiceNote, expression, clientReferenceId);
       System.out.println(result);
     } catch (ApiException e) {
       System.err.println("Exception when calling WhatsappApi#extractConversationsV1WhatsappExtractConversationsPost");
@@ -67,7 +68,8 @@ public class Example {
 | **dateFormat** | **String**|  | |
 | **gapMinutes** | **BigDecimal**|  | [optional] [default to 720] |
 | **minMessages** | **Integer**|  | [optional] [default to 2] |
-| **charsPerMinute** | **BigDecimal**|  | [optional] [default to 800] |
+| **voiceNote** | **Boolean**| Transcrever mensagens de voz/video gravadas na hora? | [optional] [default to true] |
+| **expression** | **Boolean**| Descrever expressoes visuais (figurinha/GIF/imagem)? | [optional] [default to true] |
 | **clientReferenceId** | **String**|  | [optional] |
 
 ### Return type

@@ -8,11 +8,12 @@ public class TranscribeExample {
         ApiClient client = new ApiClient();
         client.setBasePath(System.getenv("FALAAI_BASE_URL"));
         client.setBearerToken(System.getenv("FALAAI_API_KEY"));
+        client.setReadTimeout(300000);
 
         SpeechApi sp = new SpeechApi(client);
 
         String language = "pt";
-        String clientReferenceId = "call_202609271408";
+        String clientReferenceId = "20260927140800000-aud";
 
 // REQUIRED: file (audio) + Authorization (fai_ key)
 // OPTIONAL (server defaults): model -> falaai-transcribe-1 | language -> pt | client_reference_id -> (empty)

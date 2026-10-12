@@ -35,8 +35,8 @@ public class Example {
     SpeechApi apiInstance = new SpeechApi(defaultClient);
     File _file = new File("/path/to/file"); // File | 
     String model = "falaai-transcribe-1"; // String | 
-    String language = "pt"; // String | 
-    String clientReferenceId = "clientReferenceId_example"; // String | Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9._:-]. Not idempotency.
+    String language = "language_example"; // String | 
+    String clientReferenceId = "clientReferenceId_example"; // String | Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9 _/:.-], max 60 chars. Not idempotency.
     try {
       TranscriptionResponse result = apiInstance.createTranscriptionV1AudioTranscriptionsPost(_file, model, language, clientReferenceId);
       System.out.println(result);
@@ -57,8 +57,8 @@ public class Example {
 |------------- | ------------- | ------------- | -------------|
 | **_file** | **File**|  | |
 | **model** | **String**|  | [optional] [default to falaai-transcribe-1] |
-| **language** | **String**|  | [optional] [default to pt] |
-| **clientReferenceId** | **String**| Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9._:-]. Not idempotency. | [optional] |
+| **language** | **String**|  | [optional] |
+| **clientReferenceId** | **String**| Optional client-supplied ID echoed verbatim in the response. Use to correlate/sync with your system. Accepted charset: [A-Za-z0-9 _/:.-], max 60 chars. Not idempotency. | [optional] |
 
 ### Return type
 

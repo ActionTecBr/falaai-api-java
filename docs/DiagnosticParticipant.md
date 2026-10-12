@@ -9,7 +9,7 @@
 |------------ | ------------- | ------------- | -------------|
 |**interlocutor** | **String** | Exact speaker label from the dialog (e.g. &#39;Speaker 1&#39;) |  |
 |**name** | **String** | Participant name (optional) |  [optional] |
-|**role** | [**RoleEnum**](#RoleEnum) | agent | client | bot |  |
+|**role** | [**RoleEnum**](#RoleEnum) | agent | client | bot (optional — omit/empty when unknown) |  [optional] |
 
 
 

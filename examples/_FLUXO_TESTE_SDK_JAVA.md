@@ -1,5 +1,5 @@
 # FLUXO DE TESTES DA SDK Java (Maven `io.github.actiontecbr:falaai-api`)
-@version 1.0.0 | 30/09/2026 | MANUAL — nao e regenerado pelo exportador de exemplos
+@version 1.1.0 | 12/10/2026 | MANUAL — nao e regenerado pelo exportador de exemplos
 SDK: `D:\ProjetoFalaAI\FalaAI\FalaAI_api\sdks\java\` (Maven `io.github.actiontecbr:falaai-api`) · Docker: imagem `maven:3.9-eclipse-temurin-17`
 Regra de fundo: `.opencode/rules/macro/modulos/falaai-api/sdk-fonte-unica.md` (tests/e2e = MANUAL)
 
@@ -14,14 +14,14 @@ Regra de fundo: `.opencode/rules/macro/modulos/falaai-api/sdk-fonte-unica.md` (t
 | 6 | `README.md` | `D:\ProjetoFalaAI\FalaAI\FalaAI_api\sdks\java\examples\README.md` | manual dos exemplos (**GERADO** pelo exportador v1.4.0 — versao/data) |
 | 7 | `demo_callcenter.mp3` | `D:\ProjetoFalaAI\FalaAI\FalaAI_api\sdks\java\tests\e2e\demo_callcenter.mp3` | audio do teste (1.3 MB) |
 | 8 | `logs\java_<endpoint>_<ts>_tst.json` (+ `.html`) | `D:\ProjetoFalaAI\FalaAI\FalaAI_api\sdks\java\tests\e2e\logs\` | LOGS gerados pelo runner (**limpa os antigos a cada rodada**) |
-| 9 | `VERSION.txt` | `D:\ProjetoFalaAI\FalaAI\FalaAI_api\VERSION.txt` | versao da API que o health devolve (`api_v1.21.49`) — SEM BOM |
+| 9 | `VERSION.txt` | `D:\ProjetoFalaAI\FalaAI\FalaAI_api\VERSION.txt` | versao da API que o health devolve (`api_v1.21.54`) — SEM BOM |
 | 10 | `_FLUXO_TESTE_SDK_JAVA.md` (este doc) | `D:\ProjetoFalaAI\FalaAI\FalaAI_api\sdks\java\examples\_FLUXO_TESTE_SDK_JAVA.md` | este doc |
 
 ## Requisitos do dev (inviolaveis)
 - R-A: roda em Docker DA LINGUAGEM (`maven:3.9-eclipse-temurin-17`)
 - R-B: roda os 4 exemplos GERADOS (`*Example.java`) — nunca reescreve
 - R-C: LOG = request (codigo do exemplo) + response (o objeto do SDK Java) + `.html` da auditoria
-- R-D: chave `fai_668e6474b83dd24540860d9ab9df0b738f7171a0f5bd8179` hardcoded no runner (local-only)
+- R-D: **sem chave hardcoded** no runner — a chave vem do parâmetro `-ApiKey` (o §1.10 do `COMANDOS_PUBLICACAO.md` injeta). **NUNCA** gravar chave `fai_` em arquivo.
 - R-E: **PASSO 0 antes de tudo** — exemplos sincronizados com a FONTE UNICA
 
 ## Fluxo (com os nomes reais dos scripts)

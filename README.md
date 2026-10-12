@@ -36,14 +36,14 @@ Maven:
 <dependency>
   <groupId>io.github.actiontecbr</groupId>
   <artifactId>falaai-api</artifactId>
-  <version>1.21.51</version>
+  <version>1.21.54</version>
 </dependency>
 ```
 
 Gradle:
 
 ```groovy
-implementation 'io.github.actiontecbr:falaai-api:1.21.51'
+implementation 'io.github.actiontecbr:falaai-api:1.21.54'
 ```
 
 ## Quickstart
@@ -142,6 +142,7 @@ FalaAI API is an **AI conversation-intelligence API** for analyzing customer-ser
 - **Contact center / Quality** - audit 100% of conversations instead of a sample.
 - **Compliance / Legal** - auditable evidence for audits and disputes.
 - **CX / Operations** - risk score, sentiment and reason per conversation.
+- **Sales** - analyze sales calls and extract structured outcomes.
 - **BI / Data** - typed JSON ready for your database or analytics stack.
 
 ## Why FalaAI
@@ -150,7 +151,7 @@ FalaAI API is an **AI conversation-intelligence API** for analyzing customer-ser
 - **Auditable by design** - a compliance risk score with detections/violations and an HTML report you can hand to an auditor.
 - **Credits, not tokens** - you know exactly what each call costs (per second of audio, per character of text, per conversation). Monthly plans + non-expiring top-up packs.
 - **Zero-storage** - audio/text/results are processed and discarded; only usage/audit records remain. TLS in transit + at rest, per-account isolation (multitenancy), LGPD (you are the controller; Action Tec is the processor).
-- **3 native languages** (PT/EN/ES) · **start free** (no card).
+- **Multilingual** — transcription in **31 languages**, diagnosis in **21 locales**, risk audit and HTML reports in **3** (PT/EN/ES) · **start free** (no card).
 - **B2B ready** - one Enterprise plan serves N clients, no per-user fee (ideal for ISVs).
 
 ## Integrations
@@ -223,7 +224,7 @@ try {
 | Requirement | Version |
 |---|---|
 | Java | 8+ |
-| API | v1.21.51 |
+| API | v1.21.54 |
 
 ## Documentation
 
@@ -236,7 +237,7 @@ try {
 
 ## Versioning
 
-Semantic versioning; the SDK version tracks the API version (`1.21.51`). See [CHANGELOG.md](CHANGELOG.md) and [Releases](https://github.com/ActionTecBr/falaai-api-java/releases).
+Semantic versioning; the SDK version tracks the API version (`1.21.54`). See [CHANGELOG.md](CHANGELOG.md) and [Releases](https://github.com/ActionTecBr/falaai-api-java/releases).
 
 ## Security
 
